@@ -42,6 +42,16 @@ def read_names(en_xml: Path) -> dict[str, str]:
     return {t.get("type"): t.text for t in root.iter("territory") if t.get("alt") is None}
 
 
+def read_groupings(supp_xml: Path) -> dict[str, set[str]]:
+    """Return {group: members} for grouping="true" groups (EU, EZ, UN, ...)."""
+    root = ET.parse(supp_xml).getroot()
+    out: dict[str, set[str]] = {}
+    for g in root.find("territoryContainment").findall("group"):
+        if g.get("grouping") == "true" and not g.get("status"):
+            out.setdefault(g.get("type"), set()).update(g.get("contains").split())
+    return out
+
+
 def read_containment(supp_xml: Path) -> tuple[dict[str, str], dict[str, list[str]]]:
     """Return (parent_of, contains) for regular (non-grouping, non-deprecated) groups."""
     root = ET.parse(supp_xml).getroot()
@@ -98,6 +108,7 @@ def main() -> int:
         return 1
     names = read_names(en_xml)
     parent, contains = read_containment(supp_xml)
+    groupings = read_groupings(supp_xml)
     macro_names = {k: names.get(k, k) for k in contains}
 
     regions = []
@@ -112,6 +123,7 @@ def main() -> int:
                 "continent": path[-2] if len(path) >= 2 else None,
                 "continent_name": macro_names.get(path[-2]) if len(path) >= 2 else None,
                 "containment_path": path,
+                "un_member": code in groupings.get("UN", set()),
             }
         )
     manifest = {
@@ -131,6 +143,8 @@ def main() -> int:
             "groupings (EU, EZ, UN, 003, 202, 419) and deprecated groups are ignored.",
             "QO (Outlying Oceania) is CLDR's container for AC, AQ, CP, DG and TA; it is "
             "kept verbatim and treated as unclassified for regional-continuity scoring.",
+            "un_member reproduces membership of CLDR's UN grouping (territoryContainment type='UN'); "
+            "it is informational, used only for optional preview filtering, and plays no role in the layout.",
         ],
         "regions": regions,
     }

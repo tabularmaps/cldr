@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from xml.sax.saxutils import escape
+
 from .board import Layout
 from .geo import GeoInputs
 
@@ -16,14 +18,17 @@ PALETTE = {
 }
 
 
-def render_svg(layout: Layout, geo: GeoInputs, cell: int = 36, gap: int = 2, margin: int = 12, title: str | None = None) -> str:
+def render_svg(layout: Layout, geo: GeoInputs, cell: int = 36, gap: int = 2, margin: int = 12, title: str | None = None, dim: set[str] | None = None) -> str:
+    """Render the board. ``dim`` is an optional set of identifiers drawn as
+    faint outlines (position kept, colour and label muted); everything else
+    is drawn normally."""
     w = layout.width * (cell + gap) - gap + 2 * margin
     h = layout.height * (cell + gap) - gap + 2 * margin + (28 if title else 0)
     top = margin + (28 if title else 0)
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="ui-monospace, Menlo, monospace">',
            f'<rect width="{w}" height="{h}" fill="#ffffff"/>']
     if title:
-        out.append(f'<text x="{margin}" y="{margin + 14}" font-size="14" fill="#333">{title}</text>')
+        out.append(f'<text x="{margin}" y="{margin + 14}" font-size="14" fill="#333">{escape(title)}</text>')
     for y in range(layout.height):
         for x in range(layout.width):
             px, py = margin + x * (cell + gap), top + y * (cell + gap)
@@ -32,7 +37,11 @@ def render_svg(layout: Layout, geo: GeoInputs, cell: int = 36, gap: int = 2, mar
         i = geo.index[cid]
         color = PALETTE.get(geo.subregion[i], PALETTE[None])
         px, py = margin + x * (cell + gap), top + y * (cell + gap)
-        out.append(f'<g><title>{cid} {geo.names[i]}</title><rect x="{px}" y="{py}" width="{cell}" height="{cell}" fill="{color}" rx="3"/>'
+        if dim and cid in dim:
+            out.append(f'<g><title>{cid} {escape(geo.names[i])}</title><rect x="{px + 0.5}" y="{py + 0.5}" width="{cell - 1}" height="{cell - 1}" fill="#ffffff" stroke="{color}" stroke-width="1" rx="3"/>'
+                       f'<text x="{px + cell / 2}" y="{py + cell / 2 + 5}" font-size="{cell * 0.38:.0f}" text-anchor="middle" fill="#b0b0b0">{cid}</text></g>')
+            continue
+        out.append(f'<g><title>{cid} {escape(geo.names[i])}</title><rect x="{px}" y="{py}" width="{cell}" height="{cell}" fill="{color}" rx="3"/>'
                    f'<text x="{px + cell / 2}" y="{py + cell / 2 + 5}" font-size="{cell * 0.38:.0f}" text-anchor="middle" fill="#111">{cid}</text></g>')
     out.append("</svg>")
     return "\n".join(out)

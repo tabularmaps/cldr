@@ -1,0 +1,3646 @@
+{
+ "date": "2026-09-17",
+ "profile": "cldr-48.2-regular-2alpha",
+ "weights": {
+  "neighborhood": 1.0,
+  "global": 0.5,
+  "adjacency": 2.0,
+  "direction": 2.0,
+  "region": 1.0,
+  "false_adjacency": 1.0,
+  "whitespace": 0.5,
+  "legacy": 0.0
+ },
+ "params": {
+  "knn": 6,
+  "direction_knn": 12,
+  "lon_gap_deg": 12.0,
+  "lat_gap_deg": 8.0,
+  "far_km": 2000.0
+ },
+ "seeds": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "iterations": 3000000,
+ "t0": 0.02,
+ "t1": 0.0001,
+ "baselines": {
+  "legacy_extension": {
+   "grid": [
+    16,
+    17
+   ],
+   "weights": {
+    "neighborhood": 1.0,
+    "global": 0.5,
+    "adjacency": 2.0,
+    "direction": 2.0,
+    "region": 1.0,
+    "false_adjacency": 1.0,
+    "whitespace": 0.5,
+    "legacy": 0.0
+   },
+   "params": {
+    "knn": 6,
+    "direction_knn": 12,
+    "lon_gap_deg": 12.0,
+    "lat_gap_deg": 8.0,
+    "far_km": 2000.0
+   },
+   "components": {
+    "neighborhood": 2.478548921652666,
+    "global": 0.4070937156743958,
+    "adjacency": 1.2901234567901234,
+    "direction": 0.37899084617102036,
+    "region": 0.52282221057555,
+    "false_adjacency": 0.754863813229572,
+    "whitespace": 0.0,
+    "legacy": 0.0
+   },
+   "combined": 7.298010409217274,
+   "diagnostics": {
+    "pearson_sqrt_geo_vs_grid": 0.6095325151235544,
+    "spearman_geo_vs_grid": 0.6018367109323493,
+    "adjacency_pairs": 324,
+    "adjacency_orthogonal": 123,
+    "adjacency_within_1": 181,
+    "direction_relations": 8958,
+    "direction_violations": 1457,
+    "region_components": {
+     "039": 1,
+     "145": 1,
+     "034": 2,
+     "029": 1,
+     "017": 1,
+     "005": 2,
+     "061": 3,
+     "155": 1,
+     "053": 2,
+     "154": 2,
+     "011": 1,
+     "151": 2,
+     "014": 2,
+     "021": 1,
+     "035": 2,
+     "018": 1,
+     "013": 1,
+     "030": 1,
+     "015": 2,
+     "054": 1,
+     "057": 2,
+     "143": 1
+    },
+    "region_components_excess": 11,
+    "false_adjacent_pairs": 194.0,
+    "blank_cells": 15,
+    "enclosed_holes": 0,
+    "three_sided": 0,
+    "blank_components": 1,
+    "legacy": {
+     "compared": 250,
+     "offset": [
+      0,
+      0
+     ],
+     "moved": 0,
+     "moved_fraction": 0.0,
+     "mean_manhattan": 0.0,
+     "mean_euclidean": 0.0
+    }
+   }
+  },
+  "8bit_partial": {
+   "grid": [
+    16,
+    16
+   ],
+   "weights": {
+    "neighborhood": 1.0,
+    "global": 0.5,
+    "adjacency": 2.0,
+    "direction": 2.0,
+    "region": 1.0,
+    "false_adjacency": 1.0,
+    "whitespace": 0.5,
+    "legacy": 0.0
+   },
+   "params": {
+    "knn": 6,
+    "direction_knn": 12,
+    "lon_gap_deg": 12.0,
+    "lat_gap_deg": 8.0,
+    "far_km": 2000.0
+   },
+   "components": {
+    "neighborhood": 2.1372349031255755,
+    "global": 0.36611849885738035,
+    "adjacency": 1.2693498452012384,
+    "direction": 0.28161328588374845,
+    "region": 0.4281041663004599,
+    "false_adjacency": 0.6859999999999999,
+    "whitespace": 0.16666666666666666,
+    "legacy": 0.0
+   },
+   "combined": 6.619657914358033,
+   "diagnostics": {
+    "pearson_sqrt_geo_vs_grid": 0.6419890262835839,
+    "spearman_geo_vs_grid": 0.6309811857807764,
+    "adjacency_pairs": 323,
+    "adjacency_orthogonal": 123,
+    "adjacency_within_1": 181,
+    "direction_relations": 8430,
+    "direction_violations": 1258,
+    "region_components": {
+     "039": 1,
+     "145": 1,
+     "034": 2,
+     "029": 1,
+     "017": 1,
+     "005": 2,
+     "061": 3,
+     "155": 1,
+     "053": 2,
+     "154": 1,
+     "011": 1,
+     "151": 2,
+     "014": 2,
+     "021": 1,
+     "035": 2,
+     "018": 1,
+     "013": 1,
+     "030": 1,
+     "015": 1,
+     "054": 1,
+     "057": 2,
+     "143": 1
+    },
+    "region_components_excess": 9,
+    "false_adjacent_pairs": 171.5,
+    "blank_cells": 6,
+    "enclosed_holes": 1,
+    "three_sided": 0,
+    "blank_components": 2,
+    "legacy": {
+     "compared": 250,
+     "offset": [
+      0,
+      0
+     ],
+     "moved": 0,
+     "moved_fraction": 0.0,
+     "mean_manhattan": 0.0,
+     "mean_euclidean": 0.0
+    }
+   }
+  }
+ },
+ "grids": {
+  "17x16": {
+   "best_seed": 4,
+   "best": {
+    "grid": [
+     17,
+     16
+    ],
+    "weights": {
+     "neighborhood": 1.0,
+     "global": 0.5,
+     "adjacency": 2.0,
+     "direction": 2.0,
+     "region": 1.0,
+     "false_adjacency": 1.0,
+     "whitespace": 0.5,
+     "legacy": 0.0
+    },
+    "params": {
+     "knn": 6,
+     "direction_knn": 12,
+     "lon_gap_deg": 12.0,
+     "lat_gap_deg": 8.0,
+     "far_km": 2000.0
+    },
+    "components": {
+     "neighborhood": 1.8159770864842883,
+     "global": 0.29853033482917013,
+     "adjacency": 0.4567901234567901,
+     "direction": 0.11866488055369503,
+     "region": 0.18488517968159024,
+     "false_adjacency": 0.377431906614786,
+     "whitespace": 0.03333333333333333,
+     "legacy": 0.964
+    },
+    "combined": 3.6951360148828867,
+    "diagnostics": {
+     "pearson_sqrt_geo_vs_grid": 0.7181710582001521,
+     "spearman_geo_vs_grid": 0.7217190227403387,
+     "adjacency_pairs": 324,
+     "adjacency_orthogonal": 188,
+     "adjacency_within_1": 284,
+     "direction_relations": 8958,
+     "direction_violations": 775,
+     "region_components": {
+      "039": 1,
+      "145": 1,
+      "034": 2,
+      "029": 1,
+      "017": 1,
+      "005": 2,
+      "061": 1,
+      "155": 1,
+      "053": 1,
+      "154": 1,
+      "011": 2,
+      "151": 1,
+      "014": 1,
+      "021": 1,
+      "035": 1,
+      "018": 1,
+      "013": 1,
+      "030": 1,
+      "015": 2,
+      "054": 1,
+      "057": 1,
+      "143": 1
+     },
+     "region_components_excess": 4,
+     "false_adjacent_pairs": 97.0,
+     "blank_cells": 15,
+     "enclosed_holes": 0,
+     "three_sided": 2,
+     "blank_components": 6,
+     "legacy": {
+      "compared": 250,
+      "offset": [
+       1,
+       0
+      ],
+      "moved": 241,
+      "moved_fraction": 0.964,
+      "mean_manhattan": 3.216,
+      "mean_euclidean": 2.578825939454589
+     }
+    }
+   },
+   "runs": [
+    {
+     "seed": 1,
+     "combined": 3.706841691890178,
+     "components": {
+      "neighborhood": 1.8122400204442588,
+      "global": 0.30424495034307153,
+      "adjacency": 0.4768518518518518,
+      "direction": 0.11442286224603707,
+      "region": 0.17361329596446784,
+      "false_adjacency": 0.36964980544747084,
+      "whitespace": 0.03333333333333333,
+      "legacy": 0.972
+     },
+     "seconds": 358.2
+    },
+    {
+     "seed": 2,
+     "combined": 3.7053508736247034,
+     "components": {
+      "neighborhood": 1.7737340453346153,
+      "global": 0.3104927692191488,
+      "adjacency": 0.48611111111111105,
+      "direction": 0.12603259656173255,
+      "region": 0.17743970797166164,
+      "false_adjacency": 0.35797665369649806,
+      "whitespace": 0.03333333333333333,
+      "legacy": 0.948
+     },
+     "seconds": 357.3
+    },
+    {
+     "seed": 3,
+     "combined": 3.7600458268409436,
+     "components": {
+      "neighborhood": 1.7912504710319639,
+      "global": 0.3103881924435612,
+      "adjacency": 0.4783950617283951,
+      "direction": 0.12033936146461265,
+      "region": 0.22955653771480233,
+      "false_adjacency": 0.33657587548638135,
+      "whitespace": 0.1,
+      "legacy": 0.956
+     },
+     "seconds": 395.6
+    },
+    {
+     "seed": 4,
+     "combined": 3.6951360148828867,
+     "components": {
+      "neighborhood": 1.8159770864842883,
+      "global": 0.29853033482917013,
+      "adjacency": 0.4567901234567901,
+      "direction": 0.11866488055369503,
+      "region": 0.18488517968159024,
+      "false_adjacency": 0.377431906614786,
+      "whitespace": 0.03333333333333333,
+      "legacy": 0.964
+     },
+     "seconds": 488.1
+    }
+   ],
+   "mean_combined": 3.716843601809678,
+   "min_combined": 3.6951360148828867,
+   "max_combined": 3.7600458268409436,
+   "baselines": {
+    "alphabetical": {
+     "grid": [
+      17,
+      16
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 8.381236735968063,
+      "global": 0.9842758919025378,
+      "adjacency": 7.234567901234568,
+      "direction": 2.9653940611743694,
+      "region": 3.7587152698418898,
+      "false_adjacency": 2.482490272373541,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 35.51450414895264,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.016009492676573523,
+      "spearman_geo_vs_grid": 0.017524162336351738,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 9,
+      "adjacency_within_1": 15,
+      "direction_relations": 8958,
+      "direction_violations": 4514,
+      "region_components": {
+       "039": 15,
+       "145": 16,
+       "034": 8,
+       "029": 19,
+       "017": 7,
+       "005": 11,
+       "061": 8,
+       "155": 8,
+       "053": 5,
+       "154": 14,
+       "011": 15,
+       "151": 10,
+       "014": 16,
+       "021": 5,
+       "035": 10,
+       "018": 5,
+       "013": 7,
+       "030": 7,
+       "015": 6,
+       "054": 4,
+       "057": 7,
+       "143": 4
+      },
+      "region_components_excess": 185,
+      "false_adjacent_pairs": 638.0,
+      "blank_cells": 15,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        0,
+        0
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 10.296,
+       "mean_euclidean": 8.097886102756243
+      }
+     }
+    },
+    "region_bucket": {
+     "grid": [
+      17,
+      16
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 5.862019119505264,
+      "global": 0.6045047679479297,
+      "adjacency": 5.861111111111111,
+      "direction": 1.9593659298950659,
+      "region": 1.7988523086312709,
+      "false_adjacency": 1.6089494163424125,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 25.213027310465264,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.4026732697277267,
+      "spearman_geo_vs_grid": 0.4185777989987833,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 39,
+      "adjacency_within_1": 41,
+      "direction_relations": 8958,
+      "direction_violations": 3973,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 2,
+       "005": 2,
+       "061": 2,
+       "155": 1,
+       "053": 1,
+       "154": 1,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 1,
+       "030": 2,
+       "015": 2,
+       "054": 1,
+       "057": 2,
+       "143": 1
+      },
+      "region_components_excess": 8,
+      "false_adjacent_pairs": 413.5,
+      "blank_cells": 15,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        1
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 11.044,
+       "mean_euclidean": 8.612097215882475
+      }
+     }
+    },
+    "projection": {
+     "grid": [
+      17,
+      16
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.8519346328329602,
+      "global": 0.3302877558617081,
+      "adjacency": 0.9228395061728394,
+      "direction": 0.0865148470640768,
+      "region": 0.370104224164828,
+      "false_adjacency": 0.4513618677042801,
+      "whitespace": 0.0,
+      "legacy": 0.992
+     },
+     "combined": 4.8572533091067545,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.6967562101314149,
+      "spearman_geo_vs_grid": 0.6983913746695571,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 141,
+      "adjacency_within_1": 215,
+      "direction_relations": 8958,
+      "direction_violations": 606,
+      "region_components": {
+       "039": 2,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 2,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 1,
+       "011": 2,
+       "151": 1,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 3,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 8,
+      "false_adjacent_pairs": 115.99999999999999,
+      "blank_cells": 15,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 2,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        0,
+        0
+       ],
+       "moved": 248,
+       "moved_fraction": 0.992,
+       "mean_manhattan": 3.144,
+       "mean_euclidean": 2.5737776849860095
+      }
+     }
+    },
+    "rank_projection": {
+     "grid": [
+      17,
+      16
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.8213246888002508,
+      "global": 0.3106568652583339,
+      "adjacency": 0.898148148148148,
+      "direction": 0.08450546997097567,
+      "region": 0.3495994024616209,
+      "false_adjacency": 0.4396887159533074,
+      "whitespace": 0.11666666666666667,
+      "legacy": 0.928
+     },
+     "combined": 4.789581809415926,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7125897557214813,
+      "spearman_geo_vs_grid": 0.715019466734262,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 143,
+      "adjacency_within_1": 221,
+      "direction_relations": 8958,
+      "direction_violations": 577,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 2,
+       "154": 1,
+       "011": 2,
+       "151": 1,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 5,
+      "false_adjacent_pairs": 113.0,
+      "blank_cells": 15,
+      "enclosed_holes": 1,
+      "three_sided": 3,
+      "blank_components": 6,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        0
+       ],
+       "moved": 232,
+       "moved_fraction": 0.928,
+       "mean_manhattan": 2.988,
+       "mean_euclidean": 2.428547069077011
+      }
+     }
+    }
+   },
+   "aspect": 1.062,
+   "blanks": 15
+  },
+  "18x15": {
+   "best_seed": 3,
+   "best": {
+    "grid": [
+     18,
+     15
+    ],
+    "weights": {
+     "neighborhood": 1.0,
+     "global": 0.5,
+     "adjacency": 2.0,
+     "direction": 2.0,
+     "region": 1.0,
+     "false_adjacency": 1.0,
+     "whitespace": 0.5,
+     "legacy": 0.0
+    },
+    "params": {
+     "knn": 6,
+     "direction_knn": 12,
+     "lon_gap_deg": 12.0,
+     "lat_gap_deg": 8.0,
+     "far_km": 2000.0
+    },
+    "components": {
+     "neighborhood": 1.7739524853445916,
+     "global": 0.2953588582462132,
+     "adjacency": 0.441358024691358,
+     "direction": 0.10381781647689217,
+     "region": 0.20132692406255925,
+     "false_adjacency": 0.39105058365758755,
+     "whitespace": 0.019230769230769232,
+     "legacy": 0.952
+    },
+    "combined": 3.61397648913973,
+    "diagnostics": {
+     "pearson_sqrt_geo_vs_grid": 0.7230679123984035,
+     "spearman_geo_vs_grid": 0.7315201898929734,
+     "adjacency_pairs": 324,
+     "adjacency_orthogonal": 184,
+     "adjacency_within_1": 282,
+     "direction_relations": 8958,
+     "direction_violations": 675,
+     "region_components": {
+      "039": 1,
+      "145": 1,
+      "034": 2,
+      "029": 1,
+      "017": 1,
+      "005": 2,
+      "061": 1,
+      "155": 1,
+      "053": 1,
+      "154": 2,
+      "011": 2,
+      "151": 1,
+      "014": 1,
+      "021": 1,
+      "035": 1,
+      "018": 1,
+      "013": 1,
+      "030": 1,
+      "015": 1,
+      "054": 1,
+      "057": 1,
+      "143": 1
+     },
+     "region_components_excess": 4,
+     "false_adjacent_pairs": 100.5,
+     "blank_cells": 13,
+     "enclosed_holes": 0,
+     "three_sided": 1,
+     "blank_components": 3,
+     "legacy": {
+      "compared": 250,
+      "offset": [
+       1,
+       0
+      ],
+      "moved": 238,
+      "moved_fraction": 0.952,
+      "mean_manhattan": 3.568,
+      "mean_euclidean": 2.83594594899406
+     }
+    }
+   },
+   "runs": [
+    {
+     "seed": 1,
+     "combined": 3.7581152381747103,
+     "components": {
+      "neighborhood": 1.7522239591921416,
+      "global": 0.2925972216557875,
+      "adjacency": 0.507716049382716,
+      "direction": 0.1539406117436928,
+      "region": 0.22132873231311168,
+      "false_adjacency": 0.29571984435797666,
+      "whitespace": 0.038461538461538464,
+      "legacy": 0.964
+     },
+     "seconds": 362.1
+    },
+    {
+     "seed": 2,
+     "combined": 3.7122132378489296,
+     "components": {
+      "neighborhood": 1.7965427691611553,
+      "global": 0.27250608678901744,
+      "adjacency": 0.5246913580246914,
+      "direction": 0.13641437820942176,
+      "region": 0.1187967938905885,
+      "false_adjacency": 0.3287937743190662,
+      "whitespace": 0.019230769230769232,
+      "legacy": 0.964
+     },
+     "seconds": 356.4
+    },
+    {
+     "seed": 3,
+     "combined": 3.61397648913973,
+     "components": {
+      "neighborhood": 1.7739524853445916,
+      "global": 0.2953588582462132,
+      "adjacency": 0.441358024691358,
+      "direction": 0.10381781647689217,
+      "region": 0.20132692406255925,
+      "false_adjacency": 0.39105058365758755,
+      "whitespace": 0.019230769230769232,
+      "legacy": 0.952
+     },
+     "seconds": 401.8
+    },
+    {
+     "seed": 4,
+     "combined": 3.7168866027775023,
+     "components": {
+      "neighborhood": 1.7801356441011842,
+      "global": 0.2964715051486986,
+      "adjacency": 0.507716049382716,
+      "direction": 0.12413485152935924,
+      "region": 0.17072780116497777,
+      "false_adjacency": 0.3540856031128405,
+      "whitespace": 0.0,
+      "legacy": 0.972
+     },
+     "seconds": 484.3
+    }
+   ],
+   "mean_combined": 3.700297891985218,
+   "min_combined": 3.61397648913973,
+   "max_combined": 3.7581152381747103,
+   "baselines": {
+    "alphabetical": {
+     "grid": [
+      18,
+      15
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 8.456384354327978,
+      "global": 0.9823778217955927,
+      "adjacency": 7.483024691358024,
+      "direction": 3.088077695914267,
+      "region": 3.7779611639619084,
+      "false_adjacency": 2.482490272373541,
+      "whitespace": 0.0,
+      "legacy": 0.992
+     },
+     "combined": 36.3502294761058,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.017753042493775437,
+      "spearman_geo_vs_grid": 0.018523248668103433,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 9,
+      "adjacency_within_1": 12,
+      "direction_relations": 8958,
+      "direction_violations": 4572,
+      "region_components": {
+       "039": 17,
+       "145": 17,
+       "034": 9,
+       "029": 22,
+       "017": 7,
+       "005": 10,
+       "061": 7,
+       "155": 9,
+       "053": 5,
+       "154": 14,
+       "011": 13,
+       "151": 10,
+       "014": 17,
+       "021": 5,
+       "035": 10,
+       "018": 5,
+       "013": 8,
+       "030": 6,
+       "015": 6,
+       "054": 4,
+       "057": 7,
+       "143": 5
+      },
+      "region_components_excess": 191,
+      "false_adjacent_pairs": 638.0,
+      "blank_cells": 13,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        0
+       ],
+       "moved": 248,
+       "moved_fraction": 0.992,
+       "mean_manhattan": 10.892,
+       "mean_euclidean": 8.526029920833336
+      }
+     }
+    },
+    "region_bucket": {
+     "grid": [
+      18,
+      15
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 5.9982959797671995,
+      "global": 0.6230032009836921,
+      "adjacency": 5.967592592592593,
+      "direction": 2.1479124804643894,
+      "region": 1.8940963839687406,
+      "false_adjacency": 1.6361867704280155,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 26.071090880769766,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.3797964199045449,
+      "spearman_geo_vs_grid": 0.3995091455503087,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 38,
+      "adjacency_within_1": 41,
+      "direction_relations": 8958,
+      "direction_violations": 4176,
+      "region_components": {
+       "039": 2,
+       "145": 1,
+       "034": 1,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 2,
+       "155": 2,
+       "053": 1,
+       "154": 2,
+       "011": 2,
+       "151": 1,
+       "014": 1,
+       "021": 1,
+       "035": 2,
+       "018": 2,
+       "013": 1,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 2
+      },
+      "region_components_excess": 9,
+      "false_adjacent_pairs": 420.5,
+      "blank_cells": 13,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        0
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 11.232,
+       "mean_euclidean": 8.658309262597715
+      }
+     }
+    },
+    "projection": {
+     "grid": [
+      18,
+      15
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.8348754435094126,
+      "global": 0.306494070536516,
+      "adjacency": 0.9953703703703702,
+      "direction": 0.08751953561062736,
+      "region": 0.3584847403927909,
+      "false_adjacency": 0.4396887159533074,
+      "whitespace": 0.0,
+      "legacy": 0.94
+     },
+     "combined": 4.952075747085764,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7183293156206972,
+      "spearman_geo_vs_grid": 0.7261751081635441,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 141,
+      "adjacency_within_1": 208,
+      "direction_relations": 8958,
+      "direction_violations": 623,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 2,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 3,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 7,
+      "false_adjacent_pairs": 113.0,
+      "blank_cells": 13,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 2,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        0
+       ],
+       "moved": 235,
+       "moved_fraction": 0.94,
+       "mean_manhattan": 3.22,
+       "mean_euclidean": 2.554829727713206
+      }
+     }
+    },
+    "rank_projection": {
+     "grid": [
+      18,
+      15
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.80152478083475,
+      "global": 0.2921345781676342,
+      "adjacency": 0.9012345679012345,
+      "direction": 0.0859566867604376,
+      "region": 0.37355748228777275,
+      "false_adjacency": 0.38910505836575876,
+      "whitespace": 0.15384615384615385,
+      "legacy": 0.952
+     },
+     "combined": 4.76156019681852,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7326261819957323,
+      "spearman_geo_vs_grid": 0.7418314248040804,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 143,
+      "adjacency_within_1": 221,
+      "direction_relations": 8958,
+      "direction_violations": 584,
+      "region_components": {
+       "039": 2,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 2,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 3,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 8,
+      "false_adjacent_pairs": 100.0,
+      "blank_cells": 13,
+      "enclosed_holes": 2,
+      "three_sided": 0,
+      "blank_components": 5,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        0
+       ],
+       "moved": 238,
+       "moved_fraction": 0.952,
+       "mean_manhattan": 3.096,
+       "mean_euclidean": 2.478860143961122
+      }
+     }
+    }
+   },
+   "aspect": 1.2,
+   "blanks": 13
+  },
+  "19x14": {
+   "best_seed": 2,
+   "best": {
+    "grid": [
+     19,
+     14
+    ],
+    "weights": {
+     "neighborhood": 1.0,
+     "global": 0.5,
+     "adjacency": 2.0,
+     "direction": 2.0,
+     "region": 1.0,
+     "false_adjacency": 1.0,
+     "whitespace": 0.5,
+     "legacy": 0.0
+    },
+    "params": {
+     "knn": 6,
+     "direction_knn": 12,
+     "lon_gap_deg": 12.0,
+     "lat_gap_deg": 8.0,
+     "far_km": 2000.0
+    },
+    "components": {
+     "neighborhood": 1.7267201728881703,
+     "global": 0.2776149616007617,
+     "adjacency": 0.5354938271604938,
+     "direction": 0.13116767135521323,
+     "region": 0.17149220894828332,
+     "false_adjacency": 0.30544747081712065,
+     "whitespace": 0.0,
+     "legacy": 0.98
+    },
+    "combined": 3.675790330485369,
+    "diagnostics": {
+     "pearson_sqrt_geo_vs_grid": 0.7435710194147301,
+     "spearman_geo_vs_grid": 0.7576872570168943,
+     "adjacency_pairs": 324,
+     "adjacency_orthogonal": 181,
+     "adjacency_within_1": 268,
+     "direction_relations": 8958,
+     "direction_violations": 805,
+     "region_components": {
+      "039": 1,
+      "145": 1,
+      "034": 2,
+      "029": 1,
+      "017": 1,
+      "005": 2,
+      "061": 1,
+      "155": 1,
+      "053": 1,
+      "154": 1,
+      "011": 1,
+      "151": 1,
+      "014": 1,
+      "021": 1,
+      "035": 1,
+      "018": 1,
+      "013": 1,
+      "030": 1,
+      "015": 1,
+      "054": 1,
+      "057": 1,
+      "143": 1
+     },
+     "region_components_excess": 2,
+     "false_adjacent_pairs": 78.5,
+     "blank_cells": 9,
+     "enclosed_holes": 0,
+     "three_sided": 0,
+     "blank_components": 3,
+     "legacy": {
+      "compared": 250,
+      "offset": [
+       2,
+       -1
+      ],
+      "moved": 245,
+      "moved_fraction": 0.98,
+      "mean_manhattan": 3.528,
+      "mean_euclidean": 2.763104624168902
+     }
+    }
+   },
+   "runs": [
+    {
+     "seed": 1,
+     "combined": 3.6870870817414163,
+     "components": {
+      "neighborhood": 1.7373582103953533,
+      "global": 0.277719152917687,
+      "adjacency": 0.49382716049382713,
+      "direction": 0.12078588970752402,
+      "region": 0.17113735790864193,
+      "false_adjacency": 0.41050583657587547,
+      "whitespace": 0.0,
+      "legacy": 0.964
+     },
+     "seconds": 364.9
+    },
+    {
+     "seed": 2,
+     "combined": 3.675790330485369,
+     "components": {
+      "neighborhood": 1.7267201728881703,
+      "global": 0.2776149616007617,
+      "adjacency": 0.5354938271604938,
+      "direction": 0.13116767135521323,
+      "region": 0.17149220894828332,
+      "false_adjacency": 0.30544747081712065,
+      "whitespace": 0.0,
+      "legacy": 0.98
+     },
+     "seconds": 361.6
+    },
+    {
+     "seed": 3,
+     "combined": 3.7355202214376098,
+     "components": {
+      "neighborhood": 1.7552863632220912,
+      "global": 0.27701083898160306,
+      "adjacency": 0.5046296296296297,
+      "direction": 0.13150256753739675,
+      "region": 0.1998142389431934,
+      "false_adjacency": 0.36964980544747084,
+      "whitespace": 0.0,
+      "legacy": 0.944
+     },
+     "seconds": 406.2
+    },
+    {
+     "seed": 4,
+     "combined": 3.697836472187755,
+     "components": {
+      "neighborhood": 1.7673364126108708,
+      "global": 0.2800326629967054,
+      "adjacency": 0.4845679012345679,
+      "direction": 0.125027908015182,
+      "region": 0.22471839578741903,
+      "false_adjacency": 0.3326848249027238,
+      "whitespace": 0.027777777777777776,
+      "legacy": 0.964
+     },
+     "seconds": 476.5
+    }
+   ],
+   "mean_combined": 3.6990585264630376,
+   "min_combined": 3.675790330485369,
+   "max_combined": 3.7355202214376098,
+   "baselines": {
+    "alphabetical": {
+     "grid": [
+      19,
+      14
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 8.562958456192538,
+      "global": 0.9855006695910582,
+      "adjacency": 7.234567901234567,
+      "direction": 2.966622013842376,
+      "region": 3.96323921775155,
+      "false_adjacency": 2.455252918287938,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 35.87658075718144,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.01459265883547694,
+      "spearman_geo_vs_grid": 0.01570279607349411,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 8,
+      "adjacency_within_1": 14,
+      "direction_relations": 8958,
+      "direction_violations": 4509,
+      "region_components": {
+       "039": 17,
+       "145": 15,
+       "034": 9,
+       "029": 23,
+       "017": 7,
+       "005": 12,
+       "061": 8,
+       "155": 8,
+       "053": 6,
+       "154": 16,
+       "011": 12,
+       "151": 10,
+       "014": 16,
+       "021": 5,
+       "035": 9,
+       "018": 5,
+       "013": 8,
+       "030": 5,
+       "015": 6,
+       "054": 4,
+       "057": 6,
+       "143": 5
+      },
+      "region_components_excess": 190,
+      "false_adjacent_pairs": 631.0,
+      "blank_cells": 9,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        0,
+        -1
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 10.84,
+       "mean_euclidean": 8.509387356436829
+      }
+     }
+    },
+    "region_bucket": {
+     "grid": [
+      19,
+      14
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 6.043193645830471,
+      "global": 0.6711827296139525,
+      "adjacency": 6.226851851851851,
+      "direction": 1.964389372627819,
+      "region": 1.469254845360083,
+      "false_adjacency": 1.6303501945525292,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 25.8608724995094,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.3309337818108633,
+      "spearman_geo_vs_grid": 0.3525961814731807,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 39,
+      "adjacency_within_1": 42,
+      "direction_relations": 8958,
+      "direction_violations": 3904,
+      "region_components": {
+       "039": 1,
+       "145": 2,
+       "034": 1,
+       "029": 1,
+       "017": 2,
+       "005": 1,
+       "061": 1,
+       "155": 2,
+       "053": 1,
+       "154": 1,
+       "011": 2,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 1,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 5,
+      "false_adjacent_pairs": 419.0,
+      "blank_cells": 9,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        0
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 11.62,
+       "mean_euclidean": 8.980737908711282
+      }
+     }
+    },
+    "projection": {
+     "grid": [
+      19,
+      14
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.818363186947014,
+      "global": 0.2837933548564535,
+      "adjacency": 1.0046296296296295,
+      "direction": 0.08439383791024782,
+      "region": 0.3477564513588669,
+      "false_adjacency": 0.38715953307393,
+      "whitespace": 0.0,
+      "legacy": 0.98
+     },
+     "combined": 4.873222783887792,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7363187091045262,
+      "spearman_geo_vs_grid": 0.7516758729318612,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 134,
+      "adjacency_within_1": 207,
+      "direction_relations": 8958,
+      "direction_violations": 581,
+      "region_components": {
+       "039": 2,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 2,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 3,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 9,
+      "false_adjacent_pairs": 99.5,
+      "blank_cells": 9,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 2,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        -1
+       ],
+       "moved": 245,
+       "moved_fraction": 0.98,
+       "mean_manhattan": 3.3,
+       "mean_euclidean": 2.6452106858965543
+      }
+     }
+    },
+    "rank_projection": {
+     "grid": [
+      19,
+      14
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.7700232533629172,
+      "global": 0.2789890442429408,
+      "adjacency": 0.9753086419753086,
+      "direction": 0.0872962714891717,
+      "region": 0.35546527423578267,
+      "false_adjacency": 0.3657587548638132,
+      "whitespace": 0.027777777777777776,
+      "legacy": 0.968
+     },
+     "combined": 4.769840520401833,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7418984117607925,
+      "spearman_geo_vs_grid": 0.7572162415689966,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 136,
+      "adjacency_within_1": 214,
+      "direction_relations": 8958,
+      "direction_violations": 586,
+      "region_components": {
+       "039": 2,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 1,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 2,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 7,
+      "false_adjacent_pairs": 94.0,
+      "blank_cells": 9,
+      "enclosed_holes": 0,
+      "three_sided": 1,
+      "blank_components": 3,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        2,
+        -1
+       ],
+       "moved": 242,
+       "moved_fraction": 0.968,
+       "mean_manhattan": 3.244,
+       "mean_euclidean": 2.5779083380017718
+      }
+     }
+    }
+   },
+   "aspect": 1.357,
+   "blanks": 9
+  },
+  "20x13": {
+   "best_seed": 3,
+   "best": {
+    "grid": [
+     20,
+     13
+    ],
+    "weights": {
+     "neighborhood": 1.0,
+     "global": 0.5,
+     "adjacency": 2.0,
+     "direction": 2.0,
+     "region": 1.0,
+     "false_adjacency": 1.0,
+     "whitespace": 0.5,
+     "legacy": 0.0
+    },
+    "params": {
+     "knn": 6,
+     "direction_knn": 12,
+     "lon_gap_deg": 12.0,
+     "lat_gap_deg": 8.0,
+     "far_km": 2000.0
+    },
+    "components": {
+     "neighborhood": 1.772697784291958,
+     "global": 0.2648164455315989,
+     "adjacency": 0.5231481481481481,
+     "direction": 0.1319490957803081,
+     "region": 0.1563133277225648,
+     "false_adjacency": 0.35797665369649806,
+     "whitespace": 0.0,
+     "legacy": 0.976
+    },
+    "combined": 3.729590476333733,
+    "diagnostics": {
+     "pearson_sqrt_geo_vs_grid": 0.7413033150022715,
+     "spearman_geo_vs_grid": 0.7570404714627468,
+     "adjacency_pairs": 324,
+     "adjacency_orthogonal": 178,
+     "adjacency_within_1": 267,
+     "direction_relations": 8958,
+     "direction_violations": 808,
+     "region_components": {
+      "039": 1,
+      "145": 1,
+      "034": 1,
+      "029": 1,
+      "017": 1,
+      "005": 2,
+      "061": 1,
+      "155": 1,
+      "053": 1,
+      "154": 2,
+      "011": 1,
+      "151": 1,
+      "014": 1,
+      "021": 1,
+      "035": 1,
+      "018": 1,
+      "013": 1,
+      "030": 1,
+      "015": 1,
+      "054": 1,
+      "057": 1,
+      "143": 1
+     },
+     "region_components_excess": 2,
+     "false_adjacent_pairs": 92.0,
+     "blank_cells": 3,
+     "enclosed_holes": 0,
+     "three_sided": 0,
+     "blank_components": 2,
+     "legacy": {
+      "compared": 250,
+      "offset": [
+       2,
+       -1
+      ],
+      "moved": 244,
+      "moved_fraction": 0.976,
+      "mean_manhattan": 3.748,
+      "mean_euclidean": 2.9280839755327444
+     }
+    }
+   },
+   "runs": [
+    {
+     "seed": 1,
+     "combined": 3.729917355879839,
+     "components": {
+      "neighborhood": 1.7626157597434462,
+      "global": 0.26400098991190624,
+      "adjacency": 0.5308641975308641,
+      "direction": 0.12603259656173252,
+      "region": 0.1829861122170362,
+      "false_adjacency": 0.33852140077821014,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "seconds": 355.1
+    },
+    {
+     "seed": 2,
+     "combined": 3.7752807612814756,
+     "components": {
+      "neighborhood": 1.7813227043942512,
+      "global": 0.2651208688362292,
+      "adjacency": 0.5108024691358024,
+      "direction": 0.11989283322170129,
+      "region": 0.1914467064700558,
+      "false_adjacency": 0.4085603112840467,
+      "whitespace": 0.0,
+      "legacy": 0.976
+     },
+     "seconds": 352.1
+    },
+    {
+     "seed": 3,
+     "combined": 3.729590476333733,
+     "components": {
+      "neighborhood": 1.772697784291958,
+      "global": 0.2648164455315989,
+      "adjacency": 0.5231481481481481,
+      "direction": 0.1319490957803081,
+      "region": 0.1563133277225648,
+      "false_adjacency": 0.35797665369649806,
+      "whitespace": 0.0,
+      "legacy": 0.976
+     },
+     "seconds": 389.6
+    },
+    {
+     "seed": 4,
+     "combined": 3.7623375718971297,
+     "components": {
+      "neighborhood": 1.7797784884755905,
+      "global": 0.25577740868209875,
+      "adjacency": 0.48919753086419754,
+      "direction": 0.16119669569100248,
+      "region": 0.1900686963981053,
+      "false_adjacency": 0.3638132295719845,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "seconds": 490.4
+    }
+   ],
+   "mean_combined": 3.7492815413480445,
+   "min_combined": 3.729590476333733,
+   "max_combined": 3.7752807612814756,
+   "baselines": {
+    "alphabetical": {
+     "grid": [
+      20,
+      13
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 8.50931704398873,
+      "global": 0.992279525457722,
+      "adjacency": 7.77932098765432,
+      "direction": 3.278521991515963,
+      "region": 3.9405819180647974,
+      "false_adjacency": 2.437743190661479,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 37.49946787378443,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.00778508674426011,
+      "spearman_geo_vs_grid": 0.011282750601086895,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 11,
+      "adjacency_within_1": 14,
+      "direction_relations": 8958,
+      "direction_violations": 4741,
+      "region_components": {
+       "039": 15,
+       "145": 12,
+       "034": 9,
+       "029": 20,
+       "017": 7,
+       "005": 11,
+       "061": 8,
+       "155": 8,
+       "053": 6,
+       "154": 16,
+       "011": 12,
+       "151": 10,
+       "014": 18,
+       "021": 5,
+       "035": 6,
+       "018": 5,
+       "013": 8,
+       "030": 5,
+       "015": 6,
+       "054": 5,
+       "057": 6,
+       "143": 5
+      },
+      "region_components_excess": 181,
+      "false_adjacent_pairs": 626.5,
+      "blank_cells": 3,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        2,
+        -1
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 10.82,
+       "mean_euclidean": 8.495711438855254
+      }
+     }
+    },
+    "region_bucket": {
+     "grid": [
+      20,
+      13
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 6.220200804546861,
+      "global": 0.7162408125151272,
+      "adjacency": 5.837962962962962,
+      "direction": 2.233534271042643,
+      "region": 1.407212321581539,
+      "false_adjacency": 1.6264591439688716,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 25.754987144366044,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.28613395160534555,
+      "spearman_geo_vs_grid": 0.30931711116121186,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 39,
+      "adjacency_within_1": 42,
+      "direction_relations": 8958,
+      "direction_violations": 4052,
+      "region_components": {
+       "039": 2,
+       "145": 2,
+       "034": 1,
+       "029": 1,
+       "017": 1,
+       "005": 1,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 1,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 1,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 2,
+       "143": 1
+      },
+      "region_components_excess": 5,
+      "false_adjacent_pairs": 418.0,
+      "blank_cells": 3,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        2,
+        -1
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 11.164,
+       "mean_euclidean": 8.634613816401055
+      }
+     }
+    },
+    "projection": {
+     "grid": [
+      20,
+      13
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.8295470311728215,
+      "global": 0.2553579909868564,
+      "adjacency": 1.0061728395061729,
+      "direction": 0.07948202723822281,
+      "region": 0.34766705143823584,
+      "false_adjacency": 0.3871595330739299,
+      "whitespace": 0.0,
+      "legacy": 0.984
+     },
+     "combined": 4.863362344667207,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7522022111123378,
+      "spearman_geo_vs_grid": 0.7752954904540489,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 141,
+      "adjacency_within_1": 209,
+      "direction_relations": 8958,
+      "direction_violations": 579,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 5,
+      "false_adjacent_pairs": 99.49999999999999,
+      "blank_cells": 3,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        2,
+        -1
+       ],
+       "moved": 246,
+       "moved_fraction": 0.984,
+       "mean_manhattan": 3.708,
+       "mean_euclidean": 2.9029314619417277
+      }
+     }
+    },
+    "rank_projection": {
+     "grid": [
+      20,
+      13
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.809112362959498,
+      "global": 0.2581178151769077,
+      "adjacency": 0.9768518518518519,
+      "direction": 0.09667336459031034,
+      "region": 0.3422566814601913,
+      "false_adjacency": 0.3754863813229572,
+      "whitespace": 0.0,
+      "legacy": 0.98
+     },
+     "combined": 4.802964766215425,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7494143669766169,
+      "spearman_geo_vs_grid": 0.7720675211316399,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 129,
+      "adjacency_within_1": 212,
+      "direction_relations": 8958,
+      "direction_violations": 647,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 5,
+      "false_adjacent_pairs": 96.5,
+      "blank_cells": 3,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        2,
+        -1
+       ],
+       "moved": 245,
+       "moved_fraction": 0.98,
+       "mean_manhattan": 3.556,
+       "mean_euclidean": 2.7892785267607048
+      }
+     }
+    }
+   },
+   "aspect": 1.538,
+   "blanks": 3
+  },
+  "20x14": {
+   "best_seed": 1,
+   "best": {
+    "grid": [
+     20,
+     14
+    ],
+    "weights": {
+     "neighborhood": 1.0,
+     "global": 0.5,
+     "adjacency": 2.0,
+     "direction": 2.0,
+     "region": 1.0,
+     "false_adjacency": 1.0,
+     "whitespace": 0.5,
+     "legacy": 0.0
+    },
+    "params": {
+     "knn": 6,
+     "direction_knn": 12,
+     "lon_gap_deg": 12.0,
+     "lat_gap_deg": 8.0,
+     "far_km": 2000.0
+    },
+    "components": {
+     "neighborhood": 1.721386409293829,
+     "global": 0.24431596986525095,
+     "adjacency": 0.5123456790123456,
+     "direction": 0.09924090198705068,
+     "region": 0.18571792978389534,
+     "false_adjacency": 0.28599221789883267,
+     "whitespace": 0.021739130434782608,
+     "legacy": 0.936
+    },
+    "combined": 3.549297269125366,
+    "diagnostics": {
+     "pearson_sqrt_geo_vs_grid": 0.7650027397766089,
+     "spearman_geo_vs_grid": 0.7834277151873482,
+     "adjacency_pairs": 324,
+     "adjacency_orthogonal": 179,
+     "adjacency_within_1": 275,
+     "direction_relations": 8958,
+     "direction_violations": 630,
+     "region_components": {
+      "039": 1,
+      "145": 1,
+      "034": 1,
+      "029": 1,
+      "017": 1,
+      "005": 2,
+      "061": 1,
+      "155": 1,
+      "053": 1,
+      "154": 1,
+      "011": 1,
+      "151": 2,
+      "014": 1,
+      "021": 1,
+      "035": 1,
+      "018": 1,
+      "013": 1,
+      "030": 1,
+      "015": 1,
+      "054": 1,
+      "057": 1,
+      "143": 1
+     },
+     "region_components_excess": 2,
+     "false_adjacent_pairs": 73.5,
+     "blank_cells": 23,
+     "enclosed_holes": 0,
+     "three_sided": 2,
+     "blank_components": 6,
+     "legacy": {
+      "compared": 250,
+      "offset": [
+       2,
+       -1
+      ],
+      "moved": 234,
+      "moved_fraction": 0.936,
+      "mean_manhattan": 3.32,
+      "mean_euclidean": 2.5675182143049216
+     }
+    }
+   },
+   "runs": [
+    {
+     "seed": 1,
+     "combined": 3.549297269125366,
+     "components": {
+      "neighborhood": 1.721386409293829,
+      "global": 0.24431596986525095,
+      "adjacency": 0.5123456790123456,
+      "direction": 0.09924090198705068,
+      "region": 0.18571792978389534,
+      "false_adjacency": 0.28599221789883267,
+      "whitespace": 0.021739130434782608,
+      "legacy": 0.936
+     },
+     "seconds": 358.1
+    },
+    {
+     "seed": 2,
+     "combined": 3.5819848898810998,
+     "components": {
+      "neighborhood": 1.7763985209365296,
+      "global": 0.2509669024366119,
+      "adjacency": 0.5061728395061729,
+      "direction": 0.1120785889707524,
+      "region": 0.16894264239988788,
+      "false_adjacency": 0.2529182879377432,
+      "whitespace": 0.043478260869565216,
+      "legacy": 0.988
+     },
+     "seconds": 353.1
+    },
+    {
+     "seed": 3,
+     "combined": 3.572469909679498,
+     "components": {
+      "neighborhood": 1.753433986467058,
+      "global": 0.25077009945527196,
+      "adjacency": 0.5,
+      "direction": 0.10113864701942399,
+      "region": 0.1672744422441288,
+      "false_adjacency": 0.3132295719844358,
+      "whitespace": 0.021739130434782608,
+      "legacy": 0.956
+     },
+     "seconds": 392.0
+    },
+    {
+     "seed": 4,
+     "combined": 3.580971629255128,
+     "components": {
+      "neighborhood": 1.7356009687184757,
+      "global": 0.2589076660390155,
+      "adjacency": 0.5154320987654321,
+      "direction": 0.10247823174815807,
+      "region": 0.1641809237222429,
+      "false_adjacency": 0.29961089494163423,
+      "whitespace": 0.03260869565217391,
+      "legacy": 0.988
+     },
+     "seconds": 491.2
+    }
+   ],
+   "mean_combined": 3.571180924485273,
+   "min_combined": 3.549297269125366,
+   "max_combined": 3.5819848898810998,
+   "baselines": {
+    "alphabetical": {
+     "grid": [
+      20,
+      14
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 8.50931704398873,
+      "global": 0.9923626180515236,
+      "adjacency": 7.77932098765432,
+      "direction": 3.278521991515963,
+      "region": 3.9405819180647974,
+      "false_adjacency": 2.437743190661479,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 37.49950942008134,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.00778508674426011,
+      "spearman_geo_vs_grid": 0.011282750601086895,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 11,
+      "adjacency_within_1": 14,
+      "direction_relations": 8958,
+      "direction_violations": 4741,
+      "region_components": {
+       "039": 15,
+       "145": 12,
+       "034": 9,
+       "029": 20,
+       "017": 7,
+       "005": 11,
+       "061": 8,
+       "155": 8,
+       "053": 6,
+       "154": 16,
+       "011": 12,
+       "151": 10,
+       "014": 18,
+       "021": 5,
+       "035": 6,
+       "018": 5,
+       "013": 8,
+       "030": 5,
+       "015": 6,
+       "054": 5,
+       "057": 6,
+       "143": 5
+      },
+      "region_components_excess": 181,
+      "false_adjacent_pairs": 626.5,
+      "blank_cells": 23,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        2,
+        -1
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 10.82,
+       "mean_euclidean": 8.495711438855254
+      }
+     }
+    },
+    "region_bucket": {
+     "grid": [
+      20,
+      14
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 6.220200804546861,
+      "global": 0.7192948070298466,
+      "adjacency": 5.837962962962962,
+      "direction": 2.233534271042643,
+      "region": 1.407212321581539,
+      "false_adjacency": 1.6264591439688716,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 25.756514141623406,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.28613395160534555,
+      "spearman_geo_vs_grid": 0.30931711116121186,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 39,
+      "adjacency_within_1": 42,
+      "direction_relations": 8958,
+      "direction_violations": 4052,
+      "region_components": {
+       "039": 2,
+       "145": 2,
+       "034": 1,
+       "029": 1,
+       "017": 1,
+       "005": 1,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 1,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 1,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 2,
+       "143": 1
+      },
+      "region_components_excess": 5,
+      "false_adjacent_pairs": 418.0,
+      "blank_cells": 23,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        2,
+        -1
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 11.164,
+       "mean_euclidean": 8.634613816401055
+      }
+     }
+    },
+    "projection": {
+     "grid": [
+      20,
+      14
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.8123722209782964,
+      "global": 0.2970900556728826,
+      "adjacency": 0.9907407407407407,
+      "direction": 0.07713775396293816,
+      "region": 0.35606597225411774,
+      "false_adjacency": 0.3696498054474708,
+      "whitespace": 0.0,
+      "legacy": 0.98
+     },
+     "combined": 4.822390015923684,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7460407448989755,
+      "spearman_geo_vs_grid": 0.7657228185488213,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 137,
+      "adjacency_within_1": 205,
+      "direction_relations": 8958,
+      "direction_violations": 549,
+      "region_components": {
+       "039": 2,
+       "145": 1,
+       "034": 1,
+       "029": 1,
+       "017": 2,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 7,
+      "false_adjacent_pairs": 94.99999999999999,
+      "blank_cells": 23,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 2,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        1,
+        -1
+       ],
+       "moved": 245,
+       "moved_fraction": 0.98,
+       "mean_manhattan": 3.376,
+       "mean_euclidean": 2.706003833417927
+      }
+     }
+    },
+    "rank_projection": {
+     "grid": [
+      20,
+      14
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.7716863943774046,
+      "global": 0.26749289941579635,
+      "adjacency": 0.9367283950617284,
+      "direction": 0.07356552801964725,
+      "region": 0.36966350662636427,
+      "false_adjacency": 0.3443579766536965,
+      "whitespace": 0.10869565217391304,
+      "legacy": 0.992
+     },
+     "combined": 4.694389999615072,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7582543734053943,
+      "spearman_geo_vs_grid": 0.7778496736148534,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 141,
+      "adjacency_within_1": 216,
+      "direction_relations": 8958,
+      "direction_violations": 519,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 3,
+       "035": 1,
+       "018": 1,
+       "013": 3,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 8,
+      "false_adjacent_pairs": 88.5,
+      "blank_cells": 23,
+      "enclosed_holes": 2,
+      "three_sided": 2,
+      "blank_components": 6,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        2,
+        -1
+       ],
+       "moved": 248,
+       "moved_fraction": 0.992,
+       "mean_manhattan": 3.452,
+       "mean_euclidean": 2.7455877676912026
+      }
+     }
+    }
+   },
+   "aspect": 1.429,
+   "blanks": 23
+  },
+  "22x12": {
+   "best_seed": 2,
+   "best": {
+    "grid": [
+     22,
+     12
+    ],
+    "weights": {
+     "neighborhood": 1.0,
+     "global": 0.5,
+     "adjacency": 2.0,
+     "direction": 2.0,
+     "region": 1.0,
+     "false_adjacency": 1.0,
+     "whitespace": 0.5,
+     "legacy": 0.0
+    },
+    "params": {
+     "knn": 6,
+     "direction_knn": 12,
+     "lon_gap_deg": 12.0,
+     "lat_gap_deg": 8.0,
+     "far_km": 2000.0
+    },
+    "components": {
+     "neighborhood": 1.7925396160763114,
+     "global": 0.22791869427861566,
+     "adjacency": 0.507716049382716,
+     "direction": 0.12737218129046662,
+     "region": 0.20595337576379613,
+     "false_adjacency": 0.3463035019455253,
+     "whitespace": 0.0,
+     "legacy": 0.98
+    },
+    "combined": 3.7289323022713057,
+    "diagnostics": {
+     "pearson_sqrt_geo_vs_grid": 0.7736975982282515,
+     "spearman_geo_vs_grid": 0.8070058324718704,
+     "adjacency_pairs": 324,
+     "adjacency_orthogonal": 182,
+     "adjacency_within_1": 271,
+     "direction_relations": 8958,
+     "direction_violations": 811,
+     "region_components": {
+      "039": 1,
+      "145": 1,
+      "034": 1,
+      "029": 1,
+      "017": 1,
+      "005": 2,
+      "061": 1,
+      "155": 1,
+      "053": 1,
+      "154": 2,
+      "011": 1,
+      "151": 2,
+      "014": 1,
+      "021": 1,
+      "035": 1,
+      "018": 1,
+      "013": 1,
+      "030": 1,
+      "015": 2,
+      "054": 1,
+      "057": 1,
+      "143": 1
+     },
+     "region_components_excess": 4,
+     "false_adjacent_pairs": 89.0,
+     "blank_cells": 7,
+     "enclosed_holes": 0,
+     "three_sided": 0,
+     "blank_components": 3,
+     "legacy": {
+      "compared": 250,
+      "offset": [
+       4,
+       -2
+      ],
+      "moved": 245,
+      "moved_fraction": 0.98,
+      "mean_manhattan": 4.68,
+      "mean_euclidean": 3.7138286548502273
+     }
+    }
+   },
+   "runs": [
+    {
+     "seed": 1,
+     "combined": 3.7890219675398655,
+     "components": {
+      "neighborhood": 1.806867753776983,
+      "global": 0.25586818247195064,
+      "adjacency": 0.5493827160493827,
+      "direction": 0.11632060727841036,
+      "region": 0.1901286509685971,
+      "false_adjacency": 0.3326848249027238,
+      "whitespace": 0.0,
+      "legacy": 0.968
+     },
+     "seconds": 356.5
+    },
+    {
+     "seed": 2,
+     "combined": 3.7289323022713057,
+     "components": {
+      "neighborhood": 1.7925396160763114,
+      "global": 0.22791869427861566,
+      "adjacency": 0.507716049382716,
+      "direction": 0.12737218129046662,
+      "region": 0.20595337576379613,
+      "false_adjacency": 0.3463035019455253,
+      "whitespace": 0.0,
+      "legacy": 0.98
+     },
+     "seconds": 354.1
+    },
+    {
+     "seed": 3,
+     "combined": 3.774934381600344,
+     "components": {
+      "neighborhood": 1.7366933721711988,
+      "global": 0.26333092816873127,
+      "adjacency": 0.558641975308642,
+      "direction": 0.1264791248046439,
+      "region": 0.17835669142170962,
+      "false_adjacency": 0.35797665369649806,
+      "whitespace": 0.0,
+      "legacy": 0.976
+     },
+     "seconds": 393.3
+    },
+    {
+     "seed": 4,
+     "combined": 3.763462717542587,
+     "components": {
+      "neighborhood": 1.7499265924117096,
+      "global": 0.2666608688801362,
+      "adjacency": 0.5401234567901234,
+      "direction": 0.12123241795043536,
+      "region": 0.20729938868050923,
+      "false_adjacency": 0.35019455252918286,
+      "whitespace": 0.0,
+      "legacy": 0.984
+     },
+     "seconds": 488.6
+    }
+   ],
+   "mean_combined": 3.7640878422385255,
+   "min_combined": 3.7289323022713057,
+   "max_combined": 3.7890219675398655,
+   "baselines": {
+    "alphabetical": {
+     "grid": [
+      22,
+      12
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 8.889061028208422,
+      "global": 1.0150562869274935,
+      "adjacency": 8.162037037037038,
+      "direction": 3.205849519982139,
+      "region": 4.144102714084465,
+      "false_adjacency": 2.4241245136186773,
+      "whitespace": 0.0,
+      "legacy": 1.0
+     },
+     "combined": 38.70058951341367,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": -0.015173009544970653,
+      "spearman_geo_vs_grid": -0.012570439862417864,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 7,
+      "adjacency_within_1": 10,
+      "direction_relations": 8958,
+      "direction_violations": 4594,
+      "region_components": {
+       "039": 15,
+       "145": 15,
+       "034": 7,
+       "029": 16,
+       "017": 7,
+       "005": 12,
+       "061": 8,
+       "155": 8,
+       "053": 6,
+       "154": 13,
+       "011": 16,
+       "151": 8,
+       "014": 17,
+       "021": 5,
+       "035": 8,
+       "018": 5,
+       "013": 8,
+       "030": 6,
+       "015": 7,
+       "054": 5,
+       "057": 8,
+       "143": 5
+      },
+      "region_components_excess": 183,
+      "false_adjacent_pairs": 623.0000000000001,
+      "blank_cells": 7,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        3,
+        -2
+       ],
+       "moved": 250,
+       "moved_fraction": 1.0,
+       "mean_manhattan": 10.98,
+       "mean_euclidean": 8.660838893448632
+      }
+     }
+    },
+    "region_bucket": {
+     "grid": [
+      22,
+      12
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 6.741597457223751,
+      "global": 0.7952551141749975,
+      "adjacency": 7.356481481481481,
+      "direction": 2.4034382674704178,
+      "region": 1.7491846983743962,
+      "false_adjacency": 1.6809338521400778,
+      "whitespace": 0.0,
+      "legacy": 0.992
+     },
+     "combined": 30.08918306272952,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.2063321535958456,
+      "spearman_geo_vs_grid": 0.2348740301720347,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 38,
+      "adjacency_within_1": 41,
+      "direction_relations": 8958,
+      "direction_violations": 4221,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 1,
+       "029": 1,
+       "017": 2,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 2,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 1,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 1,
+       "143": 2
+      },
+      "region_components_excess": 6,
+      "false_adjacent_pairs": 432.0,
+      "blank_cells": 7,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        3,
+        -1
+       ],
+       "moved": 248,
+       "moved_fraction": 0.992,
+       "mean_manhattan": 11.424,
+       "mean_euclidean": 8.844014754807288
+      }
+     }
+    },
+    "projection": {
+     "grid": [
+      22,
+      12
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.8114512961127127,
+      "global": 0.25686669797923845,
+      "adjacency": 1.009259259259259,
+      "direction": 0.07680285778075464,
+      "region": 0.3427285838688183,
+      "false_adjacency": 0.3735408560311284,
+      "whitespace": 0.0,
+      "legacy": 0.992
+     },
+     "combined": 4.828278319082306,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7613023195531498,
+      "spearman_geo_vs_grid": 0.794030698842183,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 132,
+      "adjacency_within_1": 214,
+      "direction_relations": 8958,
+      "direction_violations": 569,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 6,
+      "false_adjacent_pairs": 96.0,
+      "blank_cells": 7,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 2,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        3,
+        -2
+       ],
+       "moved": 248,
+       "moved_fraction": 0.992,
+       "mean_manhattan": 4.08,
+       "mean_euclidean": 3.1834313572478132
+      }
+     }
+    },
+    "rank_projection": {
+     "grid": [
+      22,
+      12
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.7745462112138028,
+      "global": 0.25752682928729553,
+      "adjacency": 1.0046296296296295,
+      "direction": 0.08283098906005805,
+      "region": 0.336230247818996,
+      "false_adjacency": 0.35992217898832685,
+      "whitespace": 0.03571428571428571,
+      "legacy": 0.968
+     },
+     "combined": 4.792240432901291,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7590075955800156,
+      "spearman_geo_vs_grid": 0.791831092487016,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 137,
+      "adjacency_within_1": 212,
+      "direction_relations": 8958,
+      "direction_violations": 591,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 2,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 7,
+      "false_adjacent_pairs": 92.5,
+      "blank_cells": 7,
+      "enclosed_holes": 0,
+      "three_sided": 1,
+      "blank_components": 3,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        4,
+        -2
+       ],
+       "moved": 242,
+       "moved_fraction": 0.968,
+       "mean_manhattan": 4.064,
+       "mean_euclidean": 3.2381399423086203
+      }
+     }
+    }
+   },
+   "aspect": 1.833,
+   "blanks": 7
+  },
+  "24x12": {
+   "best_seed": 1,
+   "best": {
+    "grid": [
+     24,
+     12
+    ],
+    "weights": {
+     "neighborhood": 1.0,
+     "global": 0.5,
+     "adjacency": 2.0,
+     "direction": 2.0,
+     "region": 1.0,
+     "false_adjacency": 1.0,
+     "whitespace": 0.5,
+     "legacy": 0.0
+    },
+    "params": {
+     "knn": 6,
+     "direction_knn": 12,
+     "lon_gap_deg": 12.0,
+     "lat_gap_deg": 8.0,
+     "far_km": 2000.0
+    },
+    "components": {
+     "neighborhood": 1.7756040397694297,
+     "global": 0.2614055597793339,
+     "adjacency": 0.5231481481481481,
+     "direction": 0.10493413708417057,
+     "region": 0.15733248100362252,
+     "false_adjacency": 0.23540856031128404,
+     "whitespace": 0.08064516129032258,
+     "legacy": 0.988
+    },
+    "combined": 3.595535012083802,
+    "diagnostics": {
+     "pearson_sqrt_geo_vs_grid": 0.7551320173772086,
+     "spearman_geo_vs_grid": 0.7873064755378005,
+     "adjacency_pairs": 324,
+     "adjacency_orthogonal": 185,
+     "adjacency_within_1": 272,
+     "direction_relations": 8958,
+     "direction_violations": 684,
+     "region_components": {
+      "039": 1,
+      "145": 1,
+      "034": 1,
+      "029": 1,
+      "017": 1,
+      "005": 2,
+      "061": 1,
+      "155": 1,
+      "053": 1,
+      "154": 2,
+      "011": 1,
+      "151": 2,
+      "014": 1,
+      "021": 1,
+      "035": 1,
+      "018": 1,
+      "013": 1,
+      "030": 1,
+      "015": 1,
+      "054": 1,
+      "057": 1,
+      "143": 1
+     },
+     "region_components_excess": 3,
+     "false_adjacent_pairs": 60.5,
+     "blank_cells": 31,
+     "enclosed_holes": 1,
+     "three_sided": 6,
+     "blank_components": 10,
+     "legacy": {
+      "compared": 250,
+      "offset": [
+       5,
+       -2
+      ],
+      "moved": 247,
+      "moved_fraction": 0.988,
+      "mean_manhattan": 4.736,
+      "mean_euclidean": 3.6786851575863446
+     }
+    }
+   },
+   "runs": [
+    {
+     "seed": 1,
+     "combined": 3.595535012083802,
+     "components": {
+      "neighborhood": 1.7756040397694297,
+      "global": 0.2614055597793339,
+      "adjacency": 0.5231481481481481,
+      "direction": 0.10493413708417057,
+      "region": 0.15733248100362252,
+      "false_adjacency": 0.23540856031128404,
+      "whitespace": 0.08064516129032258,
+      "legacy": 0.988
+     },
+     "seconds": 352.4
+    },
+    {
+     "seed": 2,
+     "combined": 3.676804649615309,
+     "components": {
+      "neighborhood": 1.8134219926193484,
+      "global": 0.24826035871884677,
+      "adjacency": 0.5216049382716049,
+      "direction": 0.11498102254967627,
+      "region": 0.19438167310204557,
+      "false_adjacency": 0.23540856031128404,
+      "whitespace": 0.07258064516129033,
+      "legacy": 0.996
+     },
+     "seconds": 352.7
+    },
+    {
+     "seed": 3,
+     "combined": 3.6538304168106728,
+     "components": {
+      "neighborhood": 1.7495421882820579,
+      "global": 0.23552612086304303,
+      "adjacency": 0.5478395061728395,
+      "direction": 0.13920517972761776,
+      "region": 0.1799298342025426,
+      "false_adjacency": 0.20428015564202334,
+      "whitespace": 0.056451612903225805,
+      "legacy": 1.0
+     },
+     "seconds": 387.1
+    },
+    {
+     "seed": 4,
+     "combined": 3.635973846951851,
+     "components": {
+      "neighborhood": 1.7470282793611758,
+      "global": 0.2422705741397213,
+      "adjacency": 0.5123456790123457,
+      "direction": 0.11978120116097343,
+      "region": 0.22046690049299156,
+      "false_adjacency": 0.25486381322957197,
+      "whitespace": 0.056451612903225805,
+      "legacy": 0.984
+     },
+     "seconds": 488.1
+    }
+   ],
+   "mean_combined": 3.640535981365409,
+   "min_combined": 3.595535012083802,
+   "max_combined": 3.676804649615309,
+   "baselines": {
+    "alphabetical": {
+     "grid": [
+      24,
+      12
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 9.20818204710295,
+      "global": 0.9995927763471938,
+      "adjacency": 8.404320987654321,
+      "direction": 3.4969859343603487,
+      "region": 4.297194281933262,
+      "false_adjacency": 2.4241245136186773,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 40.23191107485783,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.0004101334115815079,
+      "spearman_geo_vs_grid": 0.005853424356935906,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 10,
+      "adjacency_within_1": 12,
+      "direction_relations": 8958,
+      "direction_violations": 4755,
+      "region_components": {
+       "039": 17,
+       "145": 15,
+       "034": 6,
+       "029": 18,
+       "017": 7,
+       "005": 15,
+       "061": 8,
+       "155": 8,
+       "053": 6,
+       "154": 12,
+       "011": 15,
+       "151": 9,
+       "014": 17,
+       "021": 5,
+       "035": 8,
+       "018": 5,
+       "013": 8,
+       "030": 5,
+       "015": 6,
+       "054": 5,
+       "057": 7,
+       "143": 5
+      },
+      "region_components_excess": 185,
+      "false_adjacent_pairs": 623.0000000000001,
+      "blank_cells": 31,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        4,
+        -2
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 11.548,
+       "mean_euclidean": 9.130375130225788
+      }
+     }
+    },
+    "region_bucket": {
+     "grid": [
+      24,
+      12
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 7.6822285456411645,
+      "global": 0.8266218025146636,
+      "adjacency": 7.52469135802469,
+      "direction": 2.788568876981469,
+      "region": 2.1504266239401524,
+      "false_adjacency": 1.6848249027237354,
+      "whitespace": 0.0,
+      "legacy": 0.996
+     },
+     "combined": 32.557311443574704,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.17461704677141976,
+      "spearman_geo_vs_grid": 0.207070698161415,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 38,
+      "adjacency_within_1": 44,
+      "direction_relations": 8958,
+      "direction_violations": 4473,
+      "region_components": {
+       "039": 2,
+       "145": 2,
+       "034": 1,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 2,
+       "053": 1,
+       "154": 1,
+       "011": 2,
+       "151": 1,
+       "014": 2,
+       "021": 1,
+       "035": 2,
+       "018": 2,
+       "013": 1,
+       "030": 1,
+       "015": 1,
+       "054": 1,
+       "057": 2,
+       "143": 1
+      },
+      "region_components_excess": 9,
+      "false_adjacent_pairs": 433.0,
+      "blank_cells": 31,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 1,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        4,
+        -2
+       ],
+       "moved": 249,
+       "moved_fraction": 0.996,
+       "mean_manhattan": 11.836,
+       "mean_euclidean": 9.115325092604758
+      }
+     }
+    },
+    "projection": {
+     "grid": [
+      24,
+      12
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.748034734092918,
+      "global": 0.2966246831347128,
+      "adjacency": 0.9984567901234567,
+      "direction": 0.07200267916945746,
+      "region": 0.3096040092828485,
+      "false_adjacency": 0.3151750972762646,
+      "whitespace": 0.0,
+      "legacy": 0.98
+     },
+     "combined": 4.662045120805216,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7706803944058526,
+      "spearman_geo_vs_grid": 0.8098376963986545,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 139,
+      "adjacency_within_1": 210,
+      "direction_relations": 8958,
+      "direction_violations": 517,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 1,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 1,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 2,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 6,
+      "false_adjacent_pairs": 81.0,
+      "blank_cells": 31,
+      "enclosed_holes": 0,
+      "three_sided": 0,
+      "blank_components": 2,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        4,
+        -2
+       ],
+       "moved": 245,
+       "moved_fraction": 0.98,
+       "mean_manhattan": 4.188,
+       "mean_euclidean": 3.375208225344928
+      }
+     }
+    },
+    "rank_projection": {
+     "grid": [
+      24,
+      12
+     ],
+     "weights": {
+      "neighborhood": 1.0,
+      "global": 0.5,
+      "adjacency": 2.0,
+      "direction": 2.0,
+      "region": 1.0,
+      "false_adjacency": 1.0,
+      "whitespace": 0.5,
+      "legacy": 0.0
+     },
+     "params": {
+      "knn": 6,
+      "direction_knn": 12,
+      "lon_gap_deg": 12.0,
+      "lat_gap_deg": 8.0,
+      "far_km": 2000.0
+     },
+     "components": {
+      "neighborhood": 1.7493613484026787,
+      "global": 0.2561829402250754,
+      "adjacency": 1.0185185185185186,
+      "direction": 0.06418843491850859,
+      "region": 0.36046997936573844,
+      "false_adjacency": 0.3171206225680934,
+      "whitespace": 0.04032258064516129,
+      "legacy": 0.96
+     },
+     "combined": 4.7406186176456835,
+     "diagnostics": {
+      "pearson_sqrt_geo_vs_grid": 0.7697462912421157,
+      "spearman_geo_vs_grid": 0.8063384787463621,
+      "adjacency_pairs": 324,
+      "adjacency_orthogonal": 140,
+      "adjacency_within_1": 206,
+      "direction_relations": 8958,
+      "direction_violations": 491,
+      "region_components": {
+       "039": 1,
+       "145": 1,
+       "034": 2,
+       "029": 1,
+       "017": 2,
+       "005": 2,
+       "061": 1,
+       "155": 1,
+       "053": 1,
+       "154": 2,
+       "011": 1,
+       "151": 2,
+       "014": 1,
+       "021": 3,
+       "035": 1,
+       "018": 1,
+       "013": 2,
+       "030": 1,
+       "015": 3,
+       "054": 1,
+       "057": 1,
+       "143": 1
+      },
+      "region_components_excess": 10,
+      "false_adjacent_pairs": 81.50000000000001,
+      "blank_cells": 31,
+      "enclosed_holes": 0,
+      "three_sided": 5,
+      "blank_components": 7,
+      "legacy": {
+       "compared": 250,
+       "offset": [
+        5,
+        -2
+       ],
+       "moved": 240,
+       "moved_fraction": 0.96,
+       "mean_manhattan": 4.328,
+       "mean_euclidean": 3.4598260806341585
+      }
+     }
+    }
+   },
+   "aspect": 2.0,
+   "blanks": 31
+  }
+ }
+}

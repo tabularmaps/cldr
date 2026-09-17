@@ -26,6 +26,7 @@ def main() -> int:
     ap.add_argument("layout", type=Path, nargs="?")
     ap.add_argument("--out", type=Path)
     ap.add_argument("--title", default=None)
+    ap.add_argument("--only-un-members", action="store_true", help="draw identifiers outside CLDR's UN grouping as faint outlines (experimental view)")
     args = ap.parse_args()
     if args.layout is None:
         meta = json.loads((ROOT / "metadata.json").read_text("utf-8"))
@@ -34,7 +35,12 @@ def main() -> int:
         args.title = args.title or f"CLDR Tabular Map — CLDR {meta['cldr_version']}, {meta['width']}x{meta['height']}, {meta['identifier_count']} identifiers"
     layout = Layout.load(args.layout)
     geo = load_geo(sorted(layout.cells))
-    svg = render_svg(layout, geo, title=args.title)
+    dim = None
+    if args.only_un_members:
+        from cldrmap.mother_set import load_regions
+        dim = {r["id"] for r in load_regions() if not r.get("un_member")}
+        args.title = (args.title or "") + " — UN members (CLDR 'UN' grouping); others outlined"
+    svg = render_svg(layout, geo, title=args.title, dim=dim)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(svg, "utf-8")
     print(f"wrote {args.out}")
