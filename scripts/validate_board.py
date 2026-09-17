@@ -63,6 +63,9 @@ def main() -> int:
         csv_layout = Layout.from_board_csv(args.board_csv)
         if csv_layout.rows() != layout.rows():
             problems.append(f"{args.board_csv} differs from {layout_path}")
+        docs_layout = ROOT / "docs" / "data" / "layout.json"
+        if docs_layout.exists() and json.loads(docs_layout.read_text("utf-8")).get("board") != layout.rows():
+            problems.append("docs/data/layout.json differs from the selected layout")
         docs_csv = ROOT / "docs" / "board.csv"
         if docs_csv.exists() and docs_csv.read_text("utf-8") != args.board_csv.read_text("utf-8"):
             problems.append("docs/board.csv differs from board.csv")

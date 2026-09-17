@@ -3,7 +3,9 @@
 
 Copies the layout to ``layouts/<profile>-<W>x<H>.json``, re-scores it from
 scratch, and regenerates the derived artifacts: ``board.csv``,
-``metadata.json``, ``docs/board.svg``, ``docs/board.csv``, ``docs/index.html``.
+``metadata.json``, ``docs/board.svg``, ``docs/board.csv``, and the dashboard data
+``docs/data/{layout,regions,points}.json`` (``docs/index.html`` and
+``docs/preview.html`` are hand-written and not regenerated).
 
 ``--runs`` collects the ``generator.runs`` records of other layout files
 produced by separate ``optimize_layout.py`` processes (one per seed) into
@@ -32,24 +34,6 @@ from cldrmap.mother_set import Profile, extract  # noqa: E402
 from cldrmap.render import render_svg  # noqa: E402
 from cldrmap.scoring import Grid, build_problem, score  # noqa: E402
 
-INDEX_HTML = """<!doctype html>
-<meta charset="utf-8">
-<title>CLDR Tabular Map</title>
-<style>
-  body {{ font: 14px/1.5 system-ui, sans-serif; margin: 2rem auto; max-width: 64rem; padding: 0 1rem; color: #222; }}
-  img {{ max-width: 100%; height: auto; }}
-  code {{ background: #f4f4f4; padding: 0 .2em; }}
-</style>
-<h1>CLDR Tabular Map</h1>
-<p><strong>One identifier, one equal cell.</strong> CLDR {cldr} regular region identifiers ({count}) on a {w} × {h} grid
-with {blanks} structural blank cells. Cell colour is the CLDR/M49 subregion (informational only).</p>
-<p><a href="board.svg"><img src="board.svg" alt="board"></a></p>
-<p>Data: <a href="board.csv"><code>board.csv</code></a> (copy of the repository root file), <a href="https://github.com/tabularmaps/cldr/blob/main/metadata.json"><code>metadata.json</code></a>,
-<a href="https://github.com/tabularmaps/cldr/blob/main/layouts/{layout}"><code>layouts/{layout}</code></a>. Documentation and non-claims:
-<a href="https://github.com/tabularmaps/cldr">github.com/tabularmaps/cldr</a>.</p>
-<p>Cell size does not represent area, population or importance; inclusion expresses no recognition; the layout settles no
-territorial question; proximity is approximate; the arrangement is the best found under a documented objective, not a global optimum.</p>
-"""
 
 
 def main() -> int:
@@ -109,8 +93,16 @@ def main() -> int:
     docs.mkdir(exist_ok=True)
     title = f"CLDR Tabular Map — CLDR {profile.cldr_version}, {lay.width}x{lay.height}, {len(lay.cells)} identifiers"
     (docs / "board.svg").write_text(render_svg(lay, geo, title=title), "utf-8")
-    (docs / "index.html").write_text(INDEX_HTML.format(cldr=profile.cldr_version, count=len(lay.cells), w=lay.width, h=lay.height, blanks=len(lay.blanks), layout=name), "utf-8")
     shutil.copy(ROOT / "board.csv", docs / "board.csv")
+    # data for the Open MCT dashboard / preview (docs/ is what GitHub Pages serves)
+    ddir = docs / "data"
+    ddir.mkdir(exist_ok=True)
+    shutil.copy(LAYOUTS / name, ddir / "layout.json")
+    shutil.copy(DATA / "regions.json", ddir / "regions.json")
+    import csv
+    with (DATA / "geo" / "points.csv").open(encoding="utf-8") as f:
+        pts = {r["id"]: {"lat": float(r["lat"]), "lon": float(r["lon"])} for r in csv.DictReader(f)}
+    (ddir / "points.json").write_text(json.dumps(pts, indent=0) + "\n", "utf-8")
     print(f"promoted {args.layout} -> layouts/{name}, board.csv, metadata.json, docs/ (combined {rep['combined']:.4f})")
     return 0
 

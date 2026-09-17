@@ -12,5 +12,7 @@
   adjacency (public domain), CLDR territoryContainment subregions.
 - Artifacts: `layouts/*.json` (source of truth), `board.csv` (8bit-style
   matrix), `metadata.json`, `docs/board.svg`.
+- Dashboard: `docs/` Open MCT plugin and preview (same construction as
+  `tabularmaps/do`), published on GitHub Pages.
 - Predecessor: `tabularmaps/8bit` (250 identifiers, 16×16) is kept as a
   comparison baseline and is not modified.
