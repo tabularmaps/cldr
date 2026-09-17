@@ -1,0 +1,2406 @@
+{
+ "natural_earth": {
+  "version": "v5.1.2",
+  "file": "ne_10m_admin_0_map_units.geojson",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+  "sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862"
+ },
+ "units": [
+  {
+   "name": "Indonesia",
+   "iso_a2_eh": "ID",
+   "adm0_iso": "IDN",
+   "adm0_a3": "IDN",
+   "mapped_to": "ID",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Malaysia",
+   "iso_a2_eh": "MY",
+   "adm0_iso": "MYS",
+   "adm0_a3": "MYS",
+   "mapped_to": "MY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Chile",
+   "iso_a2_eh": "CL",
+   "adm0_iso": "CHL",
+   "adm0_a3": "CHL",
+   "mapped_to": "CL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bolivia",
+   "iso_a2_eh": "BO",
+   "adm0_iso": "BOL",
+   "adm0_a3": "BOL",
+   "mapped_to": "BO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Peru",
+   "iso_a2_eh": "PE",
+   "adm0_iso": "PER",
+   "adm0_a3": "PER",
+   "mapped_to": "PE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Argentina",
+   "iso_a2_eh": "AR",
+   "adm0_iso": "ARG",
+   "adm0_a3": "ARG",
+   "mapped_to": "AR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Dhekelia",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "ESB",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "Cyprus",
+   "iso_a2_eh": "CY",
+   "adm0_iso": "CYP",
+   "adm0_a3": "CYP",
+   "mapped_to": "CY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "India",
+   "iso_a2_eh": "IN",
+   "adm0_iso": "IND",
+   "adm0_a3": "IND",
+   "mapped_to": "IN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "China",
+   "iso_a2_eh": "CN",
+   "adm0_iso": "CHN",
+   "adm0_a3": "CHN",
+   "mapped_to": "CN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Israel",
+   "iso_a2_eh": "IL",
+   "adm0_iso": "ISR",
+   "adm0_a3": "ISR",
+   "mapped_to": "IL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Gaza",
+   "iso_a2_eh": "PS",
+   "adm0_iso": "PSX",
+   "adm0_a3": "PSX",
+   "mapped_to": "PS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "West Bank",
+   "iso_a2_eh": "PS",
+   "adm0_iso": "PSX",
+   "adm0_a3": "PSX",
+   "mapped_to": "PS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Lebanon",
+   "iso_a2_eh": "LB",
+   "adm0_iso": "LBN",
+   "adm0_a3": "LBN",
+   "mapped_to": "LB",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Ethiopia",
+   "iso_a2_eh": "ET",
+   "adm0_iso": "ETH",
+   "adm0_a3": "ETH",
+   "mapped_to": "ET",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "S. Sudan",
+   "iso_a2_eh": "SS",
+   "adm0_iso": "SSD",
+   "adm0_a3": "SDS",
+   "mapped_to": "SS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Puntland",
+   "iso_a2_eh": "SO",
+   "adm0_iso": "SOM",
+   "adm0_a3": "SOM",
+   "mapped_to": "SO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Somalia",
+   "iso_a2_eh": "SO",
+   "adm0_iso": "SOM",
+   "adm0_a3": "SOM",
+   "mapped_to": "SO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Kenya",
+   "iso_a2_eh": "KE",
+   "adm0_iso": "KEN",
+   "adm0_a3": "KEN",
+   "mapped_to": "KE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Malawi",
+   "iso_a2_eh": "MW",
+   "adm0_iso": "MWI",
+   "adm0_a3": "MWI",
+   "mapped_to": "MW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Tanzania",
+   "iso_a2_eh": "TZ",
+   "adm0_iso": "TZA",
+   "adm0_a3": "TZA",
+   "mapped_to": "TZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "UNDOF Zone",
+   "iso_a2_eh": "XD",
+   "adm0_iso": "SYR",
+   "adm0_a3": "SYR",
+   "mapped_to": "SY",
+   "mapped_by": "ADM0_ISO"
+  },
+  {
+   "name": "Somaliland",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "SOM",
+   "adm0_a3": "SOL",
+   "mapped_to": "SO",
+   "mapped_by": "ADM0_ISO"
+  },
+  {
+   "name": "French Guiana",
+   "iso_a2_eh": "GF",
+   "adm0_iso": "GUF",
+   "adm0_a3": "FRA",
+   "mapped_to": "GF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Suriname",
+   "iso_a2_eh": "SR",
+   "adm0_iso": "SUR",
+   "adm0_a3": "SUR",
+   "mapped_to": "SR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Guyana",
+   "iso_a2_eh": "GY",
+   "adm0_iso": "GUY",
+   "adm0_a3": "GUY",
+   "mapped_to": "GY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Korean DMZ (south)",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "KOR",
+   "mapped_to": "KR",
+   "mapped_by": "ADM0_A3"
+  },
+  {
+   "name": "Korean DMZ (north)",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "PRK",
+   "mapped_to": "KP",
+   "mapped_by": "ADM0_A3"
+  },
+  {
+   "name": "Morocco",
+   "iso_a2_eh": "MA",
+   "adm0_iso": "MAR",
+   "adm0_a3": "MAR",
+   "mapped_to": "MA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "W. Sahara",
+   "iso_a2_eh": "EH",
+   "adm0_iso": "B28",
+   "adm0_a3": "SAH",
+   "mapped_to": "EH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Costa Rica",
+   "iso_a2_eh": "CR",
+   "adm0_iso": "CRI",
+   "adm0_a3": "CRI",
+   "mapped_to": "CR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Nicaragua",
+   "iso_a2_eh": "NI",
+   "adm0_iso": "NIC",
+   "adm0_a3": "NIC",
+   "mapped_to": "NI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Congo",
+   "iso_a2_eh": "CG",
+   "adm0_iso": "COG",
+   "adm0_a3": "COG",
+   "mapped_to": "CG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Dem. Rep. Congo",
+   "iso_a2_eh": "CD",
+   "adm0_iso": "COD",
+   "adm0_a3": "COD",
+   "mapped_to": "CD",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bhutan",
+   "iso_a2_eh": "BT",
+   "adm0_iso": "BTN",
+   "adm0_a3": "BTN",
+   "mapped_to": "BT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Ukraine",
+   "iso_a2_eh": "UA",
+   "adm0_iso": "UKR",
+   "adm0_a3": "UKR",
+   "mapped_to": "UA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Belarus",
+   "iso_a2_eh": "BY",
+   "adm0_iso": "BLR",
+   "adm0_a3": "BLR",
+   "mapped_to": "BY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Namibia",
+   "iso_a2_eh": "NA",
+   "adm0_iso": "NAM",
+   "adm0_a3": "NAM",
+   "mapped_to": "NA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "South Africa",
+   "iso_a2_eh": "ZA",
+   "adm0_iso": "ZAF",
+   "adm0_a3": "ZAF",
+   "mapped_to": "ZA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Syria",
+   "iso_a2_eh": "SY",
+   "adm0_iso": "SYR",
+   "adm0_a3": "SYR",
+   "mapped_to": "SY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "St-Martin",
+   "iso_a2_eh": "MF",
+   "adm0_iso": "MAF",
+   "adm0_a3": "MAF",
+   "mapped_to": "MF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Sint Maarten",
+   "iso_a2_eh": "SX",
+   "adm0_iso": "SXM",
+   "adm0_a3": "SXM",
+   "mapped_to": "SX",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Oman",
+   "iso_a2_eh": "OM",
+   "adm0_iso": "OMN",
+   "adm0_a3": "OMN",
+   "mapped_to": "OM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Uzbekistan",
+   "iso_a2_eh": "UZ",
+   "adm0_iso": "UZB",
+   "adm0_a3": "UZB",
+   "mapped_to": "UZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Kazakhstan",
+   "iso_a2_eh": "KZ",
+   "adm0_iso": "KAZ",
+   "adm0_a3": "KAZ",
+   "mapped_to": "KZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Tajikistan",
+   "iso_a2_eh": "TJ",
+   "adm0_iso": "TJK",
+   "adm0_a3": "TJK",
+   "mapped_to": "TJ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Lithuania",
+   "iso_a2_eh": "LT",
+   "adm0_iso": "LTU",
+   "adm0_a3": "LTU",
+   "mapped_to": "LT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Brazil",
+   "iso_a2_eh": "BR",
+   "adm0_iso": "BRA",
+   "adm0_a3": "BRA",
+   "mapped_to": "BR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Uruguay",
+   "iso_a2_eh": "UY",
+   "adm0_iso": "URY",
+   "adm0_a3": "URY",
+   "mapped_to": "UY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Mongolia",
+   "iso_a2_eh": "MN",
+   "adm0_iso": "MNG",
+   "adm0_a3": "MNG",
+   "mapped_to": "MN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Russia",
+   "iso_a2_eh": "RU",
+   "adm0_iso": "RUS",
+   "adm0_a3": "RUS",
+   "mapped_to": "RU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Czechia",
+   "iso_a2_eh": "CZ",
+   "adm0_iso": "CZE",
+   "adm0_a3": "CZE",
+   "mapped_to": "CZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Germany",
+   "iso_a2_eh": "DE",
+   "adm0_iso": "DEU",
+   "adm0_a3": "DEU",
+   "mapped_to": "DE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Estonia",
+   "iso_a2_eh": "EE",
+   "adm0_iso": "EST",
+   "adm0_a3": "EST",
+   "mapped_to": "EE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Latvia",
+   "iso_a2_eh": "LV",
+   "adm0_iso": "LVA",
+   "adm0_a3": "LVA",
+   "mapped_to": "LV",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Norway",
+   "iso_a2_eh": "NO",
+   "adm0_iso": "NOR",
+   "adm0_a3": "NOR",
+   "mapped_to": "NO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Sweden",
+   "iso_a2_eh": "SE",
+   "adm0_iso": "SWE",
+   "adm0_a3": "SWE",
+   "mapped_to": "SE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Finland",
+   "iso_a2_eh": "FI",
+   "adm0_iso": "FIN",
+   "adm0_a3": "FIN",
+   "mapped_to": "FI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Vietnam",
+   "iso_a2_eh": "VN",
+   "adm0_iso": "VNM",
+   "adm0_a3": "VNM",
+   "mapped_to": "VN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Cambodia",
+   "iso_a2_eh": "KH",
+   "adm0_iso": "KHM",
+   "adm0_a3": "KHM",
+   "mapped_to": "KH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Luxembourg",
+   "iso_a2_eh": "LU",
+   "adm0_iso": "LUX",
+   "adm0_a3": "LUX",
+   "mapped_to": "LU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "United Arab Emirates",
+   "iso_a2_eh": "AE",
+   "adm0_iso": "ARE",
+   "adm0_a3": "ARE",
+   "mapped_to": "AE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "France",
+   "iso_a2_eh": "FR",
+   "adm0_iso": "FRA",
+   "adm0_a3": "FRA",
+   "mapped_to": "FR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Flemish",
+   "iso_a2_eh": "BE",
+   "adm0_iso": "BEL",
+   "adm0_a3": "BEL",
+   "mapped_to": "BE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Walloon",
+   "iso_a2_eh": "BE",
+   "adm0_iso": "BEL",
+   "adm0_a3": "BEL",
+   "mapped_to": "BE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Georgia",
+   "iso_a2_eh": "GE",
+   "adm0_iso": "GEO",
+   "adm0_a3": "GEO",
+   "mapped_to": "GE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "North Macedonia",
+   "iso_a2_eh": "MK",
+   "adm0_iso": "MKD",
+   "adm0_a3": "MKD",
+   "mapped_to": "MK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Albania",
+   "iso_a2_eh": "AL",
+   "adm0_iso": "ALB",
+   "adm0_a3": "ALB",
+   "mapped_to": "AL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Azerbaijan",
+   "iso_a2_eh": "AZ",
+   "adm0_iso": "AZE",
+   "adm0_a3": "AZE",
+   "mapped_to": "AZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Kosovo",
+   "iso_a2_eh": "XK",
+   "adm0_iso": "SRB",
+   "adm0_a3": "KOS",
+   "mapped_to": "XK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Turkey",
+   "iso_a2_eh": "TR",
+   "adm0_iso": "TUR",
+   "adm0_a3": "TUR",
+   "mapped_to": "TR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Adjara",
+   "iso_a2_eh": "GE",
+   "adm0_iso": "GEO",
+   "adm0_a3": "GEO",
+   "mapped_to": "GE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Spain",
+   "iso_a2_eh": "ES",
+   "adm0_iso": "ESP",
+   "adm0_a3": "ESP",
+   "mapped_to": "ES",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Laos",
+   "iso_a2_eh": "LA",
+   "adm0_iso": "LAO",
+   "adm0_a3": "LAO",
+   "mapped_to": "LA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Kyrgyzstan",
+   "iso_a2_eh": "KG",
+   "adm0_iso": "KGZ",
+   "adm0_a3": "KGZ",
+   "mapped_to": "KG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Armenia",
+   "iso_a2_eh": "AM",
+   "adm0_iso": "ARM",
+   "adm0_a3": "ARM",
+   "mapped_to": "AM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Denmark",
+   "iso_a2_eh": "DK",
+   "adm0_iso": "DNK",
+   "adm0_a3": "DNK",
+   "mapped_to": "DK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Libya",
+   "iso_a2_eh": "LY",
+   "adm0_iso": "LBY",
+   "adm0_a3": "LBY",
+   "mapped_to": "LY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Tunisia",
+   "iso_a2_eh": "TN",
+   "adm0_iso": "TUN",
+   "adm0_a3": "TUN",
+   "mapped_to": "TN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Romania",
+   "iso_a2_eh": "RO",
+   "adm0_iso": "ROU",
+   "adm0_a3": "ROU",
+   "mapped_to": "RO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Hungary",
+   "iso_a2_eh": "HU",
+   "adm0_iso": "HUN",
+   "adm0_a3": "HUN",
+   "mapped_to": "HU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Slovakia",
+   "iso_a2_eh": "SK",
+   "adm0_iso": "SVK",
+   "adm0_a3": "SVK",
+   "mapped_to": "SK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Poland",
+   "iso_a2_eh": "PL",
+   "adm0_iso": "POL",
+   "adm0_a3": "POL",
+   "mapped_to": "PL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Ireland",
+   "iso_a2_eh": "IE",
+   "adm0_iso": "IRL",
+   "adm0_a3": "IRL",
+   "mapped_to": "IE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "N. Ireland",
+   "iso_a2_eh": "GB",
+   "adm0_iso": "GBR",
+   "adm0_a3": "GBR",
+   "mapped_to": "GB",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Greece",
+   "iso_a2_eh": "GR",
+   "adm0_iso": "GRC",
+   "adm0_a3": "GRC",
+   "mapped_to": "GR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Zambia",
+   "iso_a2_eh": "ZM",
+   "adm0_iso": "ZMB",
+   "adm0_a3": "ZMB",
+   "mapped_to": "ZM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Sierra Leone",
+   "iso_a2_eh": "SL",
+   "adm0_iso": "SLE",
+   "adm0_a3": "SLE",
+   "mapped_to": "SL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Guinea",
+   "iso_a2_eh": "GN",
+   "adm0_iso": "GIN",
+   "adm0_a3": "GIN",
+   "mapped_to": "GN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Liberia",
+   "iso_a2_eh": "LR",
+   "adm0_iso": "LBR",
+   "adm0_a3": "LBR",
+   "mapped_to": "LR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Central African Rep.",
+   "iso_a2_eh": "CF",
+   "adm0_iso": "CAF",
+   "adm0_a3": "CAF",
+   "mapped_to": "CF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Sudan",
+   "iso_a2_eh": "SD",
+   "adm0_iso": "SDZ",
+   "adm0_a3": "SDN",
+   "mapped_to": "SD",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Djibouti",
+   "iso_a2_eh": "DJ",
+   "adm0_iso": "DJI",
+   "adm0_a3": "DJI",
+   "mapped_to": "DJ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Eritrea",
+   "iso_a2_eh": "ER",
+   "adm0_iso": "ERI",
+   "adm0_a3": "ERI",
+   "mapped_to": "ER",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Austria",
+   "iso_a2_eh": "AT",
+   "adm0_iso": "AUT",
+   "adm0_a3": "AUT",
+   "mapped_to": "AT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Iraqi Kurdistan",
+   "iso_a2_eh": "IQ",
+   "adm0_iso": "IRQ",
+   "adm0_a3": "IRQ",
+   "mapped_to": "IQ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Italy",
+   "iso_a2_eh": "IT",
+   "adm0_iso": "ITA",
+   "adm0_a3": "ITA",
+   "mapped_to": "IT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Switzerland",
+   "iso_a2_eh": "CH",
+   "adm0_iso": "CHE",
+   "adm0_a3": "CHE",
+   "mapped_to": "CH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Iran",
+   "iso_a2_eh": "IR",
+   "adm0_iso": "IRN",
+   "adm0_a3": "IRN",
+   "mapped_to": "IR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Netherlands",
+   "iso_a2_eh": "NL",
+   "adm0_iso": "NLD",
+   "adm0_a3": "NLD",
+   "mapped_to": "NL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Liechtenstein",
+   "iso_a2_eh": "LI",
+   "adm0_iso": "LIE",
+   "adm0_a3": "LIE",
+   "mapped_to": "LI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Côte d'Ivoire",
+   "iso_a2_eh": "CI",
+   "adm0_iso": "CIV",
+   "adm0_a3": "CIV",
+   "mapped_to": "CI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Vojvodina",
+   "iso_a2_eh": "RS",
+   "adm0_iso": "SRB",
+   "adm0_a3": "SRB",
+   "mapped_to": "RS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Mali",
+   "iso_a2_eh": "ML",
+   "adm0_iso": "MLI",
+   "adm0_a3": "MLI",
+   "mapped_to": "ML",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Senegal",
+   "iso_a2_eh": "SN",
+   "adm0_iso": "SEN",
+   "adm0_a3": "SEN",
+   "mapped_to": "SN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Nigeria",
+   "iso_a2_eh": "NG",
+   "adm0_iso": "NGA",
+   "adm0_a3": "NGA",
+   "mapped_to": "NG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Benin",
+   "iso_a2_eh": "BJ",
+   "adm0_iso": "BEN",
+   "adm0_a3": "BEN",
+   "mapped_to": "BJ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Angola",
+   "iso_a2_eh": "AO",
+   "adm0_iso": "AGO",
+   "adm0_a3": "AGO",
+   "mapped_to": "AO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Croatia",
+   "iso_a2_eh": "HR",
+   "adm0_iso": "HRV",
+   "adm0_a3": "HRV",
+   "mapped_to": "HR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Slovenia",
+   "iso_a2_eh": "SI",
+   "adm0_iso": "SVN",
+   "adm0_a3": "SVN",
+   "mapped_to": "SI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Qatar",
+   "iso_a2_eh": "QA",
+   "adm0_iso": "QAT",
+   "adm0_a3": "QAT",
+   "mapped_to": "QA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Saudi Arabia",
+   "iso_a2_eh": "SA",
+   "adm0_iso": "SAU",
+   "adm0_a3": "SAU",
+   "mapped_to": "SA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Botswana",
+   "iso_a2_eh": "BW",
+   "adm0_iso": "BWA",
+   "adm0_a3": "BWA",
+   "mapped_to": "BW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Zimbabwe",
+   "iso_a2_eh": "ZW",
+   "adm0_iso": "ZWE",
+   "adm0_a3": "ZWE",
+   "mapped_to": "ZW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Pakistan",
+   "iso_a2_eh": "PK",
+   "adm0_iso": "PAK",
+   "adm0_a3": "PAK",
+   "mapped_to": "PK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bulgaria",
+   "iso_a2_eh": "BG",
+   "adm0_iso": "BGR",
+   "adm0_a3": "BGR",
+   "mapped_to": "BG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Thailand",
+   "iso_a2_eh": "TH",
+   "adm0_iso": "THA",
+   "adm0_a3": "THA",
+   "mapped_to": "TH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "San Marino",
+   "iso_a2_eh": "SM",
+   "adm0_iso": "SMR",
+   "adm0_a3": "SMR",
+   "mapped_to": "SM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Haiti",
+   "iso_a2_eh": "HT",
+   "adm0_iso": "HTI",
+   "adm0_a3": "HTI",
+   "mapped_to": "HT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Dominican Rep.",
+   "iso_a2_eh": "DO",
+   "adm0_iso": "DOM",
+   "adm0_a3": "DOM",
+   "mapped_to": "DO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Chad",
+   "iso_a2_eh": "TD",
+   "adm0_iso": "TCD",
+   "adm0_a3": "TCD",
+   "mapped_to": "TD",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Kuwait",
+   "iso_a2_eh": "KW",
+   "adm0_iso": "KWT",
+   "adm0_a3": "KWT",
+   "mapped_to": "KW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Iraq",
+   "iso_a2_eh": "IQ",
+   "adm0_iso": "IRQ",
+   "adm0_a3": "IRQ",
+   "mapped_to": "IQ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "El Salvador",
+   "iso_a2_eh": "SV",
+   "adm0_iso": "SLV",
+   "adm0_a3": "SLV",
+   "mapped_to": "SV",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Guatemala",
+   "iso_a2_eh": "GT",
+   "adm0_iso": "GTM",
+   "adm0_a3": "GTM",
+   "mapped_to": "GT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Timor-Leste",
+   "iso_a2_eh": "TL",
+   "adm0_iso": "TLS",
+   "adm0_a3": "TLS",
+   "mapped_to": "TL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Brunei",
+   "iso_a2_eh": "BN",
+   "adm0_iso": "BRN",
+   "adm0_a3": "BRN",
+   "mapped_to": "BN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Monaco",
+   "iso_a2_eh": "MC",
+   "adm0_iso": "MCO",
+   "adm0_a3": "MCO",
+   "mapped_to": "MC",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Algeria",
+   "iso_a2_eh": "DZ",
+   "adm0_iso": "DZA",
+   "adm0_a3": "DZA",
+   "mapped_to": "DZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Mozambique",
+   "iso_a2_eh": "MZ",
+   "adm0_iso": "MOZ",
+   "adm0_a3": "MOZ",
+   "mapped_to": "MZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "eSwatini",
+   "iso_a2_eh": "SZ",
+   "adm0_iso": "SWZ",
+   "adm0_a3": "SWZ",
+   "mapped_to": "SZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Burundi",
+   "iso_a2_eh": "BI",
+   "adm0_iso": "BDI",
+   "adm0_a3": "BDI",
+   "mapped_to": "BI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Rwanda",
+   "iso_a2_eh": "RW",
+   "adm0_iso": "RWA",
+   "adm0_a3": "RWA",
+   "mapped_to": "RW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Myanmar",
+   "iso_a2_eh": "MM",
+   "adm0_iso": "MMR",
+   "adm0_a3": "MMR",
+   "mapped_to": "MM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bangladesh",
+   "iso_a2_eh": "BD",
+   "adm0_iso": "BGD",
+   "adm0_a3": "BGD",
+   "mapped_to": "BD",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Andorra",
+   "iso_a2_eh": "AD",
+   "adm0_iso": "AND",
+   "adm0_a3": "AND",
+   "mapped_to": "AD",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Afghanistan",
+   "iso_a2_eh": "AF",
+   "adm0_iso": "AFG",
+   "adm0_a3": "AFG",
+   "mapped_to": "AF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Serbia",
+   "iso_a2_eh": "RS",
+   "adm0_iso": "SRB",
+   "adm0_a3": "SRB",
+   "mapped_to": "RS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Montenegro",
+   "iso_a2_eh": "ME",
+   "adm0_iso": "MNE",
+   "adm0_a3": "MNE",
+   "mapped_to": "ME",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Fed. of Bos. & Herz.",
+   "iso_a2_eh": "BA",
+   "adm0_iso": "BIH",
+   "adm0_a3": "BIH",
+   "mapped_to": "BA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Rep. Srpska",
+   "iso_a2_eh": "BA",
+   "adm0_iso": "BIH",
+   "adm0_a3": "BIH",
+   "mapped_to": "BA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Uganda",
+   "iso_a2_eh": "UG",
+   "adm0_iso": "UGA",
+   "adm0_a3": "UGA",
+   "mapped_to": "UG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "USNB Guantanamo Bay",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "USG",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "Cuba",
+   "iso_a2_eh": "CU",
+   "adm0_iso": "CUB",
+   "adm0_a3": "CUB",
+   "mapped_to": "CU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Honduras",
+   "iso_a2_eh": "HN",
+   "adm0_iso": "HND",
+   "adm0_a3": "HND",
+   "mapped_to": "HN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Ecuador",
+   "iso_a2_eh": "EC",
+   "adm0_iso": "ECU",
+   "adm0_a3": "ECU",
+   "mapped_to": "EC",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Colombia",
+   "iso_a2_eh": "CO",
+   "adm0_iso": "COL",
+   "adm0_a3": "COL",
+   "mapped_to": "CO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Paraguay",
+   "iso_a2_eh": "PY",
+   "adm0_iso": "PRY",
+   "adm0_a3": "PRY",
+   "mapped_to": "PY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Brazilian I.",
+   "iso_a2_eh": "BR",
+   "adm0_iso": "-99",
+   "adm0_a3": "BRI",
+   "mapped_to": "BR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Portugal",
+   "iso_a2_eh": "PT",
+   "adm0_iso": "PR1",
+   "adm0_a3": "PRT",
+   "mapped_to": "PT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Brcko District",
+   "iso_a2_eh": "BA",
+   "adm0_iso": "BIH",
+   "adm0_a3": "BIH",
+   "mapped_to": "BA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Moldova",
+   "iso_a2_eh": "MD",
+   "adm0_iso": "MDA",
+   "adm0_a3": "MDA",
+   "mapped_to": "MD",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "North Korea",
+   "iso_a2_eh": "KP",
+   "adm0_iso": "PRK",
+   "adm0_a3": "PRK",
+   "mapped_to": "KP",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Turkmenistan",
+   "iso_a2_eh": "TM",
+   "adm0_iso": "TKM",
+   "adm0_a3": "TKM",
+   "mapped_to": "TM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Jordan",
+   "iso_a2_eh": "JO",
+   "adm0_iso": "JOR",
+   "adm0_a3": "JOR",
+   "mapped_to": "JO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Nepal",
+   "iso_a2_eh": "NP",
+   "adm0_iso": "NPL",
+   "adm0_a3": "NPL",
+   "mapped_to": "NP",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Lesotho",
+   "iso_a2_eh": "LS",
+   "adm0_iso": "LSO",
+   "adm0_a3": "LSO",
+   "mapped_to": "LS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Cameroon",
+   "iso_a2_eh": "CM",
+   "adm0_iso": "CMR",
+   "adm0_a3": "CMR",
+   "mapped_to": "CM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Gabon",
+   "iso_a2_eh": "GA",
+   "adm0_iso": "GAB",
+   "adm0_a3": "GAB",
+   "mapped_to": "GA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Niger",
+   "iso_a2_eh": "NE",
+   "adm0_iso": "NER",
+   "adm0_a3": "NER",
+   "mapped_to": "NE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Burkina Faso",
+   "iso_a2_eh": "BF",
+   "adm0_iso": "BFA",
+   "adm0_a3": "BFA",
+   "mapped_to": "BF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Togo",
+   "iso_a2_eh": "TG",
+   "adm0_iso": "TGO",
+   "adm0_a3": "TGO",
+   "mapped_to": "TG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Ghana",
+   "iso_a2_eh": "GH",
+   "adm0_iso": "GHA",
+   "adm0_a3": "GHA",
+   "mapped_to": "GH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Guinea-Bissau",
+   "iso_a2_eh": "GW",
+   "adm0_iso": "GNB",
+   "adm0_a3": "GNB",
+   "mapped_to": "GW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Gibraltar",
+   "iso_a2_eh": "GI",
+   "adm0_iso": "B55",
+   "adm0_a3": "GIB",
+   "mapped_to": "GI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "United States of America",
+   "iso_a2_eh": "US",
+   "adm0_iso": "USA",
+   "adm0_a3": "USA",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Canada",
+   "iso_a2_eh": "CA",
+   "adm0_iso": "CAN",
+   "adm0_a3": "CAN",
+   "mapped_to": "CA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Mexico",
+   "iso_a2_eh": "MX",
+   "adm0_iso": "MEX",
+   "adm0_a3": "MEX",
+   "mapped_to": "MX",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Belize",
+   "iso_a2_eh": "BZ",
+   "adm0_iso": "BLZ",
+   "adm0_a3": "BLZ",
+   "mapped_to": "BZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Panama",
+   "iso_a2_eh": "PA",
+   "adm0_iso": "PAN",
+   "adm0_a3": "PAN",
+   "mapped_to": "PA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Venezuela",
+   "iso_a2_eh": "VE",
+   "adm0_iso": "VEN",
+   "adm0_a3": "VEN",
+   "mapped_to": "VE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Papua New Guinea",
+   "iso_a2_eh": "PG",
+   "adm0_iso": "PN1",
+   "adm0_a3": "PNG",
+   "mapped_to": "PG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Egypt",
+   "iso_a2_eh": "EG",
+   "adm0_iso": "EGY",
+   "adm0_a3": "EGY",
+   "mapped_to": "EG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Yemen",
+   "iso_a2_eh": "YE",
+   "adm0_iso": "YEM",
+   "adm0_a3": "YEM",
+   "mapped_to": "YE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Mauritania",
+   "iso_a2_eh": "MR",
+   "adm0_iso": "MRT",
+   "adm0_a3": "MRT",
+   "mapped_to": "MR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Eq. Guinea",
+   "iso_a2_eh": "GQ",
+   "adm0_iso": "GNQ",
+   "adm0_a3": "GNQ",
+   "mapped_to": "GQ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Gambia",
+   "iso_a2_eh": "GM",
+   "adm0_iso": "GMB",
+   "adm0_a3": "GMB",
+   "mapped_to": "GM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Hong Kong",
+   "iso_a2_eh": "HK",
+   "adm0_iso": "HKG",
+   "adm0_a3": "HKG",
+   "mapped_to": "HK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Vatican",
+   "iso_a2_eh": "VA",
+   "adm0_iso": "VAT",
+   "adm0_a3": "VAT",
+   "mapped_to": "VA",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "N. Cyprus",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "CYP",
+   "adm0_a3": "CYN",
+   "mapped_to": "CY",
+   "mapped_by": "ADM0_ISO"
+  },
+  {
+   "name": "Cyprus U.N. Buffer Zone",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "CYP",
+   "adm0_a3": "CNM",
+   "mapped_to": "CY",
+   "mapped_by": "ADM0_ISO"
+  },
+  {
+   "name": "Siachen Glacier",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "KAS",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "South Korea",
+   "iso_a2_eh": "KR",
+   "adm0_iso": "KOR",
+   "adm0_a3": "KOR",
+   "mapped_to": "KR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Baikonur",
+   "iso_a2_eh": "KZ",
+   "adm0_iso": "KAZ",
+   "adm0_a3": "KAB",
+   "mapped_to": "KZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Akrotiri",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "WSB",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "Southern Patagonian Ice Field",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "SPI",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "Bir Tawil",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "BRT",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "Wales",
+   "iso_a2_eh": "GB",
+   "adm0_iso": "GBR",
+   "adm0_a3": "GBR",
+   "mapped_to": "GB",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "England",
+   "iso_a2_eh": "GB",
+   "adm0_iso": "GBR",
+   "adm0_a3": "GBR",
+   "mapped_to": "GB",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Scotland",
+   "iso_a2_eh": "GB",
+   "adm0_iso": "GBR",
+   "adm0_a3": "GBR",
+   "mapped_to": "GB",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Brussels",
+   "iso_a2_eh": "BE",
+   "adm0_iso": "BEL",
+   "adm0_a3": "BEL",
+   "mapped_to": "BE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Antarctica",
+   "iso_a2_eh": "AQ",
+   "adm0_iso": "ATA",
+   "adm0_a3": "ATA",
+   "mapped_to": "AQ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Australia",
+   "iso_a2_eh": "AU",
+   "adm0_iso": "AUS",
+   "adm0_a3": "AUS",
+   "mapped_to": "AU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Greenland",
+   "iso_a2_eh": "GL",
+   "adm0_iso": "GRL",
+   "adm0_a3": "GRL",
+   "mapped_to": "GL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Fiji",
+   "iso_a2_eh": "FJ",
+   "adm0_iso": "FJI",
+   "adm0_a3": "FJI",
+   "mapped_to": "FJ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "New Zealand",
+   "iso_a2_eh": "NZ",
+   "adm0_iso": "NZL",
+   "adm0_a3": "NZL",
+   "mapped_to": "NZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "New Caledonia",
+   "iso_a2_eh": "NC",
+   "adm0_iso": "NCL",
+   "adm0_a3": "NCL",
+   "mapped_to": "NC",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Madagascar",
+   "iso_a2_eh": "MG",
+   "adm0_iso": "MDG",
+   "adm0_a3": "MDG",
+   "mapped_to": "MG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Philippines",
+   "iso_a2_eh": "PH",
+   "adm0_iso": "PHL",
+   "adm0_a3": "PHL",
+   "mapped_to": "PH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Sri Lanka",
+   "iso_a2_eh": "LK",
+   "adm0_iso": "LKA",
+   "adm0_a3": "LKA",
+   "mapped_to": "LK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Curaçao",
+   "iso_a2_eh": "CW",
+   "adm0_iso": "CUW",
+   "adm0_a3": "CUW",
+   "mapped_to": "CW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Aruba",
+   "iso_a2_eh": "AW",
+   "adm0_iso": "ABW",
+   "adm0_a3": "ABW",
+   "mapped_to": "AW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bahamas",
+   "iso_a2_eh": "BS",
+   "adm0_iso": "BHS",
+   "adm0_a3": "BHS",
+   "mapped_to": "BS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Turks and Caicos Is.",
+   "iso_a2_eh": "TC",
+   "adm0_iso": "TCA",
+   "adm0_a3": "TCA",
+   "mapped_to": "TC",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Taiwan",
+   "iso_a2_eh": "TW",
+   "adm0_iso": "TWN",
+   "adm0_a3": "TWN",
+   "mapped_to": "TW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Japan",
+   "iso_a2_eh": "JP",
+   "adm0_iso": "JPN",
+   "adm0_a3": "JPN",
+   "mapped_to": "JP",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "St. Pierre and Miquelon",
+   "iso_a2_eh": "PM",
+   "adm0_iso": "SPM",
+   "adm0_a3": "SPM",
+   "mapped_to": "PM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Iceland",
+   "iso_a2_eh": "IS",
+   "adm0_iso": "ISL",
+   "adm0_a3": "ISL",
+   "mapped_to": "IS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Pitcairn Is.",
+   "iso_a2_eh": "PN",
+   "adm0_iso": "PCN",
+   "adm0_a3": "PCN",
+   "mapped_to": "PN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Fr. Polynesia",
+   "iso_a2_eh": "PF",
+   "adm0_iso": "PYF",
+   "adm0_a3": "PYF",
+   "mapped_to": "PF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Fr. S. Antarctic Lands",
+   "iso_a2_eh": "TF",
+   "adm0_iso": "ATF",
+   "adm0_a3": "ATF",
+   "mapped_to": "TF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Seychelles",
+   "iso_a2_eh": "SC",
+   "adm0_iso": "SYC",
+   "adm0_a3": "SYC",
+   "mapped_to": "SC",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Kiribati",
+   "iso_a2_eh": "KI",
+   "adm0_iso": "KIR",
+   "adm0_a3": "KIR",
+   "mapped_to": "KI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Marshall Is.",
+   "iso_a2_eh": "MH",
+   "adm0_iso": "MHL",
+   "adm0_a3": "MHL",
+   "mapped_to": "MH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Trinidad and Tobago",
+   "iso_a2_eh": "TT",
+   "adm0_iso": "TTO",
+   "adm0_a3": "TTO",
+   "mapped_to": "TT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Grenada",
+   "iso_a2_eh": "GD",
+   "adm0_iso": "GRD",
+   "adm0_a3": "GRD",
+   "mapped_to": "GD",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Caribbean Netherlands",
+   "iso_a2_eh": "BQ",
+   "adm0_iso": "NLY",
+   "adm0_a3": "NLD",
+   "mapped_to": "BQ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "St. Vin. and Gren.",
+   "iso_a2_eh": "VC",
+   "adm0_iso": "VCT",
+   "adm0_a3": "VCT",
+   "mapped_to": "VC",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Barbados",
+   "iso_a2_eh": "BB",
+   "adm0_iso": "BRB",
+   "adm0_a3": "BRB",
+   "mapped_to": "BB",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Saint Lucia",
+   "iso_a2_eh": "LC",
+   "adm0_iso": "LCA",
+   "adm0_a3": "LCA",
+   "mapped_to": "LC",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Martinique",
+   "iso_a2_eh": "MQ",
+   "adm0_iso": "MTQ",
+   "adm0_a3": "FRA",
+   "mapped_to": "MQ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Dominica",
+   "iso_a2_eh": "DM",
+   "adm0_iso": "DMA",
+   "adm0_a3": "DMA",
+   "mapped_to": "DM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Guadeloupe",
+   "iso_a2_eh": "GP",
+   "adm0_iso": "GLP",
+   "adm0_a3": "FRA",
+   "mapped_to": "GP",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Johnston Atoll",
+   "iso_a2_eh": "US",
+   "adm0_iso": "UMI",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Montserrat",
+   "iso_a2_eh": "MS",
+   "adm0_iso": "MSR",
+   "adm0_a3": "MSR",
+   "mapped_to": "MS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Antigua",
+   "iso_a2_eh": "AG",
+   "adm0_iso": "ATG",
+   "adm0_a3": "ATG",
+   "mapped_to": "AG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "St. Kitts and Nevis",
+   "iso_a2_eh": "KN",
+   "adm0_iso": "KNA",
+   "adm0_a3": "KNA",
+   "mapped_to": "KN",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Barbuda",
+   "iso_a2_eh": "AG",
+   "adm0_iso": "ATG",
+   "adm0_a3": "ATG",
+   "mapped_to": "AG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "U.S. Virgin Is.",
+   "iso_a2_eh": "VI",
+   "adm0_iso": "VIR",
+   "adm0_a3": "VIR",
+   "mapped_to": "VI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "St-Barthélemy",
+   "iso_a2_eh": "BL",
+   "adm0_iso": "BLM",
+   "adm0_a3": "BLM",
+   "mapped_to": "BL",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Puerto Rico",
+   "iso_a2_eh": "PR",
+   "adm0_iso": "PRI",
+   "adm0_a3": "PRI",
+   "mapped_to": "PR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Anguilla",
+   "iso_a2_eh": "AI",
+   "adm0_iso": "AIA",
+   "adm0_a3": "AIA",
+   "mapped_to": "AI",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "British Virgin Is.",
+   "iso_a2_eh": "VG",
+   "adm0_iso": "VGB",
+   "adm0_a3": "VGB",
+   "mapped_to": "VG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Jamaica",
+   "iso_a2_eh": "JM",
+   "adm0_iso": "JAM",
+   "adm0_a3": "JAM",
+   "mapped_to": "JM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Cayman Is.",
+   "iso_a2_eh": "KY",
+   "adm0_iso": "CYM",
+   "adm0_a3": "CYM",
+   "mapped_to": "KY",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bermuda",
+   "iso_a2_eh": "BM",
+   "adm0_iso": "BMU",
+   "adm0_a3": "BMU",
+   "mapped_to": "BM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Heard I. and McDonald Is.",
+   "iso_a2_eh": "HM",
+   "adm0_iso": "HMD",
+   "adm0_a3": "HMD",
+   "mapped_to": "HM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Saint Helena",
+   "iso_a2_eh": "SH",
+   "adm0_iso": "SHN",
+   "adm0_a3": "SHN",
+   "mapped_to": "SH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Réunion",
+   "iso_a2_eh": "RE",
+   "adm0_iso": "REU",
+   "adm0_a3": "FRA",
+   "mapped_to": "RE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Mauritius",
+   "iso_a2_eh": "MU",
+   "adm0_iso": "MUS",
+   "adm0_a3": "MUS",
+   "mapped_to": "MU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Mayotte",
+   "iso_a2_eh": "YT",
+   "adm0_iso": "B22",
+   "adm0_a3": "FRA",
+   "mapped_to": "YT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Comoros",
+   "iso_a2_eh": "KM",
+   "adm0_iso": "COM",
+   "adm0_a3": "COM",
+   "mapped_to": "KM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Zanzibar",
+   "iso_a2_eh": "TZ",
+   "adm0_iso": "TZA",
+   "adm0_a3": "TZA",
+   "mapped_to": "TZ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "São Tomé and Principe",
+   "iso_a2_eh": "ST",
+   "adm0_iso": "STP",
+   "adm0_a3": "STP",
+   "mapped_to": "ST",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Cabo Verde",
+   "iso_a2_eh": "CV",
+   "adm0_iso": "CPV",
+   "adm0_a3": "CPV",
+   "mapped_to": "CV",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Madeira",
+   "iso_a2_eh": "PT",
+   "adm0_iso": "PR1",
+   "adm0_a3": "PRT",
+   "mapped_to": "PT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Malta",
+   "iso_a2_eh": "MT",
+   "adm0_iso": "MLT",
+   "adm0_a3": "MLT",
+   "mapped_to": "MT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Azores",
+   "iso_a2_eh": "PT",
+   "adm0_iso": "PR1",
+   "adm0_a3": "PRT",
+   "mapped_to": "PT",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Jersey",
+   "iso_a2_eh": "JE",
+   "adm0_iso": "JEY",
+   "adm0_a3": "JEY",
+   "mapped_to": "JE",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Guernsey",
+   "iso_a2_eh": "GG",
+   "adm0_iso": "GGY",
+   "adm0_a3": "GGY",
+   "mapped_to": "GG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Isle of Man",
+   "iso_a2_eh": "IM",
+   "adm0_iso": "IMN",
+   "adm0_a3": "IMN",
+   "mapped_to": "IM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Åland",
+   "iso_a2_eh": "AX",
+   "adm0_iso": "ALD",
+   "adm0_a3": "ALD",
+   "mapped_to": "AX",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Faeroe Is.",
+   "iso_a2_eh": "FO",
+   "adm0_iso": "FRO",
+   "adm0_a3": "FRO",
+   "mapped_to": "FO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Cocos Is.",
+   "iso_a2_eh": "CC",
+   "adm0_iso": "CCK",
+   "adm0_a3": "IOA",
+   "mapped_to": "CC",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Br. Indian Ocean Ter.",
+   "iso_a2_eh": "IO",
+   "adm0_iso": "B69",
+   "adm0_a3": "IOT",
+   "mapped_to": "IO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Singapore",
+   "iso_a2_eh": "SG",
+   "adm0_iso": "SGP",
+   "adm0_a3": "SGP",
+   "mapped_to": "SG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Jan Mayen I.",
+   "iso_a2_eh": "NO",
+   "adm0_iso": "SJM",
+   "adm0_a3": "NOR",
+   "mapped_to": "NO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Svalbard Is.",
+   "iso_a2_eh": "SJ",
+   "adm0_iso": "SJM",
+   "adm0_a3": "NOR",
+   "mapped_to": "SJ",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Norfolk Island",
+   "iso_a2_eh": "NF",
+   "adm0_iso": "NFK",
+   "adm0_a3": "NFK",
+   "mapped_to": "NF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Cook Is.",
+   "iso_a2_eh": "CK",
+   "adm0_iso": "COK",
+   "adm0_a3": "COK",
+   "mapped_to": "CK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Tonga",
+   "iso_a2_eh": "TO",
+   "adm0_iso": "TON",
+   "adm0_a3": "TON",
+   "mapped_to": "TO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Wallis and Futuna Is.",
+   "iso_a2_eh": "WF",
+   "adm0_iso": "WLF",
+   "adm0_a3": "WLF",
+   "mapped_to": "WF",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Samoa",
+   "iso_a2_eh": "WS",
+   "adm0_iso": "WSM",
+   "adm0_a3": "WSM",
+   "mapped_to": "WS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Solomon Is.",
+   "iso_a2_eh": "SB",
+   "adm0_iso": "SLB",
+   "adm0_a3": "SLB",
+   "mapped_to": "SB",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Tuvalu",
+   "iso_a2_eh": "TV",
+   "adm0_iso": "TUV",
+   "adm0_a3": "TUV",
+   "mapped_to": "TV",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bougainville",
+   "iso_a2_eh": "PG",
+   "adm0_iso": "PN1",
+   "adm0_a3": "PNG",
+   "mapped_to": "PG",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Maldives",
+   "iso_a2_eh": "MV",
+   "adm0_iso": "MDV",
+   "adm0_a3": "MDV",
+   "mapped_to": "MV",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Nauru",
+   "iso_a2_eh": "NR",
+   "adm0_iso": "NRU",
+   "adm0_a3": "NRU",
+   "mapped_to": "NR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Micronesia",
+   "iso_a2_eh": "FM",
+   "adm0_iso": "FSM",
+   "adm0_a3": "FSM",
+   "mapped_to": "FM",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "S. Geo. and the Is.",
+   "iso_a2_eh": "GS",
+   "adm0_iso": "SGS",
+   "adm0_a3": "SGS",
+   "mapped_to": "GS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bouvet I.",
+   "iso_a2_eh": "BV",
+   "adm0_iso": "BVT",
+   "adm0_a3": "NOR",
+   "mapped_to": "BV",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Falkland Is.",
+   "iso_a2_eh": "FK",
+   "adm0_iso": "B12",
+   "adm0_a3": "FLK",
+   "mapped_to": "FK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Vanuatu",
+   "iso_a2_eh": "VU",
+   "adm0_iso": "VUT",
+   "adm0_a3": "VUT",
+   "mapped_to": "VU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Niue",
+   "iso_a2_eh": "NU",
+   "adm0_iso": "NIU",
+   "adm0_a3": "NIU",
+   "mapped_to": "NU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "American Samoa",
+   "iso_a2_eh": "AS",
+   "adm0_iso": "ASM",
+   "adm0_a3": "ASM",
+   "mapped_to": "AS",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Palau",
+   "iso_a2_eh": "PW",
+   "adm0_iso": "PLW",
+   "adm0_a3": "PLW",
+   "mapped_to": "PW",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Guam",
+   "iso_a2_eh": "GU",
+   "adm0_iso": "GUM",
+   "adm0_a3": "GUM",
+   "mapped_to": "GU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "N. Mariana Is.",
+   "iso_a2_eh": "MP",
+   "adm0_iso": "MNP",
+   "adm0_a3": "MNP",
+   "mapped_to": "MP",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Paracel Is.",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "CHN",
+   "mapped_to": "CN",
+   "mapped_by": "ADM0_A3"
+  },
+  {
+   "name": "Bahrain",
+   "iso_a2_eh": "BH",
+   "adm0_iso": "BHR",
+   "adm0_a3": "BHR",
+   "mapped_to": "BH",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Coral Sea Is.",
+   "iso_a2_eh": "AU",
+   "adm0_iso": "AUS",
+   "adm0_a3": "CSI",
+   "mapped_to": "AU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Christmas I.",
+   "iso_a2_eh": "CX",
+   "adm0_iso": "CXR",
+   "adm0_a3": "IOA",
+   "mapped_to": "CX",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Tokelau",
+   "iso_a2_eh": "TK",
+   "adm0_iso": "TKL",
+   "adm0_a3": "NZL",
+   "mapped_to": "TK",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Jarvis I.",
+   "iso_a2_eh": "US",
+   "adm0_iso": "UMI",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Baker I.",
+   "iso_a2_eh": "US",
+   "adm0_iso": "UMI",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Howland I.",
+   "iso_a2_eh": "US",
+   "adm0_iso": "UMI",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Spratly Is.",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "PGA",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "Wake Atoll",
+   "iso_a2_eh": "US",
+   "adm0_iso": "-99",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Midway Is.",
+   "iso_a2_eh": "US",
+   "adm0_iso": "UMI",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Clipperton I.",
+   "iso_a2_eh": "FR",
+   "adm0_iso": "FRA",
+   "adm0_a3": "CLP",
+   "mapped_to": "FR",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Navassa I.",
+   "iso_a2_eh": "US",
+   "adm0_iso": "UMI",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Macao",
+   "iso_a2_eh": "MO",
+   "adm0_iso": "MAC",
+   "adm0_a3": "MAC",
+   "mapped_to": "MO",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Ashmore and Cartier Is.",
+   "iso_a2_eh": "AU",
+   "adm0_iso": "AUS",
+   "adm0_a3": "ATC",
+   "mapped_to": "AU",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Palmyra Atoll",
+   "iso_a2_eh": "US",
+   "adm0_iso": "UMI",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Kingman Reef",
+   "iso_a2_eh": "US",
+   "adm0_iso": "UMI",
+   "adm0_a3": "UMI",
+   "mapped_to": "US",
+   "mapped_by": "ISO_A2_EH"
+  },
+  {
+   "name": "Bajo Nuevo Bank",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "BJN",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "Serranilla Bank",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "SER",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  },
+  {
+   "name": "Scarborough Reef",
+   "iso_a2_eh": "-99",
+   "adm0_iso": "-99",
+   "adm0_a3": "SCR",
+   "mapped_to": null,
+   "mapped_by": "unmapped"
+  }
+ ],
+ "rejected_single_vertex_pairs": [
+  {
+   "a": "BW",
+   "b": "ZM",
+   "shared_vertices": 1
+  },
+  {
+   "a": "NA",
+   "b": "ZW",
+   "shared_vertices": 1
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+SELECT ?code ?item ?itemLabel ?coord WHERE {
+  ?item wdt:P297 ?code .
+  OPTIONAL { ?item wdt:P625 ?coord . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?code

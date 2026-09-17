@@ -1,0 +1,3 @@
+id,lat,lon,source,source_id,note
+EA,35.886667,-5.3,wikidata,Q5823,"EA (Ceuta & Melilla) has no ISO 3166-1 code and therefore no Wikidata P297 entry. The representative point is Ceuta (Q5823, P625); Melilla (Q5831) lies at 35.2825 -2.9475, about 215 km east. Both border Morocco."
+IC,28.0,-15.75,wikidata,Q5813,"IC (Canary Islands) has no ISO 3166-1 code and no P297 entry. Point is the Canary Islands item Q5813 (P625)."
