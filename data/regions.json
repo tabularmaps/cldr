@@ -1,0 +1,3377 @@
+{
+ "profile": "cldr-48.2-regular-2alpha",
+ "cldr_version": "48.2",
+ "generated": "2026-09-17",
+ "count": 257,
+ "status_counts": {
+  "regular": 257,
+  "special": 2,
+  "macroregion": 35,
+  "deprecated": 12,
+  "reserved": 13,
+  "private_use": 23,
+  "unknown": 1
+ },
+ "sources": {
+  "region.xml": {
+   "path": "common/validity/region.xml",
+   "sha256": "e751e0eedd46b52c38f3cdb72b0fab61ac8b48e052e8b28ba74b6ac26c4c8cb1"
+  },
+  "en.xml": {
+   "path": "common/main/en.xml",
+   "sha256": "67607f4c9cf57157e70564987d8ae92a9ddcd73c00a2f1cd6abf79524a969cbd"
+  },
+  "supplementalData.xml": {
+   "path": "common/supplemental/supplementalData.xml",
+   "sha256": "cd2af39aef82fdbfba4d591c87548203350538ad2318486d104b3b38b8d62f1a"
+  }
+ },
+ "notes": [
+  "name_en is the CLDR English display name (alt-less form) and is informational only.",
+  "subregion/continent come from CLDR territoryContainment (UN M49 based); groupings (EU, EZ, UN, 003, 202, 419) and deprecated groups are ignored.",
+  "QO (Outlying Oceania) is CLDR's container for AC, AQ, CP, DG and TA; it is kept verbatim and treated as unclassified for regional-continuity scoring."
+ ],
+ "regions": [
+  {
+   "id": "AC",
+   "name_en": "Ascension Island",
+   "subregion": "QO",
+   "subregion_name": "Outlying Oceania",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "QO",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "AD",
+   "name_en": "Andorra",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "AE",
+   "name_en": "United Arab Emirates",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "AF",
+   "name_en": "Afghanistan",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "AG",
+   "name_en": "Antigua & Barbuda",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "AI",
+   "name_en": "Anguilla",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "AL",
+   "name_en": "Albania",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "AM",
+   "name_en": "Armenia",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "AO",
+   "name_en": "Angola",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "AQ",
+   "name_en": "Antarctica",
+   "subregion": "QO",
+   "subregion_name": "Outlying Oceania",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "QO",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "AR",
+   "name_en": "Argentina",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "AS",
+   "name_en": "American Samoa",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "AT",
+   "name_en": "Austria",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "AU",
+   "name_en": "Australia",
+   "subregion": "053",
+   "subregion_name": "Australasia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "053",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "AW",
+   "name_en": "Aruba",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "AX",
+   "name_en": "Åland Islands",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "AZ",
+   "name_en": "Azerbaijan",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "BA",
+   "name_en": "Bosnia & Herzegovina",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "BB",
+   "name_en": "Barbados",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "BD",
+   "name_en": "Bangladesh",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "BE",
+   "name_en": "Belgium",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "BF",
+   "name_en": "Burkina Faso",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "BG",
+   "name_en": "Bulgaria",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "BH",
+   "name_en": "Bahrain",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "BI",
+   "name_en": "Burundi",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "BJ",
+   "name_en": "Benin",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "BL",
+   "name_en": "St. Barthélemy",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "BM",
+   "name_en": "Bermuda",
+   "subregion": "021",
+   "subregion_name": "Northern America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "021",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "BN",
+   "name_en": "Brunei",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "BO",
+   "name_en": "Bolivia",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "BQ",
+   "name_en": "Caribbean Netherlands",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "BR",
+   "name_en": "Brazil",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "BS",
+   "name_en": "Bahamas",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "BT",
+   "name_en": "Bhutan",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "BV",
+   "name_en": "Bouvet Island",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "BW",
+   "name_en": "Botswana",
+   "subregion": "018",
+   "subregion_name": "Southern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "018",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "BY",
+   "name_en": "Belarus",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "BZ",
+   "name_en": "Belize",
+   "subregion": "013",
+   "subregion_name": "Central America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "013",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "CA",
+   "name_en": "Canada",
+   "subregion": "021",
+   "subregion_name": "Northern America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "021",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "CC",
+   "name_en": "Cocos (Keeling) Islands",
+   "subregion": "053",
+   "subregion_name": "Australasia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "053",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "CD",
+   "name_en": "Congo - Kinshasa",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "CF",
+   "name_en": "Central African Republic",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "CG",
+   "name_en": "Congo - Brazzaville",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "CH",
+   "name_en": "Switzerland",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "CI",
+   "name_en": "Côte d’Ivoire",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "CK",
+   "name_en": "Cook Islands",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "CL",
+   "name_en": "Chile",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "CM",
+   "name_en": "Cameroon",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "CN",
+   "name_en": "China",
+   "subregion": "030",
+   "subregion_name": "Eastern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "030",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "CO",
+   "name_en": "Colombia",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "CP",
+   "name_en": "Clipperton Island",
+   "subregion": "QO",
+   "subregion_name": "Outlying Oceania",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "QO",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "CQ",
+   "name_en": "Sark",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "CR",
+   "name_en": "Costa Rica",
+   "subregion": "013",
+   "subregion_name": "Central America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "013",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "CU",
+   "name_en": "Cuba",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "CV",
+   "name_en": "Cape Verde",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "CW",
+   "name_en": "Curaçao",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "CX",
+   "name_en": "Christmas Island",
+   "subregion": "053",
+   "subregion_name": "Australasia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "053",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "CY",
+   "name_en": "Cyprus",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "CZ",
+   "name_en": "Czechia",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "DE",
+   "name_en": "Germany",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "DG",
+   "name_en": "Diego Garcia",
+   "subregion": "QO",
+   "subregion_name": "Outlying Oceania",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "QO",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "DJ",
+   "name_en": "Djibouti",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "DK",
+   "name_en": "Denmark",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "DM",
+   "name_en": "Dominica",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "DO",
+   "name_en": "Dominican Republic",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "DZ",
+   "name_en": "Algeria",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "EA",
+   "name_en": "Ceuta & Melilla",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "EC",
+   "name_en": "Ecuador",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "EE",
+   "name_en": "Estonia",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "EG",
+   "name_en": "Egypt",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "EH",
+   "name_en": "Western Sahara",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "ER",
+   "name_en": "Eritrea",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "ES",
+   "name_en": "Spain",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "ET",
+   "name_en": "Ethiopia",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "FI",
+   "name_en": "Finland",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "FJ",
+   "name_en": "Fiji",
+   "subregion": "054",
+   "subregion_name": "Melanesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "054",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "FK",
+   "name_en": "Falkland Islands",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "FM",
+   "name_en": "Micronesia",
+   "subregion": "057",
+   "subregion_name": "Micronesian Region",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "057",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "FO",
+   "name_en": "Faroe Islands",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "FR",
+   "name_en": "France",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "GA",
+   "name_en": "Gabon",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "GB",
+   "name_en": "United Kingdom",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "GD",
+   "name_en": "Grenada",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "GE",
+   "name_en": "Georgia",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "GF",
+   "name_en": "French Guiana",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "GG",
+   "name_en": "Guernsey",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "GH",
+   "name_en": "Ghana",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "GI",
+   "name_en": "Gibraltar",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "GL",
+   "name_en": "Greenland",
+   "subregion": "021",
+   "subregion_name": "Northern America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "021",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "GM",
+   "name_en": "Gambia",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "GN",
+   "name_en": "Guinea",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "GP",
+   "name_en": "Guadeloupe",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "GQ",
+   "name_en": "Equatorial Guinea",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "GR",
+   "name_en": "Greece",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "GS",
+   "name_en": "South Georgia & South Sandwich Islands",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "GT",
+   "name_en": "Guatemala",
+   "subregion": "013",
+   "subregion_name": "Central America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "013",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "GU",
+   "name_en": "Guam",
+   "subregion": "057",
+   "subregion_name": "Micronesian Region",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "057",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "GW",
+   "name_en": "Guinea-Bissau",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "GY",
+   "name_en": "Guyana",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "HK",
+   "name_en": "Hong Kong SAR China",
+   "subregion": "030",
+   "subregion_name": "Eastern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "030",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "HM",
+   "name_en": "Heard & McDonald Islands",
+   "subregion": "053",
+   "subregion_name": "Australasia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "053",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "HN",
+   "name_en": "Honduras",
+   "subregion": "013",
+   "subregion_name": "Central America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "013",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "HR",
+   "name_en": "Croatia",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "HT",
+   "name_en": "Haiti",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "HU",
+   "name_en": "Hungary",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "IC",
+   "name_en": "Canary Islands",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "ID",
+   "name_en": "Indonesia",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "IE",
+   "name_en": "Ireland",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "IL",
+   "name_en": "Israel",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "IM",
+   "name_en": "Isle of Man",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "IN",
+   "name_en": "India",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "IO",
+   "name_en": "British Indian Ocean Territory",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "IQ",
+   "name_en": "Iraq",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "IR",
+   "name_en": "Iran",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "IS",
+   "name_en": "Iceland",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "IT",
+   "name_en": "Italy",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "JE",
+   "name_en": "Jersey",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "JM",
+   "name_en": "Jamaica",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "JO",
+   "name_en": "Jordan",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "JP",
+   "name_en": "Japan",
+   "subregion": "030",
+   "subregion_name": "Eastern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "030",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "KE",
+   "name_en": "Kenya",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "KG",
+   "name_en": "Kyrgyzstan",
+   "subregion": "143",
+   "subregion_name": "Central Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "143",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "KH",
+   "name_en": "Cambodia",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "KI",
+   "name_en": "Kiribati",
+   "subregion": "057",
+   "subregion_name": "Micronesian Region",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "057",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "KM",
+   "name_en": "Comoros",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "KN",
+   "name_en": "St. Kitts & Nevis",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "KP",
+   "name_en": "North Korea",
+   "subregion": "030",
+   "subregion_name": "Eastern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "030",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "KR",
+   "name_en": "South Korea",
+   "subregion": "030",
+   "subregion_name": "Eastern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "030",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "KW",
+   "name_en": "Kuwait",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "KY",
+   "name_en": "Cayman Islands",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "KZ",
+   "name_en": "Kazakhstan",
+   "subregion": "143",
+   "subregion_name": "Central Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "143",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "LA",
+   "name_en": "Laos",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "LB",
+   "name_en": "Lebanon",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "LC",
+   "name_en": "St. Lucia",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "LI",
+   "name_en": "Liechtenstein",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "LK",
+   "name_en": "Sri Lanka",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "LR",
+   "name_en": "Liberia",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "LS",
+   "name_en": "Lesotho",
+   "subregion": "018",
+   "subregion_name": "Southern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "018",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "LT",
+   "name_en": "Lithuania",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "LU",
+   "name_en": "Luxembourg",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "LV",
+   "name_en": "Latvia",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "LY",
+   "name_en": "Libya",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "MA",
+   "name_en": "Morocco",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "MC",
+   "name_en": "Monaco",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "MD",
+   "name_en": "Moldova",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "ME",
+   "name_en": "Montenegro",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "MF",
+   "name_en": "St. Martin",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "MG",
+   "name_en": "Madagascar",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "MH",
+   "name_en": "Marshall Islands",
+   "subregion": "057",
+   "subregion_name": "Micronesian Region",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "057",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "MK",
+   "name_en": "North Macedonia",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "ML",
+   "name_en": "Mali",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "MM",
+   "name_en": "Myanmar (Burma)",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "MN",
+   "name_en": "Mongolia",
+   "subregion": "030",
+   "subregion_name": "Eastern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "030",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Macao SAR China",
+   "subregion": "030",
+   "subregion_name": "Eastern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "030",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "MP",
+   "name_en": "Northern Mariana Islands",
+   "subregion": "057",
+   "subregion_name": "Micronesian Region",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "057",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "MQ",
+   "name_en": "Martinique",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "MR",
+   "name_en": "Mauritania",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "MS",
+   "name_en": "Montserrat",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "MT",
+   "name_en": "Malta",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "MU",
+   "name_en": "Mauritius",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "MV",
+   "name_en": "Maldives",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "MW",
+   "name_en": "Malawi",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "MX",
+   "name_en": "Mexico",
+   "subregion": "013",
+   "subregion_name": "Central America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "013",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "MY",
+   "name_en": "Malaysia",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "MZ",
+   "name_en": "Mozambique",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "NA",
+   "name_en": "Namibia",
+   "subregion": "018",
+   "subregion_name": "Southern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "018",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "NC",
+   "name_en": "New Caledonia",
+   "subregion": "054",
+   "subregion_name": "Melanesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "054",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "NE",
+   "name_en": "Niger",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "NF",
+   "name_en": "Norfolk Island",
+   "subregion": "053",
+   "subregion_name": "Australasia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "053",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "NG",
+   "name_en": "Nigeria",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "NI",
+   "name_en": "Nicaragua",
+   "subregion": "013",
+   "subregion_name": "Central America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "013",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "NL",
+   "name_en": "Netherlands",
+   "subregion": "155",
+   "subregion_name": "Western Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "155",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "NO",
+   "name_en": "Norway",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "NP",
+   "name_en": "Nepal",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "NR",
+   "name_en": "Nauru",
+   "subregion": "057",
+   "subregion_name": "Micronesian Region",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "057",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "NU",
+   "name_en": "Niue",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "NZ",
+   "name_en": "New Zealand",
+   "subregion": "053",
+   "subregion_name": "Australasia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "053",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "OM",
+   "name_en": "Oman",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "PA",
+   "name_en": "Panama",
+   "subregion": "013",
+   "subregion_name": "Central America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "013",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "PE",
+   "name_en": "Peru",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "PF",
+   "name_en": "French Polynesia",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "PG",
+   "name_en": "Papua New Guinea",
+   "subregion": "054",
+   "subregion_name": "Melanesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "054",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "PH",
+   "name_en": "Philippines",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "PK",
+   "name_en": "Pakistan",
+   "subregion": "034",
+   "subregion_name": "Southern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "034",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "PL",
+   "name_en": "Poland",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "PM",
+   "name_en": "St. Pierre & Miquelon",
+   "subregion": "021",
+   "subregion_name": "Northern America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "021",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "PN",
+   "name_en": "Pitcairn Islands",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "PR",
+   "name_en": "Puerto Rico",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "PS",
+   "name_en": "Palestinian Territories",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "PT",
+   "name_en": "Portugal",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "PW",
+   "name_en": "Palau",
+   "subregion": "057",
+   "subregion_name": "Micronesian Region",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "057",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "PY",
+   "name_en": "Paraguay",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "QA",
+   "name_en": "Qatar",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "RE",
+   "name_en": "Réunion",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "RO",
+   "name_en": "Romania",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "RS",
+   "name_en": "Serbia",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "RU",
+   "name_en": "Russia",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "RW",
+   "name_en": "Rwanda",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "SA",
+   "name_en": "Saudi Arabia",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "SB",
+   "name_en": "Solomon Islands",
+   "subregion": "054",
+   "subregion_name": "Melanesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "054",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "SC",
+   "name_en": "Seychelles",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "SD",
+   "name_en": "Sudan",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "SE",
+   "name_en": "Sweden",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "SG",
+   "name_en": "Singapore",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "SH",
+   "name_en": "St. Helena",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "SI",
+   "name_en": "Slovenia",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "SJ",
+   "name_en": "Svalbard & Jan Mayen",
+   "subregion": "154",
+   "subregion_name": "Northern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "154",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "SK",
+   "name_en": "Slovakia",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "SL",
+   "name_en": "Sierra Leone",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "SM",
+   "name_en": "San Marino",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "SN",
+   "name_en": "Senegal",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "SO",
+   "name_en": "Somalia",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "SR",
+   "name_en": "Suriname",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "SS",
+   "name_en": "South Sudan",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "São Tomé & Príncipe",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "SV",
+   "name_en": "El Salvador",
+   "subregion": "013",
+   "subregion_name": "Central America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "013",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "SX",
+   "name_en": "Sint Maarten",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "SY",
+   "name_en": "Syria",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "SZ",
+   "name_en": "Eswatini",
+   "subregion": "018",
+   "subregion_name": "Southern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "018",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "TA",
+   "name_en": "Tristan da Cunha",
+   "subregion": "QO",
+   "subregion_name": "Outlying Oceania",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "QO",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "TC",
+   "name_en": "Turks & Caicos Islands",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "TD",
+   "name_en": "Chad",
+   "subregion": "017",
+   "subregion_name": "Middle Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "017",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "TF",
+   "name_en": "French Southern Territories",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "TG",
+   "name_en": "Togo",
+   "subregion": "011",
+   "subregion_name": "Western Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "011",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "TH",
+   "name_en": "Thailand",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "TJ",
+   "name_en": "Tajikistan",
+   "subregion": "143",
+   "subregion_name": "Central Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "143",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "TK",
+   "name_en": "Tokelau",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "TL",
+   "name_en": "Timor-Leste",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "TM",
+   "name_en": "Turkmenistan",
+   "subregion": "143",
+   "subregion_name": "Central Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "143",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "TN",
+   "name_en": "Tunisia",
+   "subregion": "015",
+   "subregion_name": "Northern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "015",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "TO",
+   "name_en": "Tonga",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "TR",
+   "name_en": "Türkiye",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "TT",
+   "name_en": "Trinidad & Tobago",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "TV",
+   "name_en": "Tuvalu",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "TW",
+   "name_en": "Taiwan",
+   "subregion": "030",
+   "subregion_name": "Eastern Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "030",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "TZ",
+   "name_en": "Tanzania",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "UA",
+   "name_en": "Ukraine",
+   "subregion": "151",
+   "subregion_name": "Eastern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "151",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "UG",
+   "name_en": "Uganda",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "UM",
+   "name_en": "U.S. Outlying Islands",
+   "subregion": "057",
+   "subregion_name": "Micronesian Region",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "057",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "US",
+   "name_en": "United States",
+   "subregion": "021",
+   "subregion_name": "Northern America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "021",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "UY",
+   "name_en": "Uruguay",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "UZ",
+   "name_en": "Uzbekistan",
+   "subregion": "143",
+   "subregion_name": "Central Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "143",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "VA",
+   "name_en": "Vatican City",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "VC",
+   "name_en": "St. Vincent & Grenadines",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "VE",
+   "name_en": "Venezuela",
+   "subregion": "005",
+   "subregion_name": "South America",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "005",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "VG",
+   "name_en": "British Virgin Islands",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "VI",
+   "name_en": "U.S. Virgin Islands",
+   "subregion": "029",
+   "subregion_name": "Caribbean",
+   "continent": "019",
+   "continent_name": "Americas",
+   "containment_path": [
+    "029",
+    "019",
+    "001"
+   ]
+  },
+  {
+   "id": "VN",
+   "name_en": "Vietnam",
+   "subregion": "035",
+   "subregion_name": "Southeast Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "035",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "VU",
+   "name_en": "Vanuatu",
+   "subregion": "054",
+   "subregion_name": "Melanesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "054",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "WF",
+   "name_en": "Wallis & Futuna",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "WS",
+   "name_en": "Samoa",
+   "subregion": "061",
+   "subregion_name": "Polynesia",
+   "continent": "009",
+   "continent_name": "Oceania",
+   "containment_path": [
+    "061",
+    "009",
+    "001"
+   ]
+  },
+  {
+   "id": "XK",
+   "name_en": "Kosovo",
+   "subregion": "039",
+   "subregion_name": "Southern Europe",
+   "continent": "150",
+   "continent_name": "Europe",
+   "containment_path": [
+    "039",
+    "150",
+    "001"
+   ]
+  },
+  {
+   "id": "YE",
+   "name_en": "Yemen",
+   "subregion": "145",
+   "subregion_name": "Western Asia",
+   "continent": "142",
+   "continent_name": "Asia",
+   "containment_path": [
+    "145",
+    "142",
+    "001"
+   ]
+  },
+  {
+   "id": "YT",
+   "name_en": "Mayotte",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "ZA",
+   "name_en": "South Africa",
+   "subregion": "018",
+   "subregion_name": "Southern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "018",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "ZM",
+   "name_en": "Zambia",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  },
+  {
+   "id": "ZW",
+   "name_en": "Zimbabwe",
+   "subregion": "014",
+   "subregion_name": "Eastern Africa",
+   "continent": "002",
+   "continent_name": "Africa",
+   "containment_path": [
+    "014",
+    "002",
+    "001"
+   ]
+  }
+ ]
+}

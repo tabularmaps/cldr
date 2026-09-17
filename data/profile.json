@@ -1,0 +1,30 @@
+{
+  "profile": "cldr-48.2-regular-2alpha",
+  "description": "Current two-letter geographic territory identifiers with idStatus=regular in Unicode CLDR 48.2.",
+  "cldr": {
+    "version": "48.2",
+    "release_tag": "release-48-2",
+    "release_commit": "11299982335beb974c1c63c45265184e759c0f41",
+    "release_date": "2026-03-16",
+    "archive_url": "https://unicode.org/Public/cldr/48.2/cldr-common-48.2.zip",
+    "archive_sha512": "de8660f5371e0fcfd03a42e3b4fc4c686ec6cd602b402f1e3d227844005a54eb7952873894443523837d5828c42874a1a267a19f91ded207a2d166144791fa62",
+    "archive_hash_listing": "https://unicode.org/Public/cldr/48.2/hashes/SHASUM512.txt",
+    "git_tag_url": "https://github.com/unicode-org/cldr/tree/release-48-2",
+    "source_path": "common/validity/region.xml",
+    "source_sha256": "e751e0eedd46b52c38f3cdb72b0fab61ac8b48e052e8b28ba74b6ac26c4c8cb1",
+    "license": "Unicode-3.0",
+    "license_path": "data/cldr/48.2/LICENSE"
+  },
+  "extraction": {
+    "date": "2026-09-17",
+    "rule": "Select <id type='region' idStatus='regular'> from common/validity/region.xml, expand CLDR compact ranges (A~C means A, B, C on the final character), keep identifiers matching ^[A-Z]{2}$, sort, deduplicate.",
+    "excluded_statuses": ["special", "macroregion", "deprecated", "reserved", "private_use", "unknown"],
+    "expected_count": 257
+  },
+  "board": {
+    "width": null,
+    "height": null,
+    "cell_shape": "square",
+    "note": "Filled in by the selected layout; see layouts/ and metadata.json."
+  }
+}
