@@ -77,6 +77,40 @@ an omitted mother-set member are four distinguishable errors
 - The arrangement is the best layout found under the documented objective,
   weights, inputs, seeds and search budget. It is **not necessarily a global optimum** and it is expected to be criticized and improved.
 
+## Dashboard (Open MCT)
+
+`docs/` is a small [Open MCT](https://github.com/nasa/openmct) dashboard,
+the same construction as the sibling project `tabularmaps/do`: a
+dependency-free SVG rendering core (`docs/tabularmap.js`), an Open MCT
+plugin that only uses the object, composition and view providers
+(`docs/openmct-plugin.js`), and demo indicators (`docs/demo-sources.js`).
+
+- Published: <https://tabularmaps.github.io/cldr/> (rendering core alone:
+  <https://tabularmaps.github.io/cldr/preview.html>)
+- Locally: `python3 -m http.server 8765 --directory docs`, then open
+  <http://localhost:8765/>. Expand "CLDR tabular map" in the tree and pick an
+  indicator; its values colour the cells.
+
+To connect your own data, define an indicator as in `docs/demo-sources.js`
+and pass it to the plugin:
+
+```js
+openmct.install(TabularMapsCldrPlugin({
+  dataUrl: './data/',
+  sources: [{
+    key: 'my-indicator', name: 'My indicator', refreshMs: 60000,
+    fetchValues: async () => ({ label: 'Value', unit: '%', min: 0, max: 100, values: { JP: 12.3, FR: 45.6 } })
+  }]
+}));
+```
+
+Values are keyed by identifier; cells without a value show the "no data"
+colour, and subregion colours are only the default when no indicator is
+selected. The "UN members only" button mutes the identifiers outside the
+`UN` grouping of CLDR's `territoryContainment` (193 members) without moving
+any cell; it is off by default and restates CLDR data, not a view of this
+project (DECISIONS.md D15).
+
 ## Why not 256
 
 `8bit` fitted 250 identifiers into 256 cells. CLDR 48.2 has 257 regular
@@ -161,7 +195,7 @@ scripts/                     CLIs (extract, build inputs, score, optimize, compa
 tests/                       pytest suite
 reports/                     grid comparison and sensitivity reports
 design/                      optional human constraints (territory maps, pins)
-docs/                        static preview (board.svg, index.html)
+docs/                        GitHub Pages: Open MCT dashboard, preview.html, board.svg, data/ copies
 OPTIMIZATION.md              objective, weights, search, comparison, review
 SOURCES.md, NOTICE.md        inputs and attributions
 DECISIONS.md                 append-only decision log

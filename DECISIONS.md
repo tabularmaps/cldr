@@ -240,3 +240,19 @@ set is CLDR's, not this project's: showing PS, VA, TW, XK, HK, MO, EH, or
 any territory as "outside the UN grouping" restates CLDR data and expresses
 no view on status. The view is not linked from the README and is not
 published in `docs/`.
+
+## D15 — An Open MCT dashboard in `docs/`, with the UN-scope toggle exposed (2026-09-17)
+
+**Supersedes the last sentence of D14.** `docs/` now holds an Open MCT
+dashboard built exactly like `tabularmaps/do`'s (rendering core +
+three-provider plugin + demo indicators; Open MCT 4.3.1 from unpkg, both
+assets verified to exist; `SharedWorker` disabled for the CDN case per
+dwg7/cafebabe `patterns/open-mct-operations.md`). Because a dashboard is
+where a UN-scoped indicator would actually be shown, the "UN members only"
+scope toggle from D14 is exposed there as a button, off by default. The
+boundary from D14 stands: no cell moves, the set is CLDR's `UN` grouping
+verbatim, and the default view, `board.csv`, `metadata.json` and the layout
+are unaffected. `scripts/promote_layout.py` copies the layout, the region
+manifest and the representative points into `docs/data/` so the dashboard
+can never drift from the committed board (`scripts/validate_board.py`
+checks the copy).

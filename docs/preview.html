@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLDR Tabular Map — preview</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      body { margin: 0; background: #f9f9f7; font-family: system-ui, sans-serif; color: #0b0b0b; }
+      @media (prefers-color-scheme: dark) { body { background: #0d0d0d; color: #fff; } }
+      .wrap { max-width: 1200px; margin: 0 auto; padding: 16px; }
+      .panel { height: 72vh; min-height: 480px; border: 1px solid #e1e0d9; border-radius: 6px; overflow: hidden; }
+      .picker { margin: 0 0 10px; font-size: 13px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+      select { font: inherit; }
+      p.note { font-size: 12px; color: #52514e; line-height: 1.5; }
+      a { color: inherit; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="picker">
+        <label>Indicator:
+          <select id="source"><option value="">(none: subregion colours)</option></select>
+        </label>
+        <span id="status"></span>
+      </div>
+      <div class="panel" id="panel"></div>
+      <p class="note">Rendering core without Open MCT. The dashboard is <a href="./index.html">index.html</a>; the static picture is <a href="./board.svg">board.svg</a>; the data contract and non-claims are in the <a href="https://github.com/tabularmaps/cldr">repository README</a>.
+      One identifier, one equal cell: cell size represents nothing but the identifier, inclusion expresses no recognition, the layout settles no territorial question, proximity is approximate, blank cells are intentional, and the arrangement is the best found under a documented objective, not a global optimum.</p>
+    </div>
+    <script src="./tabularmap.js"></script>
+    <script src="./demo-sources.js"></script>
+    <script>
+      (async function () {
+        const [layout, regions] = await Promise.all([
+          fetch('./data/layout.json').then((r) => r.json()),
+          fetch('./data/regions.json').then((r) => r.json())
+        ]);
+        const map = TabularMap.create(document.getElementById('panel'), {
+          layout, regions, mode: 'region',
+          onSelect: (id, cell) => { document.getElementById('status').textContent = `selected: ${cell.name} (${id})`; }
+        });
+        const sel = document.getElementById('source');
+        for (const s of TABULARMAPS_CLDR_DEMO_SOURCES) {
+          const o = document.createElement('option'); o.value = s.key; o.textContent = s.name; sel.appendChild(o);
+        }
+        let timer = null;
+        sel.addEventListener('change', async () => {
+          if (timer) clearInterval(timer);
+          const s = TABULARMAPS_CLDR_DEMO_SOURCES.find((x) => x.key === sel.value);
+          if (!s) { map.setSeries(null); map.setMode('region'); return; }
+          const tick = async () => map.setSeries(await s.fetchValues());
+          await tick();
+          if (s.refreshMs) timer = setInterval(tick, s.refreshMs);
+        });
+        window.__tm = map;
+      })();
+    </script>
+  </body>
+</html>
