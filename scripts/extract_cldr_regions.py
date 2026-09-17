@@ -82,6 +82,7 @@ def main() -> int:
     ap.add_argument("--cldr-dir", type=Path, help="unpacked cldr-common-<ver> directory")
     ap.add_argument("--check", action="store_true", help="verify the committed manifest only")
     ap.add_argument("--out", type=Path, default=DATA / "regions.json")
+    ap.add_argument("--accept-source-change", action="store_true", help="allow en.xml / supplementalData.xml checksums to differ from those recorded in the committed manifest")
     args = ap.parse_args()
 
     profile = Profile.load()
@@ -106,6 +107,12 @@ def main() -> int:
     if sha256(src_region) != profile.source_sha256:
         print(f"NG {src_region} does not match the profile checksum", file=sys.stderr)
         return 1
+    if args.out.exists() and not args.accept_source_change:
+        old = json.loads(args.out.read_text("utf-8")).get("sources", {})
+        for key, path in (("en.xml", en_xml), ("supplementalData.xml", supp_xml)):
+            if key in old and old[key]["sha256"] != sha256(path):
+                print(f"NG {path} sha256 differs from the one recorded in {args.out}; pass --accept-source-change if this is an intended CLDR update", file=sys.stderr)
+                return 1
     names = read_names(en_xml)
     parent, contains = read_containment(supp_xml)
     groupings = read_groupings(supp_xml)

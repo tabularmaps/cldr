@@ -8,7 +8,7 @@ the re-optimized board moves from the selected one. Writes
 ``reports/sensitivity.json`` and ``reports/sensitivity.md``.
 
 Usage:
-  uv run scripts/sensitivity.py layouts/cldr-48.2-regular-2alpha-19x14.json --iterations 1500000
+  uv run scripts/sensitivity.py layouts/cldr-48.2-regular-2alpha-20x14.json --iterations 1500000
 """
 
 from __future__ import annotations

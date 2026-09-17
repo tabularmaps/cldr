@@ -2543,6 +2543,6 @@
     }
    }
   },
-  "note": "Final search for the selected grid: 8 seeds x 5,000,000 iterations, one process per seed (scripts/optimize_layout.py --grid 20x14 --seeds N --iterations 5000000); best seed kept."
+  "note": "Chains for the seeds listed in seeds_tried were run as separate optimize_layout.py processes with identical settings; their run records were collected by scripts/promote_layout.py --runs and the best chain was promoted."
  }
 }

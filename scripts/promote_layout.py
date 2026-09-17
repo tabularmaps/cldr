@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """Promote a layout to the repository's selected board.
 
-Copies the layout to ``layouts/<profile>-<W>x<H>.json`` (adding any pins'
-provenance already inside it), and regenerates the derived artifacts:
-``board.csv``, ``metadata.json``, ``docs/board.svg``, ``docs/index.html``.
+Copies the layout to ``layouts/<profile>-<W>x<H>.json``, re-scores it from
+scratch, and regenerates the derived artifacts: ``board.csv``,
+``metadata.json``, ``docs/board.svg``, ``docs/board.csv``, ``docs/index.html``.
+
+``--runs`` collects the ``generator.runs`` records of other layout files
+produced by separate ``optimize_layout.py`` processes (one per seed) into
+the promoted layout's provenance, so that ``seeds_tried`` and ``runs`` list
+every chain that competed, not only the winning one.
 
 Usage:
-  uv run scripts/promote_layout.py layouts/candidates/19x14.json
+  uv run scripts/promote_layout.py runs/s1.json --runs runs/s*.json
 """
 
 from __future__ import annotations
@@ -39,8 +44,8 @@ INDEX_HTML = """<!doctype html>
 <p><strong>One identifier, one equal cell.</strong> CLDR {cldr} regular region identifiers ({count}) on a {w} × {h} grid
 with {blanks} structural blank cells. Cell colour is the CLDR/M49 subregion (informational only).</p>
 <p><a href="board.svg"><img src="board.svg" alt="board"></a></p>
-<p>Data: <a href="../board.csv"><code>board.csv</code></a>, <a href="../metadata.json"><code>metadata.json</code></a>,
-<a href="../layouts/{layout}"><code>layouts/{layout}</code></a>. Documentation and non-claims:
+<p>Data: <a href="board.csv"><code>board.csv</code></a> (copy of the repository root file), <a href="https://github.com/tabularmaps/cldr/blob/main/metadata.json"><code>metadata.json</code></a>,
+<a href="https://github.com/tabularmaps/cldr/blob/main/layouts/{layout}"><code>layouts/{layout}</code></a>. Documentation and non-claims:
 <a href="https://github.com/tabularmaps/cldr">github.com/tabularmaps/cldr</a>.</p>
 <p>Cell size does not represent area, population or importance; inclusion expresses no recognition; the layout settles no
 territorial question; proximity is approximate; the arrangement is the best found under a documented objective, not a global optimum.</p>
@@ -50,11 +55,20 @@ territorial question; proximity is approximate; the arrangement is the best foun
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("layout", type=Path)
+    ap.add_argument("--runs", type=Path, nargs="*", default=[], help="other layout files whose generator.runs are merged into the provenance")
     args = ap.parse_args()
     profile = Profile.load()
     ids = extract(profile)
     lay = Layout.load(args.layout)
     lay.profile, lay.cldr_version = profile.name, profile.cldr_version
+    if args.runs:
+        runs = {}
+        for p in [args.layout, *args.runs]:
+            for r in json.loads(p.read_text("utf-8")).get("generator", {}).get("runs", []):
+                runs[r["seed"]] = r
+        lay.generator["runs"] = [runs[s] for s in sorted(runs)]
+        lay.generator["seeds_tried"] = sorted(runs)
+        lay.generator["note"] = "Chains for the seeds listed in seeds_tried were run as separate optimize_layout.py processes with identical settings; their run records were collected by scripts/promote_layout.py --runs and the best chain was promoted."
     errors = lay.validate(ids, profile)
     if errors:
         raise SystemExit("NG " + "; ".join(errors))

@@ -18,13 +18,14 @@
   "extraction": {
     "date": "2026-09-17",
     "rule": "Select <id type='region' idStatus='regular'> from common/validity/region.xml, expand CLDR compact ranges (A~C means A, B, C on the final character), keep identifiers matching ^[A-Z]{2}$, sort, deduplicate.",
-    "excluded_statuses": ["special", "macroregion", "deprecated", "reserved", "private_use", "unknown"],
+    "excluded_statuses": [
+      "special",
+      "macroregion",
+      "deprecated",
+      "reserved",
+      "private_use",
+      "unknown"
+    ],
     "expected_count": 257
-  },
-  "board": {
-    "width": null,
-    "height": null,
-    "cell_shape": "square",
-    "note": "Filled in by the selected layout; see layouts/ and metadata.json."
   }
 }

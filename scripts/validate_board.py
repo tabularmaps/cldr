@@ -24,7 +24,7 @@ from cldrmap import DATA, LAYOUTS, ROOT  # noqa: E402
 from cldrmap.board import Layout  # noqa: E402
 from cldrmap.geo import load_geo  # noqa: E402
 from cldrmap.mother_set import Profile, SourceMismatch, extract  # noqa: E402
-from cldrmap.scoring import Grid, build_problem, score  # noqa: E402
+from cldrmap.scoring import DEFAULT_WEIGHTS, PARAMS, Grid, build_problem, score  # noqa: E402
 
 TOLERANCE = 1e-6
 
@@ -63,12 +63,17 @@ def main() -> int:
         csv_layout = Layout.from_board_csv(args.board_csv)
         if csv_layout.rows() != layout.rows():
             problems.append(f"{args.board_csv} differs from {layout_path}")
+        docs_csv = ROOT / "docs" / "board.csv"
+        if docs_csv.exists() and docs_csv.read_text("utf-8") != args.board_csv.read_text("utf-8"):
+            problems.append("docs/board.csv differs from board.csv")
         if meta:
             for key, want in (("width", layout.width), ("height", layout.height), ("identifier_count", len(layout.cells)), ("structural_space_count", len(layout.blanks)), ("profile", profile.name), ("cldr_version", profile.cldr_version)):
                 if meta.get(key) != want:
                     problems.append(f"metadata.json {key}={meta.get(key)!r} but layout has {want!r}")
         rec = doc.get("generator", {}).get("score")
         if rec:
+            if rec.get("weights") != DEFAULT_WEIGHTS or rec.get("params") != PARAMS:
+                problems.append("recorded weights/params differ from cldrmap.scoring defaults; the committed board must be scored with the default objective")
             geo = load_geo(ids)
             legacy = Layout.from_board_csv(DATA / "legacy" / "8bit-board.csv")
             problem = build_problem(geo, Grid(layout.width, layout.height), weights=rec.get("weights"), params=rec.get("params"), legacy=legacy)

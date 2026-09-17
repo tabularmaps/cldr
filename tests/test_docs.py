@@ -47,7 +47,16 @@ def test_optimization_report_matches_layout(meta):
     assert f"{rec['combined']:.3f}" in text, "OPTIMIZATION.md must quote the selected layout's combined score"
     assert f"seed {lay.generator['seed']}" in text or f"seed = {lay.generator['seed']}" in text
     for k, w in rec["weights"].items():
-        assert re.search(rf"\b{k}\b.*\b{w:g}\b", text), f"weight of {k} ({w}) not documented"
+        assert re.search(rf"^\| `{k}` \|.*\| {w:.1f} \|$", text, re.M), f"weight of {k} ({w}) not in the OPTIMIZATION.md component table"
+
+
+def test_no_placeholders_and_reports_exist():
+    for name in ("README.md", "OPTIMIZATION.md", "SOURCES.md", "NOTICE.md", "DECISIONS.md", "CHANGELOG.md"):
+        text = (ROOT / name).read_text("utf-8")
+        assert not re.search(r"__[A-Z_]+__", text), f"{name} still contains a placeholder"
+        assert "/private/tmp" not in text and "scratchpad" not in text, f"{name} references a scratch path"
+    for name in ("reports/grid-comparison.md", "reports/grid-comparison.json", "reports/sensitivity.md", "reports/sensitivity.json"):
+        assert (ROOT / name).exists(), f"{name} missing"
 
 
 def test_changelog_mentions_release(meta):

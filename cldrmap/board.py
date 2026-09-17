@@ -85,7 +85,7 @@ class Layout:
     def from_board_csv(cls, path: Path, **kw) -> "Layout":
         text = Path(path).read_text("utf-8")
         rows = list(csv.reader(io.StringIO(text)))
-        rows = [r for r in rows if any(c.strip() for c in r)]
+        rows = [r for r in rows if len(r) > 0]  # keep all-blank rows; drop only empty lines
         header = rows[0]
         if all(c.strip().isdigit() for c in header):
             rows = rows[1:]
@@ -156,7 +156,8 @@ class Layout:
         if missing:
             errors.append(f"omitted mother-set members: {missing}")
         total = self.width * self.height
-        covered = len(occupied) + len(self.blanks - set(occupied))
+        in_grid = {c for c in occupied if 0 <= c[0] < self.width and 0 <= c[1] < self.height}
+        covered = len(in_grid) + len({c for c in self.blanks if 0 <= c[0] < self.width and 0 <= c[1] < self.height} - in_grid)
         if covered != total:
             unaccounted = sorted({(x, y) for y in range(self.height) for x in range(self.width)} - set(occupied) - self.blanks)
             errors.append(f"{total - covered} cell(s) neither placed nor declared blank (missing values): {unaccounted[:10]}")

@@ -7,7 +7,7 @@ full report. Boards that omit mother-set members are scored on the subset
 they contain and flagged as partial (used for the predecessor 8bit board).
 
 Usage:
-  uv run scripts/score_layout.py layouts/cldr-48.2-19x14.json
+  uv run scripts/score_layout.py layouts/cldr-48.2-regular-2alpha-20x14.json
   uv run scripts/score_layout.py data/legacy/8bit-board.csv --partial
   uv run scripts/score_layout.py board.csv --weights '{"adjacency": 3}'
 """

@@ -53,6 +53,7 @@ class Annealer:
         self.nblank = self.C - self.n
         self.rng = np.random.default_rng(self.seed)
         self.targets = p.geo.knn(p.params["knn"])
+        self.allowed_sets = {i: set(map(int, v)) for i, v in self.allowed.items()} if self.allowed is not None else {}
         self.energy = self.full_energy()
 
     # ---- energies --------------------------------------------------
@@ -177,8 +178,6 @@ class Annealer:
         return i, c2
 
     def run(self, iterations: int, t0: float | None = None, t1: float = 1e-4, local_radius: int = 2, p_local: float = 0.7, p_targeted: float = 0.2, log_every: int = 0) -> dict:
-        if self.allowed is not None:
-            self.allowed_sets = {i: set(map(int, v)) for i, v in self.allowed.items()}
         if t0 is None:
             samples = []
             while len(samples) < 200:

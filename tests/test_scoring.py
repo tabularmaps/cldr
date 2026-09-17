@@ -87,3 +87,29 @@ def test_whitespace_term():
     lay = Layout(5, 5, cells, {(1, 1)})
     v, d = whitespace_penalty(lay)
     assert v == 1.0 and d["enclosed_holes"] == 1
+
+
+def test_pins_and_territories_are_respected(geo, problem, tmp_path):
+    import sys
+    sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent.parent / "scripts"))
+    from optimize_layout import load_territories, repair_start
+
+    g = Grid(19, 14)
+    terr = tmp_path / "t.txt"
+    rows = ["N" * 19] * 7 + ["X" * 19] * 7  # X: cells for unconstrained identifiers only
+    terr.write_text("# N=021,013,029,005\n" + "\n".join(rows) + "\n")
+    allowed, fixed = load_territories(terr, g, geo)
+    assert fixed == set()
+    americas = [i for i, s in enumerate(geo.subregion) if s in ("021", "013", "029", "005")]
+    assert set(allowed) == set(americas)
+    start = repair_start(rank_projection(geo, g), geo, g, allowed, fixed)
+    ann = Annealer(problem, g, start, allowed=allowed, seed=3)
+    ann.run(2000, t0=0.02)
+    lay = ann.to_layout()
+    for i in americas:
+        assert lay.cells[geo.ids[i]][1] < 7
+    pin = {geo.index["JP"]: [g.index(18, 3)]}
+    start = repair_start(rank_projection(geo, g), geo, g, pin, set())
+    ann = Annealer(problem, g, start, allowed=pin, seed=3)
+    ann.run(2000, t0=0.02)
+    assert ann.to_layout().cells["JP"] == (18, 3)

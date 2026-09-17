@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Render a layout to SVG (and the docs/ static preview for the selected board).
+"""Render a layout to SVG (defaults to the selected board -> docs/board.svg).
 
 Usage:
   uv run scripts/render_preview.py layouts/candidates/19x14.json --out reports/19x14.svg
-  uv run scripts/render_preview.py            # committed board -> docs/board.svg + docs/index.html
+  uv run scripts/render_preview.py            # committed board -> docs/board.svg
 """
 
 from __future__ import annotations
