@@ -1,0 +1,258 @@
+id,lat,lon,source,source_id,label,snapshot
+AC,-7.941667,-14.3625,wikidata,Q31890709,Ascension,wikidata_p297_p625_2026-09-17.csv
+AD,42.558333,1.555278,wikidata,Q228,Andorra,wikidata_p297_p625_2026-09-17.csv
+AE,24.4,54.3,wikidata,Q878,United Arab Emirates,wikidata_p297_p625_2026-09-17.csv
+AF,33.0,66.0,wikidata,Q889,Afghanistan,wikidata_p297_p625_2026-09-17.csv
+AG,17.116667,-61.85,wikidata,Q781,Antigua and Barbuda,wikidata_p297_p625_2026-09-17.csv
+AI,18.227222,-63.048889,wikidata,Q25228,Anguilla,wikidata_p297_p625_2026-09-17.csv
+AL,41.0,20.0,wikidata,Q222,Albania,wikidata_p297_p625_2026-09-17.csv
+AM,40.383333,44.95,wikidata,Q399,Armenia,wikidata_p297_p625_2026-09-17.csv
+AO,-12.35,17.35,wikidata,Q916,Angola,wikidata_p297_p625_2026-09-17.csv
+AQ,-90.0,0.0,wikidata,Q51,Antarctica,wikidata_p297_p625_2026-09-17.csv
+AR,-34.0,-64.0,wikidata,Q414,Argentina,wikidata_p297_p625_2026-09-17.csv
+AS,-14.295833,-170.7075,wikidata,Q16641,American Samoa,wikidata_p297_p625_2026-09-17.csv
+AT,48.0,14.0,wikidata,Q40,Austria,wikidata_p297_p625_2026-09-17.csv
+AU,-25.0,133.0,wikidata,Q408,Australia,wikidata_p297_p625_2026-09-17.csv
+AW,12.515,-69.975,wikidata,Q21203,Aruba,wikidata_p297_p625_2026-09-17.csv
+AX,60.25,20.0,wikidata,Q5689,Åland,wikidata_p297_p625_2026-09-17.csv
+AZ,40.3,47.7,wikidata,Q227,Azerbaijan,wikidata_p297_p625_2026-09-17.csv
+BA,44.0,18.0,wikidata,Q225,Bosnia and Herzegovina,wikidata_p297_p625_2026-09-17.csv
+BB,13.17,-59.5525,wikidata,Q244,Barbados,wikidata_p297_p625_2026-09-17.csv
+BD,24.016667,89.866667,wikidata,Q902,Bangladesh,wikidata_p297_p625_2026-09-17.csv
+BE,50.641111,4.668056,wikidata,Q31,Belgium,wikidata_p297_p625_2026-09-17.csv
+BF,12.266667,-2.066667,wikidata,Q965,Burkina Faso,wikidata_p297_p625_2026-09-17.csv
+BG,42.75,25.5,wikidata,Q219,Bulgaria,wikidata_p297_p625_2026-09-17.csv
+BH,26.0675,50.551111,wikidata,Q398,Bahrain,wikidata_p297_p625_2026-09-17.csv
+BI,-3.666667,29.816667,wikidata,Q967,Burundi,wikidata_p297_p625_2026-09-17.csv
+BJ,8.833333,2.183333,wikidata,Q962,Benin,wikidata_p297_p625_2026-09-17.csv
+BL,17.897728,-62.834244,wikidata,Q25362,Saint Barthélemy,wikidata_p297_p625_2026-09-17.csv
+BM,32.32,-64.74,wikidata,Q23635,Bermuda,wikidata_p297_p625_2026-09-17.csv
+BN,4.4,114.566667,wikidata,Q921,Brunei,wikidata_p297_p625_2026-09-17.csv
+BO,-17.05687,-64.991229,wikidata,Q750,Bolivia,wikidata_p297_p625_2026-09-17.csv
+BQ,12.183333,-68.233333,wikidata,Q27561,Caribbean Netherlands,wikidata_p297_p625_2026-09-17.csv
+BR,-14.0,-53.0,wikidata,Q155,Brazil,wikidata_p297_p625_2026-09-17.csv
+BS,25.0,-77.4,wikidata,Q778,The Bahamas,wikidata_p297_p625_2026-09-17.csv
+BT,27.45,90.5,wikidata,Q917,Bhutan,wikidata_p297_p625_2026-09-17.csv
+BV,-54.42,3.36,wikidata,Q23408,Bouvet Island,wikidata_p297_p625_2026-09-17.csv
+BW,-22.2,23.7,wikidata,Q963,Botswana,wikidata_p297_p625_2026-09-17.csv
+BY,53.528333,28.046667,wikidata,Q184,Belarus,wikidata_p297_p625_2026-09-17.csv
+BZ,17.066667,-88.7,wikidata,Q242,Belize,wikidata_p297_p625_2026-09-17.csv
+CA,56.0,-109.0,wikidata,Q16,Canada,wikidata_p297_p625_2026-09-17.csv
+CC,-12.1175,96.895,wikidata,Q36004,Cocos (Keeling) Islands,wikidata_p297_p625_2026-09-17.csv
+CD,-2.88,23.656111,wikidata,Q974,Democratic Republic of the Congo,wikidata_p297_p625_2026-09-17.csv
+CF,6.7,20.9,wikidata,Q929,Central African Republic,wikidata_p297_p625_2026-09-17.csv
+CG,-0.75,15.383331,wikidata,Q971,Republic of the Congo,wikidata_p297_p625_2026-09-17.csv
+CH,46.798562,8.231973,wikidata,Q39,Switzerland,wikidata_p297_p625_2026-09-17.csv
+CI,8.0,-6.0,wikidata,Q1008,Ivory Coast,wikidata_p297_p625_2026-09-17.csv
+CK,-21.233333,-159.783333,wikidata,Q26988,Cook Islands,wikidata_p297_p625_2026-09-17.csv
+CL,-33.0,-71.0,wikidata,Q298,Chile,wikidata_p297_p625_2026-09-17.csv
+CM,5.133333,12.65,wikidata,Q1009,Cameroon,wikidata_p297_p625_2026-09-17.csv
+CN,35.844722,103.451944,wikidata,Q148,People's Republic of China,wikidata_p297_p625_2026-09-17.csv
+CO,4.0,-73.25,wikidata,Q739,Colombia,wikidata_p297_p625_2026-09-17.csv
+CP,10.293889,-109.217222,wikidata,Q161258,Clipperton Island,wikidata_p297_p625_2026-09-17.csv
+CQ,49.433056,-2.360833,wikidata,Q3405693,Sark,wikidata_p297_p625_2026-09-17.csv
+CR,10.0,-84.0,wikidata,Q800,Costa Rica,wikidata_p297_p625_2026-09-17.csv
+CU,22.0,-79.5,wikidata,Q241,Cuba,wikidata_p297_p625_2026-09-17.csv
+CV,15.3,-23.7,wikidata,Q1011,Cape Verde,wikidata_p297_p625_2026-09-17.csv
+CW,12.2,-69.0,wikidata,Q25279,Curaçao,wikidata_p297_p625_2026-09-17.csv
+CX,-10.49,105.6275,wikidata,Q31063,Christmas Island,wikidata_p297_p625_2026-09-17.csv
+CY,35.0,33.0,wikidata,Q229,Cyprus,wikidata_p297_p625_2026-09-17.csv
+CZ,50.0,15.0,wikidata,Q213,Czech Republic,wikidata_p297_p625_2026-09-17.csv
+DE,51.0,10.0,wikidata,Q183,Germany,wikidata_p297_p625_2026-09-17.csv
+DG,-7.313333,72.411111,wikidata,Q184851,Diego Garcia,wikidata_p297_p625_2026-09-17.csv
+DJ,11.8,42.433333,wikidata,Q977,Djibouti,wikidata_p297_p625_2026-09-17.csv
+DK,56.0,10.0,wikidata,Q35,Denmark,wikidata_p297_p625_2026-09-17.csv
+DM,15.416667,-61.333333,wikidata,Q784,Dominica,wikidata_p297_p625_2026-09-17.csv
+DO,18.8,-70.2,wikidata,Q786,Dominican Republic,wikidata_p297_p625_2026-09-17.csv
+DZ,28.0,1.0,wikidata,Q262,Algeria,wikidata_p297_p625_2026-09-17.csv
+EA,35.886667,-5.3,wikidata,Q5823,,points_supplement.csv
+EC,-1.0,-78.0,wikidata,Q736,Ecuador,wikidata_p297_p625_2026-09-17.csv
+EE,59.0,26.0,wikidata,Q191,Estonia,wikidata_p297_p625_2026-09-17.csv
+EG,27.0,29.0,wikidata,Q79,Egypt,wikidata_p297_p625_2026-09-17.csv
+EH,25.0,-13.0,wikidata,Q6250,Western Sahara,wikidata_p297_p625_2026-09-17.csv
+ER,15.483333,38.25,wikidata,Q986,Eritrea,wikidata_p297_p625_2026-09-17.csv
+ES,40.2,-3.5,wikidata,Q29,Spain,wikidata_p297_p625_2026-09-17.csv
+ET,9.0,40.0,wikidata,Q115,Ethiopia,wikidata_p297_p625_2026-09-17.csv
+FI,65.0,27.0,wikidata,Q33,Finland,wikidata_p297_p625_2026-09-17.csv
+FJ,-18.0,178.0,wikidata,Q712,Fiji,wikidata_p297_p625_2026-09-17.csv
+FK,-51.73,-59.22,wikidata,Q9648,Falkland Islands,wikidata_p297_p625_2026-09-17.csv
+FM,6.916667,158.183333,wikidata,Q702,Federated States of Micronesia,wikidata_p297_p625_2026-09-17.csv
+FO,61.969944,-6.844481,wikidata,Q4628,Faroe Islands,wikidata_p297_p625_2026-09-17.csv
+FR,47.0,2.0,wikidata,Q142,France,wikidata_p297_p625_2026-09-17.csv
+GA,-0.683331,11.5,wikidata,Q1000,Gabon,wikidata_p297_p625_2026-09-17.csv
+GB,54.6,-2.0,wikidata,Q145,United Kingdom,wikidata_p297_p625_2026-09-17.csv
+GD,12.1,-61.7,wikidata,Q769,Grenada,wikidata_p297_p625_2026-09-17.csv
+GE,42.0,44.0,wikidata,Q230,Georgia,wikidata_p297_p625_2026-09-17.csv
+GF,4.0,-53.0,wikidata,Q3769,French Guiana,wikidata_p297_p625_2026-09-17.csv
+GG,49.45,-2.583333,wikidata,Q25230,Guernsey,wikidata_p297_p625_2026-09-17.csv
+GH,7.9465,-1.0232,wikidata,Q117,Ghana,wikidata_p297_p625_2026-09-17.csv
+GI,36.14,-5.35,wikidata,Q1410,Gibraltar,wikidata_p297_p625_2026-09-17.csv
+GL,72.0,-40.0,wikidata,Q223,Greenland,wikidata_p297_p625_2026-09-17.csv
+GM,13.5,-15.5,wikidata,Q1005,The Gambia,wikidata_p297_p625_2026-09-17.csv
+GN,10.0,-11.0,wikidata,Q1006,Guinea,wikidata_p297_p625_2026-09-17.csv
+GP,16.25,-61.5,wikidata,Q17012,Guadeloupe,wikidata_p297_p625_2026-09-17.csv
+GQ,1.5,10.0,wikidata,Q983,Equatorial Guinea,wikidata_p297_p625_2026-09-17.csv
+GR,38.5,23.0,wikidata,Q41,Greece,wikidata_p297_p625_2026-09-17.csv
+GS,-54.25,-36.75,wikidata,Q35086,South Georgia and the South Sandwich Islands,wikidata_p297_p625_2026-09-17.csv
+GT,15.5,-90.25,wikidata,Q774,Guatemala,wikidata_p297_p625_2026-09-17.csv
+GU,13.5,144.8,wikidata,Q16635,Guam,wikidata_p297_p625_2026-09-17.csv
+GW,12.0,-15.0,wikidata,Q1007,Guinea-Bissau,wikidata_p297_p625_2026-09-17.csv
+GY,5.733333,-59.316667,wikidata,Q734,Guyana,wikidata_p297_p625_2026-09-17.csv
+HK,22.278333,114.158611,wikidata,Q8646,Hong Kong,wikidata_p297_p625_2026-09-17.csv
+HM,-53.078333,73.5075,wikidata,Q131198,Heard Island and McDonald Islands,wikidata_p297_p625_2026-09-17.csv
+HN,14.633333,-86.816667,wikidata,Q783,Honduras,wikidata_p297_p625_2026-09-17.csv
+HR,45.25,15.466667,wikidata,Q224,Croatia,wikidata_p297_p625_2026-09-17.csv
+HT,19.0,-72.8,wikidata,Q790,Haiti,wikidata_p297_p625_2026-09-17.csv
+HU,47.0,19.0,wikidata,Q28,Hungary,wikidata_p297_p625_2026-09-17.csv
+IC,28.0,-15.75,wikidata,Q5813,,points_supplement.csv
+ID,-2.0,118.0,wikidata,Q252,Indonesia,wikidata_p297_p625_2026-09-17.csv
+IE,53.0,-8.0,wikidata,Q27,Ireland,wikidata_p297_p625_2026-09-17.csv
+IL,31.0,35.0,wikidata,Q801,Israel,wikidata_p297_p625_2026-09-17.csv
+IM,54.235,-4.525,wikidata,Q9676,Isle of Man,wikidata_p297_p625_2026-09-17.csv
+IN,22.8,83.0,wikidata,Q668,India,wikidata_p297_p625_2026-09-17.csv
+IO,-6.0,71.5,wikidata,Q43448,British Indian Ocean Territory,wikidata_p297_p625_2026-09-17.csv
+IQ,33.0,43.0,wikidata,Q796,Iraq,wikidata_p297_p625_2026-09-17.csv
+IR,32.0,53.0,wikidata,Q794,Iran,wikidata_p297_p625_2026-09-17.csv
+IS,65.0,-19.0,wikidata,Q189,Iceland,wikidata_p297_p625_2026-09-17.csv
+IT,42.5,12.5,wikidata,Q38,Italy,wikidata_p297_p625_2026-09-17.csv
+JE,49.19,-2.11,wikidata,Q785,Jersey,wikidata_p297_p625_2026-09-17.csv
+JM,18.18,-77.4,wikidata,Q766,Jamaica,wikidata_p297_p625_2026-09-17.csv
+JO,31.2,36.5,wikidata,Q810,Jordan,wikidata_p297_p625_2026-09-17.csv
+JP,35.0,136.0,wikidata,Q17,Japan,wikidata_p297_p625_2026-09-17.csv
+KE,0.1,38.0,wikidata,Q114,Kenya,wikidata_p297_p625_2026-09-17.csv
+KG,41.0,75.0,wikidata,Q813,Kyrgyzstan,wikidata_p297_p625_2026-09-17.csv
+KH,12.5,105.0,wikidata,Q424,Cambodia,wikidata_p297_p625_2026-09-17.csv
+KI,1.466667,173.033333,wikidata,Q710,Kiribati,wikidata_p297_p625_2026-09-17.csv
+KM,-12.3,43.7,wikidata,Q970,Comoros,wikidata_p297_p625_2026-09-17.csv
+KN,17.271667,-62.666669,wikidata,Q763,Saint Kitts and Nevis,wikidata_p297_p625_2026-09-17.csv
+KP,40.0,127.0,wikidata,Q423,North Korea,wikidata_p297_p625_2026-09-17.csv
+KR,36.0,128.0,wikidata,Q884,South Korea,wikidata_p297_p625_2026-09-17.csv
+KW,29.166667,47.6,wikidata,Q817,Kuwait,wikidata_p297_p625_2026-09-17.csv
+KY,19.5,-80.5,wikidata,Q5785,Cayman Islands,wikidata_p297_p625_2026-09-17.csv
+KZ,48.0,68.0,wikidata,Q232,Kazakhstan,wikidata_p297_p625_2026-09-17.csv
+LA,18.2,104.1,wikidata,Q819,Laos,wikidata_p297_p625_2026-09-17.csv
+LB,33.833333,35.766667,wikidata,Q822,Lebanon,wikidata_p297_p625_2026-09-17.csv
+LC,13.883333,-60.966667,wikidata,Q760,Saint Lucia,wikidata_p297_p625_2026-09-17.csv
+LI,47.145,9.553889,wikidata,Q347,Liechtenstein,wikidata_p297_p625_2026-09-17.csv
+LK,7.0,81.0,wikidata,Q854,Sri Lanka,wikidata_p297_p625_2026-09-17.csv
+LR,6.533333,-9.75,wikidata,Q1014,Liberia,wikidata_p297_p625_2026-09-17.csv
+LS,-29.55,28.25,wikidata,Q1013,Lesotho,wikidata_p297_p625_2026-09-17.csv
+LT,55.2,24.0,wikidata,Q37,Lithuania,wikidata_p297_p625_2026-09-17.csv
+LU,49.77,6.13,wikidata,Q32,Luxembourg,wikidata_p297_p625_2026-09-17.csv
+LV,57.0,25.0,wikidata,Q211,Latvia,wikidata_p297_p625_2026-09-17.csv
+LY,27.0,17.0,wikidata,Q1016,Libya,wikidata_p297_p625_2026-09-17.csv
+MA,32.0,-6.0,wikidata,Q1028,Morocco,wikidata_p297_p625_2026-09-17.csv
+MC,43.731111,7.42,wikidata,Q235,Monaco,wikidata_p297_p625_2026-09-17.csv
+MD,47.25,28.516667,wikidata,Q217,Moldova,wikidata_p297_p625_2026-09-17.csv
+ME,42.766667,19.216667,wikidata,Q236,Montenegro,wikidata_p297_p625_2026-09-17.csv
+MF,18.075278,-63.06,wikidata,Q126125,Saint-Martin,wikidata_p297_p625_2026-09-17.csv
+MG,-20.0,47.0,wikidata,Q1019,Madagascar,wikidata_p297_p625_2026-09-17.csv
+MH,9.82,169.29,wikidata,Q709,Marshall Islands,wikidata_p297_p625_2026-09-17.csv
+MK,41.65,21.716667,wikidata,Q221,North Macedonia,wikidata_p297_p625_2026-09-17.csv
+ML,17.0,-4.0,wikidata,Q912,Mali,wikidata_p297_p625_2026-09-17.csv
+MM,22.0,96.0,wikidata,Q836,Myanmar,wikidata_p297_p625_2026-09-17.csv
+MN,46.0,105.0,wikidata,Q711,Mongolia,wikidata_p297_p625_2026-09-17.csv
+MO,22.19,113.538056,wikidata,Q14773,Macau,wikidata_p297_p625_2026-09-17.csv
+MP,16.705,145.78,wikidata,Q16644,Northern Mariana Islands,wikidata_p297_p625_2026-09-17.csv
+MQ,14.65,-61.015,wikidata,Q17054,Martinique,wikidata_p297_p625_2026-09-17.csv
+MR,21.0,-11.0,wikidata,Q1025,Mauritania,wikidata_p297_p625_2026-09-17.csv
+MS,16.75,-62.2,wikidata,Q13353,Montserrat,wikidata_p297_p625_2026-09-17.csv
+MT,35.9,14.4,wikidata,Q233,Malta,wikidata_p297_p625_2026-09-17.csv
+MU,-20.2,57.5,wikidata,Q1027,Mauritius,wikidata_p297_p625_2026-09-17.csv
+MV,4.18,73.51,wikidata,Q826,Maldives,wikidata_p297_p625_2026-09-17.csv
+MW,-13.0,34.0,wikidata,Q1020,Malawi,wikidata_p297_p625_2026-09-17.csv
+MX,23.0,-102.0,wikidata,Q96,Mexico,wikidata_p297_p625_2026-09-17.csv
+MY,3.780511,102.314362,wikidata,Q833,Malaysia,wikidata_p297_p625_2026-09-17.csv
+MZ,-19.0,35.0,wikidata,Q1029,Mozambique,wikidata_p297_p625_2026-09-17.csv
+NA,-23.0,17.0,wikidata,Q1030,Namibia,wikidata_p297_p625_2026-09-17.csv
+NC,-21.25,165.3,wikidata,Q33788,New Caledonia,wikidata_p297_p625_2026-09-17.csv
+NE,17.0,10.0,wikidata,Q1032,Niger,wikidata_p297_p625_2026-09-17.csv
+NF,-29.033333,167.949722,wikidata,Q31057,Norfolk Island,wikidata_p297_p625_2026-09-17.csv
+NG,9.0,8.0,wikidata,Q1033,Nigeria,wikidata_p297_p625_2026-09-17.csv
+NI,13.0,-85.0,wikidata,Q811,Nicaragua,wikidata_p297_p625_2026-09-17.csv
+NL,52.316667,5.55,wikidata,Q55,Netherlands,wikidata_p297_p625_2026-09-17.csv
+NO,59.933333,10.683333,wikidata,Q20,Norway,wikidata_p297_p625_2026-09-17.csv
+NP,28.0,84.0,wikidata,Q837,Nepal,wikidata_p297_p625_2026-09-17.csv
+NR,-0.5275,166.935,wikidata,Q697,Nauru,wikidata_p297_p625_2026-09-17.csv
+NU,-19.05,-169.916667,wikidata,Q34020,Niue,wikidata_p297_p625_2026-09-17.csv
+NZ,-41.2,174.0,wikidata,Q664,New Zealand,wikidata_p297_p625_2026-09-17.csv
+OM,21.0,57.0,wikidata,Q842,Oman,wikidata_p297_p625_2026-09-17.csv
+PA,8.616667,-80.366667,wikidata,Q804,Panama,wikidata_p297_p625_2026-09-17.csv
+PE,-9.4,-76.0,wikidata,Q419,Peru,wikidata_p297_p625_2026-09-17.csv
+PF,-17.7,-149.4,wikidata,Q30971,French Polynesia,wikidata_p297_p625_2026-09-17.csv
+PG,-6.3,147.0,wikidata,Q691,Papua New Guinea,wikidata_p297_p625_2026-09-17.csv
+PH,12.0,123.0,wikidata,Q928,Philippines,wikidata_p297_p625_2026-09-17.csv
+PK,30.0,71.0,wikidata,Q843,Pakistan,wikidata_p297_p625_2026-09-17.csv
+PL,52.0,19.0,wikidata,Q36,Poland,wikidata_p297_p625_2026-09-17.csv
+PM,46.85,-56.3,wikidata,Q34617,Saint Pierre and Miquelon,wikidata_p297_p625_2026-09-17.csv
+PN,-25.067781,-130.104578,wikidata,Q35672,Pitcairn Islands,wikidata_p297_p625_2026-09-17.csv
+PR,18.25,-66.5,wikidata,Q1183,Puerto Rico,wikidata_p297_p625_2026-09-17.csv
+PS,32.0,35.25,wikidata,Q219060,Palestine,wikidata_p297_p625_2026-09-17.csv
+PT,38.7,-9.183333,wikidata,Q45,Portugal,wikidata_p297_p625_2026-09-17.csv
+PW,7.466667,134.55,wikidata,Q695,Palau,wikidata_p297_p625_2026-09-17.csv
+PY,-23.5,-58.0,wikidata,Q733,Paraguay,wikidata_p297_p625_2026-09-17.csv
+QA,25.269535,51.212767,wikidata,Q846,Qatar,wikidata_p297_p625_2026-09-17.csv
+RE,-21.114444,55.5325,wikidata,Q17070,Réunion,wikidata_p297_p625_2026-09-17.csv
+RO,46.0,25.0,wikidata,Q218,Romania,wikidata_p297_p625_2026-09-17.csv
+RS,43.95,20.933333,wikidata,Q403,Serbia,wikidata_p297_p625_2026-09-17.csv
+RU,66.416667,94.25,wikidata,Q159,Russia,wikidata_p297_p625_2026-09-17.csv
+RW,-2.0,30.0,wikidata,Q1037,Rwanda,wikidata_p297_p625_2026-09-17.csv
+SA,23.716667,44.116667,wikidata,Q851,Saudi Arabia,wikidata_p297_p625_2026-09-17.csv
+SB,-9.466667,159.816667,wikidata,Q685,Solomon Islands,wikidata_p297_p625_2026-09-17.csv
+SC,-7.1,52.766667,wikidata,Q1042,Seychelles,wikidata_p297_p625_2026-09-17.csv
+SD,15.0,32.0,wikidata,Q1049,Sudan,wikidata_p297_p625_2026-09-17.csv
+SE,61.0,15.0,wikidata,Q34,Sweden,wikidata_p297_p625_2026-09-17.csv
+SG,1.3,103.8,wikidata,Q334,Singapore,wikidata_p297_p625_2026-09-17.csv
+SH,-15.9245,-5.7181,wikidata,Q192184,"Saint Helena, Ascension and Tristan da Cunha",wikidata_p297_p625_2026-09-17.csv
+SI,46.0,15.0,wikidata,Q215,Slovenia,wikidata_p297_p625_2026-09-17.csv
+SJ,78.635166,21.993908,wikidata,Q842829,Svalbard and Jan Mayen,wikidata_p297_p625_2026-09-17.csv
+SK,48.7,19.7,wikidata,Q214,Slovakia,wikidata_p297_p625_2026-09-17.csv
+SL,8.5,-12.1,wikidata,Q1044,Sierra Leone,wikidata_p297_p625_2026-09-17.csv
+SM,43.933333,12.466667,wikidata,Q238,San Marino,wikidata_p297_p625_2026-09-17.csv
+SN,14.366667,-14.283333,wikidata,Q1041,Senegal,wikidata_p297_p625_2026-09-17.csv
+SO,6.0,47.0,wikidata,Q1045,Somalia,wikidata_p297_p625_2026-09-17.csv
+SR,4.0,-56.0,wikidata,Q730,Suriname,wikidata_p297_p625_2026-09-17.csv
+SS,7.0,30.0,wikidata,Q958,South Sudan,wikidata_p297_p625_2026-09-17.csv
+ST,0.316667,6.6,wikidata,Q1039,São Tomé and Príncipe,wikidata_p297_p625_2026-09-17.csv
+SV,13.668889,-88.866111,wikidata,Q792,El Salvador,wikidata_p297_p625_2026-09-17.csv
+SX,18.031944,-63.067778,wikidata,Q26273,Sint Maarten,wikidata_p297_p625_2026-09-17.csv
+SY,35.216667,38.583333,wikidata,Q858,Syria,wikidata_p297_p625_2026-09-17.csv
+SZ,-26.483333,31.433333,wikidata,Q1050,Eswatini,wikidata_p297_p625_2026-09-17.csv
+TA,-37.11284,-12.28343,wikidata,Q34625512,Tristan da Cunha,wikidata_p297_p625_2026-09-17.csv
+TC,21.78,-71.8,wikidata,Q18221,Turks and Caicos Islands,wikidata_p297_p625_2026-09-17.csv
+TD,15.466667,19.4,wikidata,Q657,Chad,wikidata_p297_p625_2026-09-17.csv
+TF,-43.0,67.0,wikidata,Q129003,French Southern and Antarctic Lands,wikidata_p297_p625_2026-09-17.csv
+TG,8.25,1.183333,wikidata,Q945,Togo,wikidata_p297_p625_2026-09-17.csv
+TH,14.0,101.0,wikidata,Q869,Thailand,wikidata_p297_p625_2026-09-17.csv
+TJ,38.583333,71.366667,wikidata,Q863,Tajikistan,wikidata_p297_p625_2026-09-17.csv
+TK,-9.166667,-171.833333,wikidata,Q36823,Tokelau,wikidata_p297_p625_2026-09-17.csv
+TL,-8.966667,125.75,wikidata,Q574,Timor-Leste,wikidata_p297_p625_2026-09-17.csv
+TM,39.0,60.0,wikidata,Q874,Turkmenistan,wikidata_p297_p625_2026-09-17.csv
+TN,34.0,10.0,wikidata,Q948,Tunisia,wikidata_p297_p625_2026-09-17.csv
+TO,-20.587778,-174.810278,wikidata,Q678,Tonga,wikidata_p297_p625_2026-09-17.csv
+TR,39.0,36.0,wikidata,Q43,Turkey,wikidata_p297_p625_2026-09-17.csv
+TT,10.666667,-61.516667,wikidata,Q754,Trinidad and Tobago,wikidata_p297_p625_2026-09-17.csv
+TV,-7.475,178.005556,wikidata,Q672,Tuvalu,wikidata_p297_p625_2026-09-17.csv
+TW,24.0,121.0,wikidata,Q865,Taiwan,wikidata_p297_p625_2026-09-17.csv
+TZ,-6.306944,34.853889,wikidata,Q924,Tanzania,wikidata_p297_p625_2026-09-17.csv
+UA,49.0,32.0,wikidata,Q212,Ukraine,wikidata_p297_p625_2026-09-17.csv
+UG,1.28,32.39,wikidata,Q1036,Uganda,wikidata_p297_p625_2026-09-17.csv
+UM,19.3,166.633333,wikidata,Q16645,United States Minor Outlying Islands,wikidata_p297_p625_2026-09-17.csv
+US,39.828175,-98.5795,wikidata,Q30,United States,wikidata_p297_p625_2026-09-17.csv
+UY,-33.0,-56.0,wikidata,Q77,Uruguay,wikidata_p297_p625_2026-09-17.csv
+UZ,41.0,66.0,wikidata,Q265,Uzbekistan,wikidata_p297_p625_2026-09-17.csv
+VA,41.904,12.453,wikidata,Q237,Vatican City,wikidata_p297_p625_2026-09-17.csv
+VC,13.0139,-61.2296,wikidata,Q757,Saint Vincent and the Grenadines,wikidata_p297_p625_2026-09-17.csv
+VE,8.0,-67.0,wikidata,Q717,Venezuela,wikidata_p297_p625_2026-09-17.csv
+VG,18.445,-64.54,wikidata,Q25305,British Virgin Islands,wikidata_p297_p625_2026-09-17.csv
+VI,18.333333,-64.833333,wikidata,Q11703,United States Virgin Islands,wikidata_p297_p625_2026-09-17.csv
+VN,16.0,108.0,wikidata,Q881,Vietnam,wikidata_p297_p625_2026-09-17.csv
+VU,-16.633331,168.016669,wikidata,Q686,Vanuatu,wikidata_p297_p625_2026-09-17.csv
+WF,-14.30181,-178.10932,wikidata,Q35555,Wallis and Futuna,wikidata_p297_p625_2026-09-17.csv
+WS,-13.745,-172.2175,wikidata,Q683,Samoa,wikidata_p297_p625_2026-09-17.csv
+XK,42.55,20.833333,wikidata,Q1246,Kosovo,wikidata_p297_p625_2026-09-17.csv
+YE,15.5,48.0,wikidata,Q805,Yemen,wikidata_p297_p625_2026-09-17.csv
+YT,-12.843056,45.138333,wikidata,Q17063,Mayotte,wikidata_p297_p625_2026-09-17.csv
+ZA,-29.0,24.0,wikidata,Q258,South Africa,wikidata_p297_p625_2026-09-17.csv
+ZM,-14.0,28.0,wikidata,Q953,Zambia,wikidata_p297_p625_2026-09-17.csv
+ZW,-19.0,30.0,wikidata,Q954,Zimbabwe,wikidata_p297_p625_2026-09-17.csv

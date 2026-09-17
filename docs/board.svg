@@ -1,0 +1,541 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="782" height="582" viewBox="0 0 782 582" font-family="ui-monospace, Menlo, monospace">
+<rect width="782" height="582" fill="#ffffff"/>
+<text x="12" y="26" font-size="14" fill="#333">CLDR Tabular Map — CLDR 48.2, 20x14, 257 identifiers</text>
+<rect x="12" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="40" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="78" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="116" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="154" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="192" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="230" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="268" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="306" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="344" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="382" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="420" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="458" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="496" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="12" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="50" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="88" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="126" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="164" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="202" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="240" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="278" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="316" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="354" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="392" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="430" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="468" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="506" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="544" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="582" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="620" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="658" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="696" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<rect x="734" y="534" width="36" height="36" fill="#f3f3f3" stroke="none"/>
+<g><title>CA Canada</title><rect x="12" y="40" width="36" height="36" fill="#6c8ebf" rx="3"/><text x="30.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">CA</text></g>
+<g><title>PM St. Pierre &amp; Miquelon</title><rect x="50" y="40" width="36" height="36" fill="#6c8ebf" rx="3"/><text x="68.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">PM</text></g>
+<g><title>GL Greenland</title><rect x="88" y="40" width="36" height="36" fill="#6c8ebf" rx="3"/><text x="106.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">GL</text></g>
+<g><title>IS Iceland</title><rect x="164" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="182.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">IS</text></g>
+<g><title>IE Ireland</title><rect x="202" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="220.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">IE</text></g>
+<g><title>GB United Kingdom</title><rect x="240" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="258.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">GB</text></g>
+<g><title>FO Faroe Islands</title><rect x="278" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="296.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">FO</text></g>
+<g><title>SJ Svalbard &amp; Jan Mayen</title><rect x="316" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="334.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">SJ</text></g>
+<g><title>AX Åland Islands</title><rect x="354" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="372.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">AX</text></g>
+<g><title>SE Sweden</title><rect x="392" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="410.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">SE</text></g>
+<g><title>FI Finland</title><rect x="430" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="448.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">FI</text></g>
+<g><title>LV Latvia</title><rect x="468" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="486.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">LV</text></g>
+<g><title>EE Estonia</title><rect x="506" y="40" width="36" height="36" fill="#c76b6b" rx="3"/><text x="524.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">EE</text></g>
+<g><title>TM Turkmenistan</title><rect x="544" y="40" width="36" height="36" fill="#6aa36a" rx="3"/><text x="562.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">TM</text></g>
+<g><title>KZ Kazakhstan</title><rect x="582" y="40" width="36" height="36" fill="#6aa36a" rx="3"/><text x="600.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">KZ</text></g>
+<g><title>KG Kyrgyzstan</title><rect x="620" y="40" width="36" height="36" fill="#6aa36a" rx="3"/><text x="638.0" y="63.0" font-size="14" text-anchor="middle" fill="#111">KG</text></g>
+<g><title>US United States</title><rect x="12" y="78" width="36" height="36" fill="#6c8ebf" rx="3"/><text x="30.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">US</text></g>
+<g><title>BM Bermuda</title><rect x="50" y="78" width="36" height="36" fill="#6c8ebf" rx="3"/><text x="68.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">BM</text></g>
+<g><title>VI U.S. Virgin Islands</title><rect x="88" y="78" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">VI</text></g>
+<g><title>IM Isle of Man</title><rect x="202" y="78" width="36" height="36" fill="#c76b6b" rx="3"/><text x="220.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">IM</text></g>
+<g><title>CQ Sark</title><rect x="240" y="78" width="36" height="36" fill="#c76b6b" rx="3"/><text x="258.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">CQ</text></g>
+<g><title>BE Belgium</title><rect x="278" y="78" width="36" height="36" fill="#d17f7f" rx="3"/><text x="296.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">BE</text></g>
+<g><title>NL Netherlands</title><rect x="316" y="78" width="36" height="36" fill="#d17f7f" rx="3"/><text x="334.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">NL</text></g>
+<g><title>DK Denmark</title><rect x="354" y="78" width="36" height="36" fill="#c76b6b" rx="3"/><text x="372.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">DK</text></g>
+<g><title>NO Norway</title><rect x="392" y="78" width="36" height="36" fill="#c76b6b" rx="3"/><text x="410.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">NO</text></g>
+<g><title>LT Lithuania</title><rect x="430" y="78" width="36" height="36" fill="#c76b6b" rx="3"/><text x="448.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">LT</text></g>
+<g><title>BY Belarus</title><rect x="468" y="78" width="36" height="36" fill="#b85c5c" rx="3"/><text x="486.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">BY</text></g>
+<g><title>RU Russia</title><rect x="506" y="78" width="36" height="36" fill="#b85c5c" rx="3"/><text x="524.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">RU</text></g>
+<g><title>GE Georgia</title><rect x="544" y="78" width="36" height="36" fill="#7fb37f" rx="3"/><text x="562.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">GE</text></g>
+<g><title>UZ Uzbekistan</title><rect x="582" y="78" width="36" height="36" fill="#6aa36a" rx="3"/><text x="600.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">UZ</text></g>
+<g><title>TJ Tajikistan</title><rect x="620" y="78" width="36" height="36" fill="#6aa36a" rx="3"/><text x="638.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">TJ</text></g>
+<g><title>MN Mongolia</title><rect x="658" y="78" width="36" height="36" fill="#5e955e" rx="3"/><text x="676.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">MN</text></g>
+<g><title>KP North Korea</title><rect x="696" y="78" width="36" height="36" fill="#5e955e" rx="3"/><text x="714.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">KP</text></g>
+<g><title>KR South Korea</title><rect x="734" y="78" width="36" height="36" fill="#5e955e" rx="3"/><text x="752.0" y="101.0" font-size="14" text-anchor="middle" fill="#111">KR</text></g>
+<g><title>BS Bahamas</title><rect x="12" y="116" width="36" height="36" fill="#93a9d9" rx="3"/><text x="30.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">BS</text></g>
+<g><title>TC Turks &amp; Caicos Islands</title><rect x="50" y="116" width="36" height="36" fill="#93a9d9" rx="3"/><text x="68.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">TC</text></g>
+<g><title>VG British Virgin Islands</title><rect x="88" y="116" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">VG</text></g>
+<g><title>AI Anguilla</title><rect x="126" y="116" width="36" height="36" fill="#93a9d9" rx="3"/><text x="144.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">AI</text></g>
+<g><title>GG Guernsey</title><rect x="202" y="116" width="36" height="36" fill="#c76b6b" rx="3"/><text x="220.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">GG</text></g>
+<g><title>JE Jersey</title><rect x="240" y="116" width="36" height="36" fill="#c76b6b" rx="3"/><text x="258.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">JE</text></g>
+<g><title>LU Luxembourg</title><rect x="278" y="116" width="36" height="36" fill="#d17f7f" rx="3"/><text x="296.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">LU</text></g>
+<g><title>DE Germany</title><rect x="316" y="116" width="36" height="36" fill="#d17f7f" rx="3"/><text x="334.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">DE</text></g>
+<g><title>CZ Czechia</title><rect x="354" y="116" width="36" height="36" fill="#b85c5c" rx="3"/><text x="372.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">CZ</text></g>
+<g><title>SK Slovakia</title><rect x="392" y="116" width="36" height="36" fill="#b85c5c" rx="3"/><text x="410.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">SK</text></g>
+<g><title>PL Poland</title><rect x="430" y="116" width="36" height="36" fill="#b85c5c" rx="3"/><text x="448.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">PL</text></g>
+<g><title>UA Ukraine</title><rect x="468" y="116" width="36" height="36" fill="#b85c5c" rx="3"/><text x="486.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">UA</text></g>
+<g><title>AM Armenia</title><rect x="506" y="116" width="36" height="36" fill="#7fb37f" rx="3"/><text x="524.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">AM</text></g>
+<g><title>AZ Azerbaijan</title><rect x="544" y="116" width="36" height="36" fill="#7fb37f" rx="3"/><text x="562.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">AZ</text></g>
+<g><title>AF Afghanistan</title><rect x="582" y="116" width="36" height="36" fill="#8fc08f" rx="3"/><text x="600.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">AF</text></g>
+<g><title>NP Nepal</title><rect x="620" y="116" width="36" height="36" fill="#8fc08f" rx="3"/><text x="638.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">NP</text></g>
+<g><title>CN China</title><rect x="658" y="116" width="36" height="36" fill="#5e955e" rx="3"/><text x="676.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">CN</text></g>
+<g><title>HK Hong Kong SAR China</title><rect x="696" y="116" width="36" height="36" fill="#5e955e" rx="3"/><text x="714.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">HK</text></g>
+<g><title>JP Japan</title><rect x="734" y="116" width="36" height="36" fill="#5e955e" rx="3"/><text x="752.0" y="139.0" font-size="14" text-anchor="middle" fill="#111">JP</text></g>
+<g><title>CU Cuba</title><rect x="12" y="154" width="36" height="36" fill="#93a9d9" rx="3"/><text x="30.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">CU</text></g>
+<g><title>DO Dominican Republic</title><rect x="50" y="154" width="36" height="36" fill="#93a9d9" rx="3"/><text x="68.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">DO</text></g>
+<g><title>PR Puerto Rico</title><rect x="88" y="154" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">PR</text></g>
+<g><title>SX Sint Maarten</title><rect x="126" y="154" width="36" height="36" fill="#93a9d9" rx="3"/><text x="144.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">SX</text></g>
+<g><title>MF St. Martin</title><rect x="164" y="154" width="36" height="36" fill="#93a9d9" rx="3"/><text x="182.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">MF</text></g>
+<g><title>AD Andorra</title><rect x="202" y="154" width="36" height="36" fill="#d99191" rx="3"/><text x="220.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">AD</text></g>
+<g><title>FR France</title><rect x="240" y="154" width="36" height="36" fill="#d17f7f" rx="3"/><text x="258.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">FR</text></g>
+<g><title>CH Switzerland</title><rect x="278" y="154" width="36" height="36" fill="#d17f7f" rx="3"/><text x="296.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">CH</text></g>
+<g><title>LI Liechtenstein</title><rect x="316" y="154" width="36" height="36" fill="#d17f7f" rx="3"/><text x="334.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">LI</text></g>
+<g><title>AT Austria</title><rect x="354" y="154" width="36" height="36" fill="#d17f7f" rx="3"/><text x="372.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">AT</text></g>
+<g><title>HU Hungary</title><rect x="392" y="154" width="36" height="36" fill="#b85c5c" rx="3"/><text x="410.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">HU</text></g>
+<g><title>RO Romania</title><rect x="430" y="154" width="36" height="36" fill="#b85c5c" rx="3"/><text x="448.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">RO</text></g>
+<g><title>MD Moldova</title><rect x="468" y="154" width="36" height="36" fill="#b85c5c" rx="3"/><text x="486.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">MD</text></g>
+<g><title>TR Türkiye</title><rect x="506" y="154" width="36" height="36" fill="#7fb37f" rx="3"/><text x="524.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">TR</text></g>
+<g><title>IR Iran</title><rect x="544" y="154" width="36" height="36" fill="#8fc08f" rx="3"/><text x="562.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">IR</text></g>
+<g><title>PK Pakistan</title><rect x="582" y="154" width="36" height="36" fill="#8fc08f" rx="3"/><text x="600.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">PK</text></g>
+<g><title>IN India</title><rect x="620" y="154" width="36" height="36" fill="#8fc08f" rx="3"/><text x="638.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">IN</text></g>
+<g><title>BT Bhutan</title><rect x="658" y="154" width="36" height="36" fill="#8fc08f" rx="3"/><text x="676.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">BT</text></g>
+<g><title>MO Macao SAR China</title><rect x="696" y="154" width="36" height="36" fill="#5e955e" rx="3"/><text x="714.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">MO</text></g>
+<g><title>TW Taiwan</title><rect x="734" y="154" width="36" height="36" fill="#5e955e" rx="3"/><text x="752.0" y="177.0" font-size="14" text-anchor="middle" fill="#111">TW</text></g>
+<g><title>JM Jamaica</title><rect x="12" y="192" width="36" height="36" fill="#93a9d9" rx="3"/><text x="30.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">JM</text></g>
+<g><title>HT Haiti</title><rect x="50" y="192" width="36" height="36" fill="#93a9d9" rx="3"/><text x="68.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">HT</text></g>
+<g><title>BL St. Barthélemy</title><rect x="88" y="192" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">BL</text></g>
+<g><title>KN St. Kitts &amp; Nevis</title><rect x="126" y="192" width="36" height="36" fill="#93a9d9" rx="3"/><text x="144.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">KN</text></g>
+<g><title>PT Portugal</title><rect x="164" y="192" width="36" height="36" fill="#d99191" rx="3"/><text x="182.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">PT</text></g>
+<g><title>ES Spain</title><rect x="202" y="192" width="36" height="36" fill="#d99191" rx="3"/><text x="220.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">ES</text></g>
+<g><title>MC Monaco</title><rect x="240" y="192" width="36" height="36" fill="#d17f7f" rx="3"/><text x="258.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">MC</text></g>
+<g><title>IT Italy</title><rect x="278" y="192" width="36" height="36" fill="#d99191" rx="3"/><text x="296.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">IT</text></g>
+<g><title>SI Slovenia</title><rect x="316" y="192" width="36" height="36" fill="#d99191" rx="3"/><text x="334.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">SI</text></g>
+<g><title>HR Croatia</title><rect x="354" y="192" width="36" height="36" fill="#d99191" rx="3"/><text x="372.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">HR</text></g>
+<g><title>RS Serbia</title><rect x="392" y="192" width="36" height="36" fill="#d99191" rx="3"/><text x="410.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">RS</text></g>
+<g><title>BG Bulgaria</title><rect x="430" y="192" width="36" height="36" fill="#b85c5c" rx="3"/><text x="448.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">BG</text></g>
+<g><title>LB Lebanon</title><rect x="468" y="192" width="36" height="36" fill="#7fb37f" rx="3"/><text x="486.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">LB</text></g>
+<g><title>SY Syria</title><rect x="506" y="192" width="36" height="36" fill="#7fb37f" rx="3"/><text x="524.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">SY</text></g>
+<g><title>IQ Iraq</title><rect x="544" y="192" width="36" height="36" fill="#7fb37f" rx="3"/><text x="562.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">IQ</text></g>
+<g><title>KW Kuwait</title><rect x="582" y="192" width="36" height="36" fill="#7fb37f" rx="3"/><text x="600.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">KW</text></g>
+<g><title>BD Bangladesh</title><rect x="620" y="192" width="36" height="36" fill="#8fc08f" rx="3"/><text x="638.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">BD</text></g>
+<g><title>MM Myanmar (Burma)</title><rect x="658" y="192" width="36" height="36" fill="#a3cda3" rx="3"/><text x="676.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">MM</text></g>
+<g><title>LA Laos</title><rect x="696" y="192" width="36" height="36" fill="#a3cda3" rx="3"/><text x="714.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">LA</text></g>
+<g><title>VN Vietnam</title><rect x="734" y="192" width="36" height="36" fill="#a3cda3" rx="3"/><text x="752.0" y="215.0" font-size="14" text-anchor="middle" fill="#111">VN</text></g>
+<g><title>CP Clipperton Island</title><rect x="12" y="230" width="36" height="36" fill="#bdbdbd" rx="3"/><text x="30.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">CP</text></g>
+<g><title>KY Cayman Islands</title><rect x="50" y="230" width="36" height="36" fill="#93a9d9" rx="3"/><text x="68.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">KY</text></g>
+<g><title>MS Montserrat</title><rect x="88" y="230" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">MS</text></g>
+<g><title>AG Antigua &amp; Barbuda</title><rect x="126" y="230" width="36" height="36" fill="#93a9d9" rx="3"/><text x="144.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">AG</text></g>
+<g><title>GP Guadeloupe</title><rect x="164" y="230" width="36" height="36" fill="#93a9d9" rx="3"/><text x="182.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">GP</text></g>
+<g><title>GI Gibraltar</title><rect x="202" y="230" width="36" height="36" fill="#d99191" rx="3"/><text x="220.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">GI</text></g>
+<g><title>VA Vatican City</title><rect x="240" y="230" width="36" height="36" fill="#d99191" rx="3"/><text x="258.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">VA</text></g>
+<g><title>SM San Marino</title><rect x="278" y="230" width="36" height="36" fill="#d99191" rx="3"/><text x="296.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">SM</text></g>
+<g><title>BA Bosnia &amp; Herzegovina</title><rect x="316" y="230" width="36" height="36" fill="#d99191" rx="3"/><text x="334.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">BA</text></g>
+<g><title>ME Montenegro</title><rect x="354" y="230" width="36" height="36" fill="#d99191" rx="3"/><text x="372.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">ME</text></g>
+<g><title>MK North Macedonia</title><rect x="392" y="230" width="36" height="36" fill="#d99191" rx="3"/><text x="410.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">MK</text></g>
+<g><title>GR Greece</title><rect x="430" y="230" width="36" height="36" fill="#d99191" rx="3"/><text x="448.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">GR</text></g>
+<g><title>IL Israel</title><rect x="468" y="230" width="36" height="36" fill="#7fb37f" rx="3"/><text x="486.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">IL</text></g>
+<g><title>JO Jordan</title><rect x="506" y="230" width="36" height="36" fill="#7fb37f" rx="3"/><text x="524.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">JO</text></g>
+<g><title>SA Saudi Arabia</title><rect x="544" y="230" width="36" height="36" fill="#7fb37f" rx="3"/><text x="562.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">SA</text></g>
+<g><title>AE United Arab Emirates</title><rect x="582" y="230" width="36" height="36" fill="#7fb37f" rx="3"/><text x="600.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">AE</text></g>
+<g><title>LK Sri Lanka</title><rect x="620" y="230" width="36" height="36" fill="#8fc08f" rx="3"/><text x="638.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">LK</text></g>
+<g><title>TH Thailand</title><rect x="658" y="230" width="36" height="36" fill="#a3cda3" rx="3"/><text x="676.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">TH</text></g>
+<g><title>KH Cambodia</title><rect x="696" y="230" width="36" height="36" fill="#a3cda3" rx="3"/><text x="714.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">KH</text></g>
+<g><title>PH Philippines</title><rect x="734" y="230" width="36" height="36" fill="#a3cda3" rx="3"/><text x="752.0" y="253.0" font-size="14" text-anchor="middle" fill="#111">PH</text></g>
+<g><title>MX Mexico</title><rect x="12" y="268" width="36" height="36" fill="#7f9ccf" rx="3"/><text x="30.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">MX</text></g>
+<g><title>BZ Belize</title><rect x="50" y="268" width="36" height="36" fill="#7f9ccf" rx="3"/><text x="68.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">BZ</text></g>
+<g><title>AW Aruba</title><rect x="88" y="268" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">AW</text></g>
+<g><title>DM Dominica</title><rect x="126" y="268" width="36" height="36" fill="#93a9d9" rx="3"/><text x="144.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">DM</text></g>
+<g><title>MQ Martinique</title><rect x="164" y="268" width="36" height="36" fill="#93a9d9" rx="3"/><text x="182.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">MQ</text></g>
+<g><title>IC Canary Islands</title><rect x="202" y="268" width="36" height="36" fill="#d9a441" rx="3"/><text x="220.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">IC</text></g>
+<g><title>MA Morocco</title><rect x="240" y="268" width="36" height="36" fill="#d9a441" rx="3"/><text x="258.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">MA</text></g>
+<g><title>EA Ceuta &amp; Melilla</title><rect x="278" y="268" width="36" height="36" fill="#d9a441" rx="3"/><text x="296.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">EA</text></g>
+<g><title>MT Malta</title><rect x="316" y="268" width="36" height="36" fill="#d99191" rx="3"/><text x="334.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">MT</text></g>
+<g><title>XK Kosovo</title><rect x="354" y="268" width="36" height="36" fill="#d99191" rx="3"/><text x="372.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">XK</text></g>
+<g><title>AL Albania</title><rect x="392" y="268" width="36" height="36" fill="#d99191" rx="3"/><text x="410.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">AL</text></g>
+<g><title>CY Cyprus</title><rect x="430" y="268" width="36" height="36" fill="#7fb37f" rx="3"/><text x="448.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">CY</text></g>
+<g><title>PS Palestinian Territories</title><rect x="468" y="268" width="36" height="36" fill="#7fb37f" rx="3"/><text x="486.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">PS</text></g>
+<g><title>QA Qatar</title><rect x="506" y="268" width="36" height="36" fill="#7fb37f" rx="3"/><text x="524.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">QA</text></g>
+<g><title>YE Yemen</title><rect x="544" y="268" width="36" height="36" fill="#7fb37f" rx="3"/><text x="562.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">YE</text></g>
+<g><title>OM Oman</title><rect x="582" y="268" width="36" height="36" fill="#7fb37f" rx="3"/><text x="600.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">OM</text></g>
+<g><title>MV Maldives</title><rect x="620" y="268" width="36" height="36" fill="#8fc08f" rx="3"/><text x="638.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">MV</text></g>
+<g><title>MY Malaysia</title><rect x="658" y="268" width="36" height="36" fill="#a3cda3" rx="3"/><text x="676.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">MY</text></g>
+<g><title>BN Brunei</title><rect x="696" y="268" width="36" height="36" fill="#a3cda3" rx="3"/><text x="714.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">BN</text></g>
+<g><title>SG Singapore</title><rect x="734" y="268" width="36" height="36" fill="#a3cda3" rx="3"/><text x="752.0" y="291.0" font-size="14" text-anchor="middle" fill="#111">SG</text></g>
+<g><title>GT Guatemala</title><rect x="12" y="306" width="36" height="36" fill="#7f9ccf" rx="3"/><text x="30.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">GT</text></g>
+<g><title>HN Honduras</title><rect x="50" y="306" width="36" height="36" fill="#7f9ccf" rx="3"/><text x="68.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">HN</text></g>
+<g><title>CW Curaçao</title><rect x="88" y="306" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">CW</text></g>
+<g><title>LC St. Lucia</title><rect x="126" y="306" width="36" height="36" fill="#93a9d9" rx="3"/><text x="144.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">LC</text></g>
+<g><title>CV Cape Verde</title><rect x="164" y="306" width="36" height="36" fill="#e0b35a" rx="3"/><text x="182.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">CV</text></g>
+<g><title>MR Mauritania</title><rect x="202" y="306" width="36" height="36" fill="#e0b35a" rx="3"/><text x="220.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">MR</text></g>
+<g><title>EH Western Sahara</title><rect x="240" y="306" width="36" height="36" fill="#d9a441" rx="3"/><text x="258.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">EH</text></g>
+<g><title>DZ Algeria</title><rect x="278" y="306" width="36" height="36" fill="#d9a441" rx="3"/><text x="296.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">DZ</text></g>
+<g><title>TN Tunisia</title><rect x="316" y="306" width="36" height="36" fill="#d9a441" rx="3"/><text x="334.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">TN</text></g>
+<g><title>LY Libya</title><rect x="354" y="306" width="36" height="36" fill="#d9a441" rx="3"/><text x="372.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">LY</text></g>
+<g><title>EG Egypt</title><rect x="392" y="306" width="36" height="36" fill="#d9a441" rx="3"/><text x="410.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">EG</text></g>
+<g><title>ER Eritrea</title><rect x="430" y="306" width="36" height="36" fill="#e6c27a" rx="3"/><text x="448.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">ER</text></g>
+<g><title>DJ Djibouti</title><rect x="468" y="306" width="36" height="36" fill="#e6c27a" rx="3"/><text x="486.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">DJ</text></g>
+<g><title>BH Bahrain</title><rect x="506" y="306" width="36" height="36" fill="#7fb37f" rx="3"/><text x="524.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">BH</text></g>
+<g><title>MP Northern Mariana Islands</title><rect x="620" y="306" width="36" height="36" fill="#c4a6db" rx="3"/><text x="638.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">MP</text></g>
+<g><title>PW Palau</title><rect x="658" y="306" width="36" height="36" fill="#c4a6db" rx="3"/><text x="676.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">PW</text></g>
+<g><title>ID Indonesia</title><rect x="696" y="306" width="36" height="36" fill="#a3cda3" rx="3"/><text x="714.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">ID</text></g>
+<g><title>TL Timor-Leste</title><rect x="734" y="306" width="36" height="36" fill="#a3cda3" rx="3"/><text x="752.0" y="329.0" font-size="14" text-anchor="middle" fill="#111">TL</text></g>
+<g><title>SV El Salvador</title><rect x="12" y="344" width="36" height="36" fill="#7f9ccf" rx="3"/><text x="30.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">SV</text></g>
+<g><title>NI Nicaragua</title><rect x="50" y="344" width="36" height="36" fill="#7f9ccf" rx="3"/><text x="68.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">NI</text></g>
+<g><title>GD Grenada</title><rect x="88" y="344" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">GD</text></g>
+<g><title>BB Barbados</title><rect x="126" y="344" width="36" height="36" fill="#93a9d9" rx="3"/><text x="144.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">BB</text></g>
+<g><title>GM Gambia</title><rect x="164" y="344" width="36" height="36" fill="#e0b35a" rx="3"/><text x="182.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">GM</text></g>
+<g><title>SN Senegal</title><rect x="202" y="344" width="36" height="36" fill="#e0b35a" rx="3"/><text x="220.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">SN</text></g>
+<g><title>ML Mali</title><rect x="240" y="344" width="36" height="36" fill="#e0b35a" rx="3"/><text x="258.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">ML</text></g>
+<g><title>BF Burkina Faso</title><rect x="278" y="344" width="36" height="36" fill="#e0b35a" rx="3"/><text x="296.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">BF</text></g>
+<g><title>NE Niger</title><rect x="316" y="344" width="36" height="36" fill="#e0b35a" rx="3"/><text x="334.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">NE</text></g>
+<g><title>TD Chad</title><rect x="354" y="344" width="36" height="36" fill="#c99a3a" rx="3"/><text x="372.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">TD</text></g>
+<g><title>SD Sudan</title><rect x="392" y="344" width="36" height="36" fill="#d9a441" rx="3"/><text x="410.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">SD</text></g>
+<g><title>ET Ethiopia</title><rect x="430" y="344" width="36" height="36" fill="#e6c27a" rx="3"/><text x="448.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">ET</text></g>
+<g><title>SO Somalia</title><rect x="468" y="344" width="36" height="36" fill="#e6c27a" rx="3"/><text x="486.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">SO</text></g>
+<g><title>GU Guam</title><rect x="620" y="344" width="36" height="36" fill="#c4a6db" rx="3"/><text x="638.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">GU</text></g>
+<g><title>FM Micronesia</title><rect x="658" y="344" width="36" height="36" fill="#c4a6db" rx="3"/><text x="676.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">FM</text></g>
+<g><title>UM U.S. Outlying Islands</title><rect x="696" y="344" width="36" height="36" fill="#c4a6db" rx="3"/><text x="714.0" y="367.0" font-size="14" text-anchor="middle" fill="#111">UM</text></g>
+<g><title>CR Costa Rica</title><rect x="12" y="382" width="36" height="36" fill="#7f9ccf" rx="3"/><text x="30.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">CR</text></g>
+<g><title>BQ Caribbean Netherlands</title><rect x="50" y="382" width="36" height="36" fill="#93a9d9" rx="3"/><text x="68.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">BQ</text></g>
+<g><title>TT Trinidad &amp; Tobago</title><rect x="88" y="382" width="36" height="36" fill="#93a9d9" rx="3"/><text x="106.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">TT</text></g>
+<g><title>VC St. Vincent &amp; Grenadines</title><rect x="126" y="382" width="36" height="36" fill="#93a9d9" rx="3"/><text x="144.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">VC</text></g>
+<g><title>GW Guinea-Bissau</title><rect x="164" y="382" width="36" height="36" fill="#e0b35a" rx="3"/><text x="182.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">GW</text></g>
+<g><title>GN Guinea</title><rect x="202" y="382" width="36" height="36" fill="#e0b35a" rx="3"/><text x="220.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">GN</text></g>
+<g><title>CI Côte d’Ivoire</title><rect x="240" y="382" width="36" height="36" fill="#e0b35a" rx="3"/><text x="258.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">CI</text></g>
+<g><title>BJ Benin</title><rect x="278" y="382" width="36" height="36" fill="#e0b35a" rx="3"/><text x="296.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">BJ</text></g>
+<g><title>NG Nigeria</title><rect x="316" y="382" width="36" height="36" fill="#e0b35a" rx="3"/><text x="334.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">NG</text></g>
+<g><title>CM Cameroon</title><rect x="354" y="382" width="36" height="36" fill="#c99a3a" rx="3"/><text x="372.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">CM</text></g>
+<g><title>CF Central African Republic</title><rect x="392" y="382" width="36" height="36" fill="#c99a3a" rx="3"/><text x="410.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">CF</text></g>
+<g><title>SS South Sudan</title><rect x="430" y="382" width="36" height="36" fill="#e6c27a" rx="3"/><text x="448.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">SS</text></g>
+<g><title>KE Kenya</title><rect x="468" y="382" width="36" height="36" fill="#e6c27a" rx="3"/><text x="486.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">KE</text></g>
+<g><title>IO British Indian Ocean Territory</title><rect x="544" y="382" width="36" height="36" fill="#e6c27a" rx="3"/><text x="562.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">IO</text></g>
+<g><title>DG Diego Garcia</title><rect x="582" y="382" width="36" height="36" fill="#bdbdbd" rx="3"/><text x="600.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">DG</text></g>
+<g><title>PG Papua New Guinea</title><rect x="620" y="382" width="36" height="36" fill="#b592d1" rx="3"/><text x="638.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">PG</text></g>
+<g><title>NR Nauru</title><rect x="658" y="382" width="36" height="36" fill="#c4a6db" rx="3"/><text x="676.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">NR</text></g>
+<g><title>KI Kiribati</title><rect x="696" y="382" width="36" height="36" fill="#c4a6db" rx="3"/><text x="714.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">KI</text></g>
+<g><title>MH Marshall Islands</title><rect x="734" y="382" width="36" height="36" fill="#c4a6db" rx="3"/><text x="752.0" y="405.0" font-size="14" text-anchor="middle" fill="#111">MH</text></g>
+<g><title>PA Panama</title><rect x="12" y="420" width="36" height="36" fill="#7f9ccf" rx="3"/><text x="30.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">PA</text></g>
+<g><title>VE Venezuela</title><rect x="50" y="420" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="68.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">VE</text></g>
+<g><title>GY Guyana</title><rect x="88" y="420" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="106.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">GY</text></g>
+<g><title>SR Suriname</title><rect x="126" y="420" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="144.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">SR</text></g>
+<g><title>SL Sierra Leone</title><rect x="164" y="420" width="36" height="36" fill="#e0b35a" rx="3"/><text x="182.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">SL</text></g>
+<g><title>LR Liberia</title><rect x="202" y="420" width="36" height="36" fill="#e0b35a" rx="3"/><text x="220.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">LR</text></g>
+<g><title>GH Ghana</title><rect x="240" y="420" width="36" height="36" fill="#e0b35a" rx="3"/><text x="258.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">GH</text></g>
+<g><title>TG Togo</title><rect x="278" y="420" width="36" height="36" fill="#e0b35a" rx="3"/><text x="296.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">TG</text></g>
+<g><title>GA Gabon</title><rect x="316" y="420" width="36" height="36" fill="#c99a3a" rx="3"/><text x="334.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">GA</text></g>
+<g><title>CG Congo - Brazzaville</title><rect x="354" y="420" width="36" height="36" fill="#c99a3a" rx="3"/><text x="372.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">CG</text></g>
+<g><title>CD Congo - Kinshasa</title><rect x="392" y="420" width="36" height="36" fill="#c99a3a" rx="3"/><text x="410.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">CD</text></g>
+<g><title>UG Uganda</title><rect x="430" y="420" width="36" height="36" fill="#e6c27a" rx="3"/><text x="448.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">UG</text></g>
+<g><title>RW Rwanda</title><rect x="468" y="420" width="36" height="36" fill="#e6c27a" rx="3"/><text x="486.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">RW</text></g>
+<g><title>KM Comoros</title><rect x="506" y="420" width="36" height="36" fill="#e6c27a" rx="3"/><text x="524.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">KM</text></g>
+<g><title>SC Seychelles</title><rect x="544" y="420" width="36" height="36" fill="#e6c27a" rx="3"/><text x="562.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">SC</text></g>
+<g><title>MU Mauritius</title><rect x="582" y="420" width="36" height="36" fill="#e6c27a" rx="3"/><text x="600.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">MU</text></g>
+<g><title>SB Solomon Islands</title><rect x="620" y="420" width="36" height="36" fill="#b592d1" rx="3"/><text x="638.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">SB</text></g>
+<g><title>VU Vanuatu</title><rect x="658" y="420" width="36" height="36" fill="#b592d1" rx="3"/><text x="676.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">VU</text></g>
+<g><title>TV Tuvalu</title><rect x="696" y="420" width="36" height="36" fill="#d2bae5" rx="3"/><text x="714.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">TV</text></g>
+<g><title>TK Tokelau</title><rect x="734" y="420" width="36" height="36" fill="#d2bae5" rx="3"/><text x="752.0" y="443.0" font-size="14" text-anchor="middle" fill="#111">TK</text></g>
+<g><title>EC Ecuador</title><rect x="12" y="458" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="30.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">EC</text></g>
+<g><title>CO Colombia</title><rect x="50" y="458" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="68.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">CO</text></g>
+<g><title>BR Brazil</title><rect x="88" y="458" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="106.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">BR</text></g>
+<g><title>GF French Guiana</title><rect x="126" y="458" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="144.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">GF</text></g>
+<g><title>AC Ascension Island</title><rect x="240" y="458" width="36" height="36" fill="#bdbdbd" rx="3"/><text x="258.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">AC</text></g>
+<g><title>ST São Tomé &amp; Príncipe</title><rect x="278" y="458" width="36" height="36" fill="#c99a3a" rx="3"/><text x="296.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">ST</text></g>
+<g><title>GQ Equatorial Guinea</title><rect x="316" y="458" width="36" height="36" fill="#c99a3a" rx="3"/><text x="334.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">GQ</text></g>
+<g><title>AO Angola</title><rect x="354" y="458" width="36" height="36" fill="#c99a3a" rx="3"/><text x="372.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">AO</text></g>
+<g><title>ZM Zambia</title><rect x="392" y="458" width="36" height="36" fill="#e6c27a" rx="3"/><text x="410.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">ZM</text></g>
+<g><title>TZ Tanzania</title><rect x="430" y="458" width="36" height="36" fill="#e6c27a" rx="3"/><text x="448.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">TZ</text></g>
+<g><title>BI Burundi</title><rect x="468" y="458" width="36" height="36" fill="#e6c27a" rx="3"/><text x="486.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">BI</text></g>
+<g><title>YT Mayotte</title><rect x="506" y="458" width="36" height="36" fill="#e6c27a" rx="3"/><text x="524.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">YT</text></g>
+<g><title>RE Réunion</title><rect x="544" y="458" width="36" height="36" fill="#e6c27a" rx="3"/><text x="562.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">RE</text></g>
+<g><title>CX Christmas Island</title><rect x="582" y="458" width="36" height="36" fill="#a67fc7" rx="3"/><text x="600.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">CX</text></g>
+<g><title>NC New Caledonia</title><rect x="620" y="458" width="36" height="36" fill="#b592d1" rx="3"/><text x="638.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">NC</text></g>
+<g><title>FJ Fiji</title><rect x="658" y="458" width="36" height="36" fill="#b592d1" rx="3"/><text x="676.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">FJ</text></g>
+<g><title>WF Wallis &amp; Futuna</title><rect x="696" y="458" width="36" height="36" fill="#d2bae5" rx="3"/><text x="714.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">WF</text></g>
+<g><title>AS American Samoa</title><rect x="734" y="458" width="36" height="36" fill="#d2bae5" rx="3"/><text x="752.0" y="481.0" font-size="14" text-anchor="middle" fill="#111">AS</text></g>
+<g><title>PE Peru</title><rect x="12" y="496" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="30.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">PE</text></g>
+<g><title>BO Bolivia</title><rect x="50" y="496" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="68.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">BO</text></g>
+<g><title>PY Paraguay</title><rect x="88" y="496" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="106.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">PY</text></g>
+<g><title>UY Uruguay</title><rect x="126" y="496" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="144.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">UY</text></g>
+<g><title>SH St. Helena</title><rect x="240" y="496" width="36" height="36" fill="#e0b35a" rx="3"/><text x="258.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">SH</text></g>
+<g><title>NA Namibia</title><rect x="354" y="496" width="36" height="36" fill="#bf8f2e" rx="3"/><text x="372.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">NA</text></g>
+<g><title>ZW Zimbabwe</title><rect x="392" y="496" width="36" height="36" fill="#e6c27a" rx="3"/><text x="410.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">ZW</text></g>
+<g><title>MZ Mozambique</title><rect x="430" y="496" width="36" height="36" fill="#e6c27a" rx="3"/><text x="448.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">MZ</text></g>
+<g><title>MW Malawi</title><rect x="468" y="496" width="36" height="36" fill="#e6c27a" rx="3"/><text x="486.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">MW</text></g>
+<g><title>MG Madagascar</title><rect x="506" y="496" width="36" height="36" fill="#e6c27a" rx="3"/><text x="524.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">MG</text></g>
+<g><title>TF French Southern Territories</title><rect x="544" y="496" width="36" height="36" fill="#e6c27a" rx="3"/><text x="562.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">TF</text></g>
+<g><title>AU Australia</title><rect x="582" y="496" width="36" height="36" fill="#a67fc7" rx="3"/><text x="600.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">AU</text></g>
+<g><title>NF Norfolk Island</title><rect x="620" y="496" width="36" height="36" fill="#a67fc7" rx="3"/><text x="638.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">NF</text></g>
+<g><title>TO Tonga</title><rect x="658" y="496" width="36" height="36" fill="#d2bae5" rx="3"/><text x="676.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">TO</text></g>
+<g><title>WS Samoa</title><rect x="696" y="496" width="36" height="36" fill="#d2bae5" rx="3"/><text x="714.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">WS</text></g>
+<g><title>PF French Polynesia</title><rect x="734" y="496" width="36" height="36" fill="#d2bae5" rx="3"/><text x="752.0" y="519.0" font-size="14" text-anchor="middle" fill="#111">PF</text></g>
+<g><title>CL Chile</title><rect x="50" y="534" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="68.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">CL</text></g>
+<g><title>AR Argentina</title><rect x="88" y="534" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="106.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">AR</text></g>
+<g><title>FK Falkland Islands</title><rect x="126" y="534" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="144.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">FK</text></g>
+<g><title>GS South Georgia &amp; South Sandwich Islands</title><rect x="164" y="534" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="182.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">GS</text></g>
+<g><title>TA Tristan da Cunha</title><rect x="202" y="534" width="36" height="36" fill="#bdbdbd" rx="3"/><text x="220.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">TA</text></g>
+<g><title>BV Bouvet Island</title><rect x="240" y="534" width="36" height="36" fill="#5f7fb5" rx="3"/><text x="258.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">BV</text></g>
+<g><title>BW Botswana</title><rect x="354" y="534" width="36" height="36" fill="#bf8f2e" rx="3"/><text x="372.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">BW</text></g>
+<g><title>ZA South Africa</title><rect x="392" y="534" width="36" height="36" fill="#bf8f2e" rx="3"/><text x="410.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">ZA</text></g>
+<g><title>SZ Eswatini</title><rect x="430" y="534" width="36" height="36" fill="#bf8f2e" rx="3"/><text x="448.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">SZ</text></g>
+<g><title>LS Lesotho</title><rect x="468" y="534" width="36" height="36" fill="#bf8f2e" rx="3"/><text x="486.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">LS</text></g>
+<g><title>AQ Antarctica</title><rect x="506" y="534" width="36" height="36" fill="#bdbdbd" rx="3"/><text x="524.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">AQ</text></g>
+<g><title>HM Heard &amp; McDonald Islands</title><rect x="544" y="534" width="36" height="36" fill="#a67fc7" rx="3"/><text x="562.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">HM</text></g>
+<g><title>CC Cocos (Keeling) Islands</title><rect x="582" y="534" width="36" height="36" fill="#a67fc7" rx="3"/><text x="600.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">CC</text></g>
+<g><title>NZ New Zealand</title><rect x="620" y="534" width="36" height="36" fill="#a67fc7" rx="3"/><text x="638.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">NZ</text></g>
+<g><title>NU Niue</title><rect x="658" y="534" width="36" height="36" fill="#d2bae5" rx="3"/><text x="676.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">NU</text></g>
+<g><title>CK Cook Islands</title><rect x="696" y="534" width="36" height="36" fill="#d2bae5" rx="3"/><text x="714.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">CK</text></g>
+<g><title>PN Pitcairn Islands</title><rect x="734" y="534" width="36" height="36" fill="#d2bae5" rx="3"/><text x="752.0" y="557.0" font-size="14" text-anchor="middle" fill="#111">PN</text></g>
+</svg>

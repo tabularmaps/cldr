@@ -1,0 +1,59 @@
+{
+ "title": "CLDR Tabular Map",
+ "tagline": "One identifier, one equal cell.",
+ "profile": "cldr-48.2-regular-2alpha",
+ "cldr_version": "48.2",
+ "cldr_source_sha256": "e751e0eedd46b52c38f3cdb72b0fab61ac8b48e052e8b28ba74b6ac26c4c8cb1",
+ "layout": "cldr-48.2-regular-2alpha-20x14.json",
+ "width": 20,
+ "height": 14,
+ "cell_shape": "square",
+ "aspect_ratio": 1.4286,
+ "identifier_count": 257,
+ "structural_space_count": 23,
+ "identifier_case": {
+  "layout_json": "uppercase",
+  "board_csv": "lowercase"
+ },
+ "blank_representation": {
+  "layout_json": "structural_spaces list; board entries \"\"",
+  "board_csv": "empty field"
+ },
+ "generated": "2026-09-17",
+ "score": {
+  "combined": 3.509068297060401,
+  "components": {
+   "neighborhood": 1.7674778332156624,
+   "global": 0.24038076898377891,
+   "adjacency": 0.48148148148148145,
+   "direction": 0.10515740120562626,
+   "region": 0.15555337471285768,
+   "false_adjacency": 0.27626459143968873,
+   "whitespace": 0.03260869565217391,
+   "legacy": 0.96
+  },
+  "weights": {
+   "neighborhood": 1.0,
+   "global": 0.5,
+   "adjacency": 2.0,
+   "direction": 2.0,
+   "region": 1.0,
+   "false_adjacency": 1.0,
+   "whitespace": 0.5,
+   "legacy": 0.0
+  }
+ },
+ "legacy_8bit": {
+  "compared": 250,
+  "offset": [
+   3,
+   -1
+  ],
+  "moved": 240,
+  "moved_fraction": 0.96,
+  "mean_manhattan": 3.58,
+  "mean_euclidean": 2.822394340514276
+ },
+ "predecessor": "https://github.com/tabularmaps/8bit",
+ "license": "CC0-1.0 (this repository); see NOTICE.md for inputs"
+}

@@ -1,0 +1,3 @@
+a,b,source,note
+CN,MO,manual,"Macao borders Zhuhai (Guangdong) by land (Portas do Cerco / Gongbei). In Natural Earth 5.1.2 the Macao map unit is drawn without vertices shared with the China unit, so the mechanical shared-vertex rule misses it. Reviewed 2026-09-17."
+EA,MA,manual,"EA is not a Natural Earth map unit; Ceuta and Melilla are drawn inside the Spain unit, whose vertices touch Morocco only through them. Both enclaves border Morocco by land. Reviewed 2026-09-17."
